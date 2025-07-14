@@ -429,6 +429,25 @@
             "show_arrow": true
           }
         },
+        "collection_MEwwBX": {
+          "type": "collection",
+          "settings": {
+            "title": "",
+            "featured_collection": "",
+            "show_image": true,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "",
+            "description": "",
+            "color": "",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        },
         "collection_DJJ6Mb": {
           "type": "collection",
           "settings": {
@@ -452,6 +471,7 @@
       },
       "block_order": [
         "collection_Pae89d",
+        "collection_MEwwBX",
         "collection_DJJ6Mb"
       ],
       "name": "Tab collections",
