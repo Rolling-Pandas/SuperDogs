@@ -971,6 +971,7 @@
       ],
       "name": "Image with scrolling text",
       "settings": {
+        "image_1": "shopify://shop_images/full-shot-family-with-cute-dog-outdoors.jpg",
         "link": "",
         "message_spacing": 10,
         "marquee_speed": 100,
@@ -983,8 +984,8 @@
         "direction": "ticker-rtl",
         "height": "screen-height-three-quarters",
         "mobile_height": "screen-height-three-quarters--mobile",
-        "color_scheme": "",
-        "overlay_opacity": 0,
+        "color_scheme": "scheme-10",
+        "overlay_opacity": 45,
         "show_overlay_text": false,
         "padding_top": 0,
         "padding_bottom": 0,
