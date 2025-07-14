@@ -987,7 +987,7 @@
           "type": "products",
           "settings": {
             "product_list": [],
-            "layout_mobile": "1"
+            "layout_mobile": "2"
           }
         }
       },
@@ -997,8 +997,8 @@
       ],
       "name": "Products with image",
       "settings": {
-        "width": "wrapper--full-padded",
-        "reverse_blocks": false,
+        "width": "wrapper--full",
+        "reverse_blocks": true,
         "color_scheme": "",
         "padding_top": 48,
         "padding_bottom": 48
