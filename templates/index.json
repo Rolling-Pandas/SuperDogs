@@ -760,7 +760,7 @@
             "image": "shopify://shop_images/pug-dog-isolated-white-background.png",
             "image_position": 1,
             "aspect_ratio": 1,
-            "width": 150,
+            "width": 80,
             "mobile_aspect_ratio": 1,
             "mobile_width": 60
           }
@@ -771,7 +771,7 @@
             "image": "shopify://shop_images/lovely-pet-portrait-isolated.png",
             "image_position": 2,
             "aspect_ratio": 1.2,
-            "width": 150,
+            "width": 80,
             "mobile_aspect_ratio": 1,
             "mobile_width": 60
           }
@@ -782,7 +782,7 @@
             "image": "shopify://shop_images/view-adorable-pet-dog.png",
             "image_position": 4,
             "aspect_ratio": 1,
-            "width": 150,
+            "width": 80,
             "mobile_aspect_ratio": 1,
             "mobile_width": 60
           }
@@ -791,7 +791,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/group-nine-dogs.png",
-            "image_position": 30,
+            "image_position": 14,
             "aspect_ratio": 0.5,
             "width": 270,
             "mobile_aspect_ratio": 1,
