@@ -993,7 +993,7 @@
       "settings": {
         "show_line": true,
         "width": "wrapper--full-padded",
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "padding_top": 12,
         "padding_bottom": 12
       }
@@ -1369,6 +1369,19 @@
     "text-row": {
       "type": "section-text-row",
       "blocks": {
+        "icon_DFRmAC": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "Title",
+            "heading_font_size": "heading-small",
+            "text": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
         "icon-1": {
           "type": "icon",
           "settings": {
@@ -1397,6 +1410,7 @@
         }
       },
       "block_order": [
+        "icon_DFRmAC",
         "icon-1",
         "icon-3"
       ],
