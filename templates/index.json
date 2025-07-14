@@ -675,7 +675,7 @@
           "type": "text",
           "settings": {
             "subheading": "любов",
-            "title": "Секция Кучетата на SuperDogs",
+            "title": "Секция кучетата на SuperDogs",
             "heading_font_size": "heading-large",
             "text": "<p>Запознай се с кучетата, които стоят зад SuperDogs. Всички те са повече от 10 години в служба на обществото и работят като терапевтични кучета. Те тестват, инспектират и понякога просто се наслаждават на живота – благодарение на продуктите, които подбираме с грижа.</p>",
             "text_font_size": "body-medium",
@@ -876,7 +876,7 @@
         "marquee_speed": 100,
         "flex_align": "align--middle-center",
         "type_font": "poppins_n4",
-        "text_font_size_px": 30,
+        "text_font_size_px": 50,
         "type_letter_spacing": 0,
         "type_font_caps": false,
         "scrolling_align": "align--middle-center",
@@ -1163,7 +1163,7 @@
         "newsletter_8yekKN": {
           "type": "newsletter",
           "settings": {
-            "subheading": "Newsletter",
+            "subheading": "Бюлетин",
             "heading": "Запиши се сега",
             "heading_font_size": "heading-large",
             "text": "<p>-10% от първа поръчка, ако се регистрираш за нашия бюлетин</p>",
