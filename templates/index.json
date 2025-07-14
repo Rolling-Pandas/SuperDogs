@@ -253,6 +253,60 @@
         "padding_bottom": 12
       }
     },
+    "section_collections_list_YYrLPA": {
+      "type": "section-collections-list",
+      "blocks": {
+        "collection_J4yECR": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "collection_ft4XUC": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "collection_m7k74q": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_J4yECR",
+        "collection_ft4XUC",
+        "collection_m7k74q"
+      ],
+      "disabled": true,
+      "name": "Collection list",
+      "settings": {
+        "title": "Collection list",
+        "heading_font_size": "heading-medium",
+        "description": "",
+        "text_font_size": "body-medium",
+        "button_text": "",
+        "button_url": "shopify://collections",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "aspect_ratio": 1,
+        "width": "wrapper--full-padded",
+        "layout": "grid",
+        "grid": 3,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "heading_tag": "automatic"
+      }
+    },
     "section_custom_content_EPRWT7": {
       "type": "section-custom-content",
       "blocks": {
@@ -577,6 +631,94 @@
         "color_scheme": "scheme-2",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "section_highlights_7zNyz8": {
+      "type": "section-highlights",
+      "blocks": {
+        "highlight_RPiWet": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Tops",
+            "url": "",
+            "color": "",
+            "bg_color": "",
+            "border_color": ""
+          }
+        },
+        "highlight_U8zm7Y": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Bottoms",
+            "url": "",
+            "color": "",
+            "bg_color": "",
+            "border_color": ""
+          }
+        },
+        "highlight_xbLfAY": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Dresses",
+            "url": "",
+            "color": "",
+            "bg_color": "",
+            "border_color": ""
+          }
+        },
+        "highlight_dpn78V": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Highlight",
+            "url": "",
+            "color": "",
+            "bg_color": "",
+            "border_color": ""
+          }
+        },
+        "highlight_qkLpWC": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Highlight",
+            "url": "",
+            "color": "",
+            "bg_color": "",
+            "border_color": ""
+          }
+        },
+        "highlight_zLGzy6": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Highlight",
+            "url": "",
+            "color": "",
+            "bg_color": "",
+            "border_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_RPiWet",
+        "highlight_U8zm7Y",
+        "highlight_xbLfAY",
+        "highlight_dpn78V",
+        "highlight_qkLpWC",
+        "highlight_zLGzy6"
+      ],
+      "name": "Highlights",
+      "settings": {
+        "style": "rectangle",
+        "grid": 6,
+        "heading": "Highlights",
+        "heading_position": "text-center",
+        "heading_font_size": "heading-large",
+        "text_font_size": "body-medium",
+        "width": "wrapper--full-padded",
+        "layout_mobile": "2",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
       }
     },
     "section_custom_content_yBfXQJ": {
@@ -1331,11 +1473,13 @@
     "section_hero_Hb73ee",
     "slideshow-nested",
     "section_announcement_X7pxCk",
+    "section_collections_list_YYrLPA",
     "section_custom_content_EPRWT7",
     "section_tab_collections_44zVwb",
     "section_columns_Py7QTT",
     "section_collections_list_hover_7WKyBr",
     "section_custom_content_MCQdJX",
+    "section_highlights_7zNyz8",
     "section_custom_content_yBfXQJ",
     "section_text_with_products_4rqKzr",
     "section_custom_content_VBQFRi",
