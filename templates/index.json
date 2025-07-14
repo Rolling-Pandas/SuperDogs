@@ -819,6 +819,7 @@
         "image_f73dwN",
         "collection_jNiHdx"
       ],
+      "disabled": true,
       "name": "Text with products",
       "settings": {
         "subheading": "",
@@ -1285,20 +1286,21 @@
         "image_XXpd9q": {
           "type": "image",
           "settings": {
-            "title": "Абонирай се за полезни съвети, промоции и новости за твоето куче",
+            "image": "shopify://shop_images/beautiful-shot-different-dog-breeds-resting_1_05f822ee-20b8-49a2-af6f-65c8f2c6d63d.png",
+            "title": "",
             "heading_font_size": "heading-large",
             "text": "",
             "text_font_size": "body-medium",
             "flex_align": "align--middle-center",
             "show_text_background": false,
-            "bg_color": "",
+            "bg_color": "#ffffff",
             "color": "",
             "overlay_opacity": 0,
-            "overlay_color": "",
+            "overlay_color": "#ffffff",
             "show_overlay_text": false,
             "link_text": "",
             "link": "",
-            "button_type": "btn--primary",
+            "button_type": "btn--black",
             "button_size": "",
             "button_style": "btn--solid",
             "show_arrow": false,
@@ -1309,7 +1311,7 @@
           "type": "newsletter",
           "settings": {
             "subheading": "Бюлетин",
-            "heading": "Запиши се сега",
+            "heading": "Абонирай се за полезни съвети, промоции и новости за твоето куче",
             "heading_font_size": "heading-large",
             "text": "<p>-10% от първа поръчка, ако се регистрираш за нашия бюлетин</p>",
             "text_font_size": "body-medium",
@@ -1336,9 +1338,9 @@
       "name": "Newsletter",
       "settings": {
         "width": "wrapper--full",
-        "height": "three-fifty-height-hero",
-        "mobile_height": "screen-height-one-half--mobile",
-        "color_scheme": "",
+        "height": "four-fifty-height-hero",
+        "mobile_height": "image-height--mobile",
+        "color_scheme": "scheme-1",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -1350,19 +1352,6 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-flare",
-            "icon_size": 35,
-            "icon_color": "rgba(0,0,0,0)",
-            "title": "Title",
-            "heading_font_size": "heading-medium",
-            "text": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
-            "text_font_size": "body-small",
-            "heading_tag": "automatic"
-          }
-        },
-        "icon-2": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-donation",
             "icon_size": 35,
             "icon_color": "rgba(0,0,0,0)",
             "title": "Title",
@@ -1388,7 +1377,6 @@
       },
       "block_order": [
         "icon-1",
-        "icon-2",
         "icon-3"
       ],
       "settings": {
