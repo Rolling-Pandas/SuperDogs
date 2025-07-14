@@ -567,6 +567,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/golden-retriever-dog-eats-from-bowl-kitchen-with-bright-interior_d6038c28-2dac-4c95-ace7-cf9687f00cde.jpg",
             "title": "Храна"
           }
         },
@@ -574,6 +575,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/beautiful-fluffy-white-dog.jpg",
             "title": "Грижа и аксесоари"
           }
         },
@@ -581,6 +583,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/midsection-woman-with-dog-bathroom.jpg",
             "title": "Козметика"
           }
         }
@@ -593,10 +596,10 @@
       "name": "Collection list hover",
       "settings": {
         "heading_font_size": "heading-large",
-        "height": "screen-height-one-third",
+        "height": "five-fifty-height-hero",
         "mobile_height": "screen-height-two-thirds--mobile",
-        "color_scheme": "",
-        "overlay_opacity": 20,
+        "color_scheme": "scheme-10",
+        "overlay_opacity": 40,
         "show_overlay_text": false,
         "padding_top": 0,
         "padding_bottom": 0
