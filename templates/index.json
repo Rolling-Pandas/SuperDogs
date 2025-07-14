@@ -249,8 +249,8 @@
         "show_border": true,
         "layout": "marquee",
         "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 12,
+        "padding_bottom": 12
       }
     },
     "section_custom_content_EPRWT7": {
@@ -542,7 +542,7 @@
         "text_RKCRq9": {
           "type": "text",
           "settings": {
-            "subheading": "Introducing",
+            "subheading": "Здраве",
             "title": "Храна с грижа и разбиране",
             "heading_font_size": "heading-large",
             "text": "<p>Предлагаме само храни с висококачествени съставки, без зърно и без глутен, за да бъде всяко хранене удоволствие и грижа.</p>",
@@ -585,7 +585,7 @@
         "text_ntNgzX": {
           "type": "text",
           "settings": {
-            "subheading": "Introducing",
+            "subheading": "Грижа",
             "title": "Красота и грижа за всички",
             "heading_font_size": "heading-large",
             "text": "<p>Нашата козметична линия предлага продукти, които не само подхранват кожата и козината на кучето ти, но и се грижат за ръцете на грумъра. Всички продукти са разработени с внимание и отговорност към околната среда, защото вярваме, че добрата грижа започва от природата.</p>",
@@ -674,7 +674,7 @@
         "text_pxcXgF": {
           "type": "text",
           "settings": {
-            "subheading": "Introducing",
+            "subheading": "любов",
             "title": "Секция Кучетата на SuperDogs",
             "heading_font_size": "heading-large",
             "text": "<p>Запознай се с кучетата, които стоят зад SuperDogs. Всички те са повече от 10 години в служба на обществото и работят като терапевтични кучета. Те тестват, инспектират и понякога просто се наслаждават на живота – благодарение на продуктите, които подбираме с грижа.</p>",
@@ -822,7 +822,7 @@
       "name": "Text with products",
       "settings": {
         "subheading": "",
-        "heading": "Highlight products, a collection or images alongside a brand message",
+        "heading": "Любов, подкрепа и здраве за нашите верни другари",
         "width": "wrapper--full-padded",
         "text_font_size_px_desktop": 40,
         "text_align_desktop": "text-center",
@@ -1028,7 +1028,7 @@
       "settings": {
         "enable_heading_slider": true,
         "logo_opacity": 60,
-        "title": "As seen in",
+        "title": "доказани във времето",
         "color_scheme": "scheme-6",
         "padding_top": 50,
         "padding_bottom": 50
