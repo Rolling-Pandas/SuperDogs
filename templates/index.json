@@ -433,8 +433,8 @@
         "grid": 4,
         "rows": 3,
         "color_scheme": "scheme-9",
-        "padding_top": 32,
-        "padding_bottom": 32,
+        "padding_top": 48,
+        "padding_bottom": 48,
         "heading_tag": "automatic"
       }
     },
@@ -520,8 +520,8 @@
         "grid": 3,
         "layout_mobile": "slider",
         "color_scheme": "",
-        "padding_top": 50,
-        "padding_bottom": 50,
+        "padding_top": 48,
+        "padding_bottom": 48,
         "heading_tag": "automatic"
       }
     },
@@ -1000,8 +1000,8 @@
         "width": "wrapper--full-padded",
         "reverse_blocks": false,
         "color_scheme": "",
-        "padding_top": 50,
-        "padding_bottom": 50
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     },
     "section_products_image_ATGBPy": {
@@ -1095,8 +1095,8 @@
         "logo_opacity": 60,
         "title": "доказани във времето",
         "color_scheme": "scheme-6",
-        "padding_top": 50,
-        "padding_bottom": 50
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     },
     "section_reviews_MTdrJX": {
@@ -1144,8 +1144,8 @@
         "text_align": "text-left",
         "color_scheme": "scheme-6",
         "card_bg_color": "",
-        "padding_top": 50,
-        "padding_bottom": 50
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     },
     "section_collection_zERh8W": {
@@ -1170,8 +1170,8 @@
         "width": "wrapper",
         "layout_mobile": "slider",
         "color_scheme": "",
-        "padding_top": 50,
-        "padding_bottom": 50,
+        "padding_top": 48,
+        "padding_bottom": 48,
         "heading_tag": "automatic"
       }
     },
@@ -1193,8 +1193,8 @@
         "grid": 4,
         "rows": 1,
         "color_scheme": "scheme-6",
-        "padding_top": 32,
-        "padding_bottom": 0,
+        "padding_top": 48,
+        "padding_bottom": 48,
         "heading_tag": "automatic",
         "title_tag": "automatic"
       }
@@ -1323,8 +1323,8 @@
         "grid": 3,
         "layout_mobile": "slider",
         "color_scheme": "scheme-6",
-        "padding_top": 50,
-        "padding_bottom": 50,
+        "padding_top": 48,
+        "padding_bottom": 48,
         "heading_tag": "automatic"
       }
     },
