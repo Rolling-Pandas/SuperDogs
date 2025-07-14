@@ -16,14 +16,14 @@
   <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
 {% endif %}
 
-{%- unless settings.type_header_font.system?
+{% comment %} {%- unless settings.type_header_font.system?
   and settings.type_base_font.system?
   and settings.type_nav_font.system?
   and settings.type_btn_font.system?
   and settings.type_subheading_font.system?
 -%}
   <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
-{%- endunless -%}
+{%- endunless -%} {% endcomment %}
 
 <!-- Title and description ================================================ -->
 {% capture seo_title %}
@@ -76,44 +76,18 @@
 {%- endif -%}
 
 {%- liquid
-  assign heading_font = settings.type_header_font
-  assign subheading_font = settings.type_subheading_font
-  assign base_font = settings.type_base_font
-  assign nav_font = settings.type_nav_font
-  assign btn_font = settings.type_btn_font
+  assign heading_font = font_face: 'El Messiri', family: 'El Messiri', fallback_families: 'sans-serif', style: 'normal', weight: 400
+  assign subheading_font = font_face: 'Caveat', family: 'Caveat', fallback_families: 'cursive', style: 'normal', weight: 400
+  assign base_font = font_face: 'IBM Plex Sans', family: 'IBM Plex Sans', fallback_families: 'sans-serif', style: 'normal', weight: 400
+  assign nav_font = font_face: 'IBM Plex Sans', family: 'IBM Plex Sans', fallback_families: 'sans-serif', style: 'normal', weight: 400
+  assign btn_font = font_face: 'IBM Plex Sans', family: 'IBM Plex Sans', fallback_families: 'sans-serif', style: 'normal', weight: 400
 
-  assign base_font_bold = base_font | font_modify: 'weight', 'bolder'
-  assign base_font_100 = base_font | font_modify: 'weight', '+100'
-  assign base_font_200 = base_font | font_modify: 'weight', '+200'
-  assign base_font_300 = base_font | font_modify: 'weight', '+300'
-  assign base_font_400 = base_font | font_modify: 'weight', '+400'
-  if base_font_100 and base_font_100.weight > base_font.weight
-    assign base_font_bold = base_font_100
-  elsif base_font_200 and base_font_200.weight > base_font.weight
-    assign base_font_bold = base_font_200
-  elsif base_font_300 and base_font_300.weight > base_font.weight
-    assign base_font_bold = base_font_300
-  elsif base_font_400 and base_font_400.weight > base_font.weight
-    assign base_font_bold = base_font_400
-  endif
+  assign base_font_bold = font_face: 'IBM Plex Sans', family: 'IBM Plex Sans', fallback_families: 'sans-serif', style: 'normal', weight: 700
+  assign base_font_italic = font_face: 'IBM Plex Sans', family: 'IBM Plex Sans', fallback_families: 'sans-serif', style: 'italic', weight: 400
+  assign base_font_bold_italic = font_face: 'IBM Plex Sans', family: 'IBM Plex Sans', fallback_families: 'sans-serif', style: 'italic', weight: 700
 
-  assign base_font_italic = settings.type_base_font | font_modify: 'style', 'italic'
-  assign base_font_bold_italic = base_font_bold | font_modify: 'style', 'italic'
+  assign nav_font_bold = font_face: 'IBM Plex Sans', family: 'IBM Plex Sans', fallback_families: 'sans-serif', style: 'normal', weight: 700
 
-  assign nav_font_bold = nav_font | font_modify: 'weight', 'bolder'
-  assign nav_font_100 = nav_font | font_modify: 'weight', '+100'
-  assign nav_font_200 = nav_font | font_modify: 'weight', '+200'
-  assign nav_font_300 = nav_font | font_modify: 'weight', '+300'
-  assign nav_font_400 = nav_font | font_modify: 'weight', '+400'
-  if nav_font_100 and nav_font_100.weight > nav_font.weight
-    assign nav_font_bold = nav_font_100
-  elsif nav_font_200 and nav_font_200.weight > nav_font.weight
-    assign nav_font_bold = nav_font_200
-  elsif nav_font_300 and nav_font_300.weight > nav_font.weight
-    assign nav_font_bold = nav_font_300
-  elsif nav_font_400 and nav_font_400.weight > nav_font.weight
-    assign nav_font_bold = nav_font_400
-  endif
 
   assign heading_font_uppercase = 'none'
   if settings.type_header_uppercase
@@ -143,27 +117,7 @@
 
 <!-- CSS ================================================================== -->
 {% style %}
-  {{ heading_font | font_face: font_display: 'swap' }}
-  {{ base_font | font_face: font_display: 'swap' }}
-  {{ nav_font | font_face: font_display: 'swap' }}
-  {{ btn_font | font_face: font_display: 'swap' }}
-  {{ subheading_font | font_face: font_display: 'swap' }}
-
-  {% if base_font_bold %}
-    {{ base_font_bold | font_face: font_display: 'swap' }}
-  {% endif %}
-
-  {% if base_font_italic %}
-    {{ base_font_italic | font_face: font_display: 'swap' }}
-  {% endif %}
-
-  {% if base_font_bold_italic %}
-    {{ base_font_bold_italic | font_face: font_display: 'swap' }}
-  {% endif %}
-
-  {% if nav_font_bold %}
-    {{ nav_font_bold | font_face: font_display: 'swap' }}
-  {% endif %}
+  
 
   {% comment %}
     This is where CSS Variables are set with values from your theme settings.
@@ -424,54 +378,56 @@
 
     --PRODUCT-GRID-ASPECT-RATIO: {{ settings.product_grid_aspect_ratio | times: 100 }}%;
 
-    /* === Typography ===*/
-    --FONT-HEADING-MINI: {{ settings.heading_mini | append: 'px' }};
-    --FONT-HEADING-X-SMALL: {{ settings.heading_x_small | append: 'px' }};
-    --FONT-HEADING-SMALL: {{ settings.heading_small | append: 'px' }};
-    --FONT-HEADING-MEDIUM: {{ settings.heading_medium | append: 'px' }};
-    --FONT-HEADING-LARGE: {{ settings.heading_large | append: 'px' }};
-    --FONT-HEADING-X-LARGE: {{ settings.heading_x_large | append: 'px' }};
+  /* === Typography === */
 
-    --FONT-HEADING-MINI-MOBILE: {{ settings.heading_mini_mobile | append: 'px' }};
-    --FONT-HEADING-X-SMALL-MOBILE: {{ settings.heading_x_small_mobile | append: 'px' }};
-    --FONT-HEADING-SMALL-MOBILE: {{ settings.heading_small_mobile | append: 'px' }};
-    --FONT-HEADING-MEDIUM-MOBILE: {{ settings.heading_medium_mobile | append: 'px' }};
-    --FONT-HEADING-LARGE-MOBILE: {{ settings.heading_large_mobile | append: 'px' }};
-    --FONT-HEADING-X-LARGE-MOBILE: {{ settings.heading_x_large_mobile | append: 'px' }};
+      --FONT-HEADING-MINI: {{ settings.heading_mini | append: 'px' }};
+      --FONT-HEADING-X-SMALL: {{ settings.heading_x_small | append: 'px' }};
+      --FONT-HEADING-SMALL: {{ settings.heading_small | append: 'px' }};
+      --FONT-HEADING-MEDIUM: {{ settings.heading_medium | append: 'px' }};
+      --FONT-HEADING-LARGE: {{ settings.heading_large | append: 'px' }};
+      --FONT-HEADING-X-LARGE: {{ settings.heading_x_large | append: 'px' }};
 
-    --FONT-STACK-BODY: {{ base_font.family }}, {{ base_font.fallback_families }};
-    --FONT-STYLE-BODY: {{ base_font.style }};
-    --FONT-WEIGHT-BODY: {{ base_font.weight }};
-    --FONT-WEIGHT-BODY-BOLD: {{ base_font_bold.weight | default: 700 }};
+      --FONT-HEADING-MINI-MOBILE: {{ settings.heading_mini_mobile | append: 'px' }};
+      --FONT-HEADING-X-SMALL-MOBILE: {{ settings.heading_x_small_mobile | append: 'px' }};
+      --FONT-HEADING-SMALL-MOBILE: {{ settings.heading_small_mobile | append: 'px' }};
+      --FONT-HEADING-MEDIUM-MOBILE: {{ settings.heading_medium_mobile | append: 'px' }};
+      --FONT-HEADING-LARGE-MOBILE: {{ settings.heading_large_mobile | append: 'px' }};
+      --FONT-HEADING-X-LARGE-MOBILE: {{ settings.heading_x_large_mobile | append: 'px' }};
 
-    --LETTER-SPACING-BODY: {{ settings.body_letter_spacing | divided_by: 1000.0 | append: 'em' }};
+      /* BODY */
+      --FONT-STACK-BODY: 'IBM Plex Sans', sans-serif;
+      --FONT-STYLE-BODY: normal;
+      --FONT-WEIGHT-BODY: 400;
+      --FONT-WEIGHT-BODY-BOLD: 700;
+      --LETTER-SPACING-BODY: {{ settings.body_letter_spacing | divided_by: 1000.0 | append: 'em' }};
 
-    --FONT-STACK-HEADING: {{ heading_font.family }}, {{ heading_font.fallback_families }};
-    --FONT-WEIGHT-HEADING: {{ heading_font.weight }};
-    --FONT-STYLE-HEADING: {{ heading_font.style }};
+      /* HEADINGS */
+      --FONT-STACK-HEADING: 'El Messiri', sans-serif;
+      --FONT-WEIGHT-HEADING: 400;
+      --FONT-STYLE-HEADING: normal;
+      --FONT-UPPERCASE-HEADING: {{ heading_font_uppercase }};
+      --LETTER-SPACING-HEADING: {{ settings.heading_letter_spacing | divided_by: 1000.0 | append: 'em' }};
 
-    --FONT-UPPERCASE-HEADING: {{ heading_font_uppercase }};
-    --LETTER-SPACING-HEADING: {{ settings.heading_letter_spacing | divided_by: 1000.0 | append: 'em' }};
+      /* SUBHEADINGS */
+      --FONT-STACK-SUBHEADING: 'Caveat', cursive;
+      --FONT-WEIGHT-SUBHEADING: 400;
+      --FONT-STYLE-SUBHEADING: normal;
+      --FONT-SIZE-SUBHEADING-DESKTOP: {{ settings.subheading_size_desktop | append: 'px' }};
+      --FONT-SIZE-SUBHEADING-MOBILE: {{ settings.subheading_size_mobile | append: 'px' }};
+      --FONT-UPPERCASE-SUBHEADING: {{ subheading_font_uppercase }};
+      --LETTER-SPACING-SUBHEADING: {{ settings.sub_letter_spacing | divided_by: 1000.0 | append: 'em' }};
 
-    --FONT-STACK-SUBHEADING: {{ subheading_font.family }}, {{ subheading_font.fallback_families }};
-    --FONT-WEIGHT-SUBHEADING: {{ subheading_font.weight }};
-    --FONT-STYLE-SUBHEADING: {{ subheading_font.style }};
-    --FONT-SIZE-SUBHEADING-DESKTOP: {{ settings.subheading_size_desktop | append: 'px' }};
-    --FONT-SIZE-SUBHEADING-MOBILE: {{ settings.subheading_size_mobile | append: 'px' }};
+      /* NAVIGATION */
+      --FONT-STACK-NAV: 'IBM Plex Sans', sans-serif;
+      --FONT-WEIGHT-NAV: 400;
+      --FONT-WEIGHT-NAV-BOLD: 700;
+      --FONT-STYLE-NAV: normal;
+      --FONT-SIZE-NAV: {{ settings.nav_font_size | append: 'px' }};
+      --LETTER-SPACING-NAV: {{ settings.nav_letter_spacing | divided_by: 1000.0 | append: 'em' }};
 
-    --FONT-UPPERCASE-SUBHEADING: {{ subheading_font_uppercase }};
-    --LETTER-SPACING-SUBHEADING: {{ settings.sub_letter_spacing | divided_by: 1000.0 | append: 'em' }};
+      /* BASE FONT SIZE */
+      --FONT-SIZE-BASE: {{ settings.base_font_size | append: 'px' }};
 
-    --FONT-STACK-NAV: {{ nav_font.family }}, {{ nav_font.fallback_families }};
-    --FONT-WEIGHT-NAV: {{ nav_font.weight }};
-    --FONT-WEIGHT-NAV-BOLD: {{ nav_font_bold.weight | default: 700 }};
-    --FONT-STYLE-NAV: {{ nav_font.style }};
-    --FONT-SIZE-NAV: {{ settings.nav_font_size | append: 'px' }};
-
-
-    --LETTER-SPACING-NAV: {{ settings.nav_letter_spacing | divided_by: 1000.0 | append: 'em' }};
-
-    --FONT-SIZE-BASE: {{ settings.base_font_size | append: 'px' }};
 
     /* === Parallax ===*/
     --PARALLAX-STRENGTH-MIN: {{ settings.parallax_strength | plus: 100.0 | append: '%' }};
@@ -608,7 +564,7 @@
   }
 {% endstyle %}
 
-{%- unless settings.type_base_font.system? -%}
+{% comment %} {%- unless settings.type_base_font.system? -%}
   <link rel="preload" as="font" href="{{ settings.type_base_font | font_url }}" type="font/woff2" crossorigin>
 {%- endunless -%}
 {%- unless settings.type_header_font.system? -%}
@@ -622,7 +578,7 @@
 {%- endunless -%}
 {%- unless settings.type_subheading_font.system? -%}
   <link rel="preload" as="font" href="{{ settings.type_subheading_font | font_url }}" type="font/woff2" crossorigin>
-{%- endunless -%}
+{%- endunless -%} {% endcomment %}
 
 {{ 'theme.css' | asset_url | stylesheet_tag }}
 
