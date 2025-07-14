@@ -744,6 +744,7 @@
       "blocks": {
         "product_zXkFYa": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "",
             "image_position": 1,
@@ -753,18 +754,53 @@
             "mobile_width": 60
           }
         },
+        "image_Fe6M78": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pug-dog-isolated-white-background.png",
+            "image_position": 1,
+            "aspect_ratio": 1,
+            "width": 150,
+            "mobile_aspect_ratio": 1,
+            "mobile_width": 60
+          }
+        },
+        "image_rt9hTt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lovely-pet-portrait-isolated.png",
+            "image_position": 2,
+            "aspect_ratio": 1.2,
+            "width": 150,
+            "mobile_aspect_ratio": 1,
+            "mobile_width": 60
+          }
+        },
         "image_gwbgyd": {
           "type": "image",
           "settings": {
-            "image_position": 5,
+            "image": "shopify://shop_images/view-adorable-pet-dog.png",
+            "image_position": 4,
             "aspect_ratio": 1,
-            "width": 80,
+            "width": 150,
+            "mobile_aspect_ratio": 1,
+            "mobile_width": 60
+          }
+        },
+        "image_f73dwN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/group-nine-dogs.png",
+            "image_position": 30,
+            "aspect_ratio": 0.5,
+            "width": 270,
             "mobile_aspect_ratio": 1,
             "mobile_width": 60
           }
         },
         "collection_jNiHdx": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "",
             "image_position": 7,
@@ -777,7 +813,10 @@
       },
       "block_order": [
         "product_zXkFYa",
+        "image_Fe6M78",
+        "image_rt9hTt",
         "image_gwbgyd",
+        "image_f73dwN",
         "collection_jNiHdx"
       ],
       "name": "Text with products",
@@ -1003,7 +1042,7 @@
         "image_B8ENEC": {
           "type": "image",
           "settings": {
-            "mobile_height": "four-fifty-height-hero--mobile",
+            "mobile_height": "screen-height-one-third--mobile",
             "title": "",
             "heading_font_size": "heading-medium",
             "text": "",
