@@ -1142,7 +1142,18 @@
         "logo_item_header_JVew3D": {
           "type": "logo-item-header",
           "settings": {
-            "logo_width": 100,
+            "logo": "shopify://shop_images/logo.svg",
+            "logo_width": 180,
+            "link": "",
+            "text": "Горди сме да работим с най-добрите марки в света на домашните любимци",
+            "heading_font_size": "heading-small"
+          }
+        },
+        "logo_item_header_7xReaB": {
+          "type": "logo-item-header",
+          "settings": {
+            "logo": "shopify://shop_images/186ed0e1-a59a-45e1-81e6-765dec79e8bd.jpg",
+            "logo_width": 140,
             "link": "",
             "text": "Горди сме да работим с най-добрите марки в света на домашните любимци",
             "heading_font_size": "heading-small"
@@ -1151,16 +1162,8 @@
         "logo_item_header_yjeyWC": {
           "type": "logo-item-header",
           "settings": {
-            "logo_width": 100,
-            "link": "",
-            "text": "Include a brief quote from a brand that loves your products",
-            "heading_font_size": "heading-small"
-          }
-        },
-        "logo_item_header_7xReaB": {
-          "type": "logo-item-header",
-          "settings": {
-            "logo_width": 100,
+            "logo": "shopify://shop_images/septona-logo-el.png",
+            "logo_width": 140,
             "link": "",
             "text": "Горди сме да работим с най-добрите марки в света на домашните любимци",
             "heading_font_size": "heading-small"
@@ -1169,8 +1172,8 @@
       },
       "block_order": [
         "logo_item_header_JVew3D",
-        "logo_item_header_yjeyWC",
-        "logo_item_header_7xReaB"
+        "logo_item_header_7xReaB",
+        "logo_item_header_yjeyWC"
       ],
       "name": "Press logos",
       "settings": {
