@@ -9,6 +9,37 @@
  */
 {
   "sections": {
+    "section_video_XBiK9G": {
+      "type": "section-video",
+      "name": "Video",
+      "settings": {
+        "video": "shopify://files/videos/1104437_1080p_Owner_1920x1080.mp4",
+        "show_video_popup": false,
+        "video_popup_social": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "title": "Тук сме заради кучетата, не заради рекламата",
+        "heading_font_size": "heading-x-large",
+        "text": "<p>SuperDogs е нещо повече от магазин – ние вярваме, че всяко куче заслужава най-добрата грижа. Нашата мисия е да осигуряваме качествени храни и козметика за стопани, които държат на здравето и щастието на своите любимци.</p>",
+        "text_font_size": "body-medium",
+        "flex_align": "align--middle-center",
+        "link_text": "View products",
+        "link": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "desktop_height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-11",
+        "show_text_background": false,
+        "color": "",
+        "overlay_opacity": 40,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "heading_tag": "automatic"
+      }
+    },
     "section_hero_Hb73ee": {
       "type": "section-hero",
       "blocks": {
@@ -45,6 +76,7 @@
         "text_dQ7JcP",
         "button_gWFXp8"
       ],
+      "disabled": true,
       "name": "Image banner",
       "settings": {
         "link": "",
@@ -1382,6 +1414,7 @@
     }
   },
   "order": [
+    "section_video_XBiK9G",
     "section_hero_Hb73ee",
     "slideshow-nested",
     "section_announcement_X7pxCk",
