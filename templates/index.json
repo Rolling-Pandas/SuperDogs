@@ -645,6 +645,61 @@
         "padding_bottom": 0
       }
     },
+    "section_text_with_products_4rqKzr": {
+      "type": "section-text-with-products",
+      "blocks": {
+        "product_zXkFYa": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "image_position": 1,
+            "aspect_ratio": 1,
+            "width": 80,
+            "mobile_aspect_ratio": 1,
+            "mobile_width": 60
+          }
+        },
+        "image_gwbgyd": {
+          "type": "image",
+          "settings": {
+            "image_position": 5,
+            "aspect_ratio": 1,
+            "width": 80,
+            "mobile_aspect_ratio": 1,
+            "mobile_width": 60
+          }
+        },
+        "collection_jNiHdx": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image_position": 7,
+            "aspect_ratio": 1,
+            "width": 80,
+            "mobile_aspect_ratio": 1,
+            "mobile_width": 60
+          }
+        }
+      },
+      "block_order": [
+        "product_zXkFYa",
+        "image_gwbgyd",
+        "collection_jNiHdx"
+      ],
+      "name": "Text with products",
+      "settings": {
+        "subheading": "",
+        "heading": "Любов, подкрепа и здраве за нашите верни другари",
+        "width": "wrapper--full-padded",
+        "text_font_size_px_desktop": 40,
+        "text_align_desktop": "text-center",
+        "text_font_size_px_mobile": 24,
+        "text_align_mobile": "text-left--mobile",
+        "color_scheme": "scheme-6",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
     "section_custom_content_VBQFRi": {
       "type": "section-custom-content",
       "blocks": {
@@ -778,59 +833,15 @@
         "padding_bottom": 0
       }
     },
-    "section_text_with_products_4rqKzr": {
-      "type": "section-text-with-products",
-      "blocks": {
-        "product_zXkFYa": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "image_position": 1,
-            "aspect_ratio": 1,
-            "width": 80,
-            "mobile_aspect_ratio": 1,
-            "mobile_width": 60
-          }
-        },
-        "image_gwbgyd": {
-          "type": "image",
-          "settings": {
-            "image_position": 5,
-            "aspect_ratio": 1,
-            "width": 80,
-            "mobile_aspect_ratio": 1,
-            "mobile_width": 60
-          }
-        },
-        "collection_jNiHdx": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image_position": 7,
-            "aspect_ratio": 1,
-            "width": 80,
-            "mobile_aspect_ratio": 1,
-            "mobile_width": 60
-          }
-        }
-      },
-      "block_order": [
-        "product_zXkFYa",
-        "image_gwbgyd",
-        "collection_jNiHdx"
-      ],
-      "name": "Text with products",
+    "section_divider_QfEix9": {
+      "type": "section-divider",
+      "name": "Divider",
       "settings": {
-        "subheading": "",
-        "heading": "Любов, подкрепа и здраве за нашите верни другари",
+        "show_line": true,
         "width": "wrapper--full-padded",
-        "text_font_size_px_desktop": 40,
-        "text_align_desktop": "text-center",
-        "text_font_size_px_mobile": 24,
-        "text_align_mobile": "text-left--mobile",
-        "color_scheme": "scheme-6",
-        "padding_top": 32,
-        "padding_bottom": 32
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     },
     "section_hero_scrolling_PhWrxi": {
@@ -1257,7 +1268,7 @@
         "layout": "grid",
         "grid": 3,
         "layout_mobile": "slider",
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-6",
         "padding_top": 50,
         "padding_bottom": 50,
         "heading_tag": "automatic"
@@ -1326,9 +1337,10 @@
     "section_collections_list_hover_7WKyBr",
     "section_custom_content_MCQdJX",
     "section_custom_content_yBfXQJ",
+    "section_text_with_products_4rqKzr",
     "section_custom_content_VBQFRi",
     "section_announcement_kh9BJ9",
-    "section_text_with_products_4rqKzr",
+    "section_divider_QfEix9",
     "section_hero_scrolling_PhWrxi",
     "section_products_image_nNREHw",
     "section_products_image_ATGBPy",
