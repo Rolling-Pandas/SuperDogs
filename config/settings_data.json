@@ -66,6 +66,7 @@
     "free_shipping_limit": "200",
     "show_lock_icon": true,
     "show_recently_viewed_products": true,
+    "currency_code_enable": false,
     "header_link_hover": "#AB8C52",
     "show_logo_bg": false,
     "checkout_logo_position": "left",
