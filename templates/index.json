@@ -203,7 +203,7 @@
         "text_HXzhUC": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Безплатни индивидуални консултации – толкова, колкото ти трябват </strong>|</p>",
+            "text": "<p><strong>Безплатни индивидуални консултации – толкова, колкото ти трябват |</strong></p>",
             "text_font_size": "body-medium",
             "color": "",
             "target_device_enabled": false,
