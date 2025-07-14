@@ -962,7 +962,7 @@
         "image_B8ENEC": {
           "type": "image",
           "settings": {
-            "mobile_height": "screen-height-one-half--mobile",
+            "mobile_height": "four-fifty-height-hero--mobile",
             "title": "",
             "heading_font_size": "heading-medium",
             "text": "",
