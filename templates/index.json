@@ -416,8 +416,8 @@
             "featured_collection": "",
             "show_image": true,
             "align_with_product_images": false,
-            "image": "shopify://shop_images/girl-with-golden-retriever-dog.jpg",
-            "overlay_opacity": 30,
+            "image": "shopify://shop_images/pet-owner-feeding-hungry-dog-man-holding-metal-bowl-with-granules-home-kitchen.jpg",
+            "overlay_opacity": 45,
             "overlay_color": "",
             "description": "",
             "color": "",
@@ -425,8 +425,8 @@
             "link": "",
             "button_type": "btn--white",
             "button_size": "",
-            "button_style": "btn--outline",
-            "show_arrow": false
+            "button_style": "btn--solid",
+            "show_arrow": true
           }
         },
         "collection_DJJ6Mb": {
@@ -436,16 +436,17 @@
             "featured_collection": "",
             "show_image": true,
             "align_with_product_images": false,
-            "overlay_opacity": 0,
+            "image": "shopify://shop_images/front-view-woman-washing-dog.jpg",
+            "overlay_opacity": 40,
             "overlay_color": "",
             "description": "",
             "color": "",
-            "link_text": "View products",
+            "link_text": "Виж всички",
             "link": "",
-            "button_type": "btn--primary",
+            "button_type": "btn--white",
             "button_size": "",
-            "button_style": "btn--outline",
-            "show_arrow": false
+            "button_style": "btn--solid",
+            "show_arrow": true
           }
         }
       },
