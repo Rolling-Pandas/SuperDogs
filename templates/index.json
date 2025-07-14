@@ -367,6 +367,7 @@
         "image_qLGwPG": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/smiling-teenage-girl-with-dog.jpg",
             "title": "",
             "heading_font_size": "heading-large",
             "text": "",
