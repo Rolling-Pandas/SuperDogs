@@ -21,7 +21,7 @@
         "text": "<p>SuperDogs е нещо повече от магазин – ние вярваме, че всяко куче заслужава най-добрата грижа. Нашата мисия е да осигуряваме качествени храни и козметика за стопани, които държат на здравето и щастието на своите любимци.</p>",
         "text_font_size": "body-medium",
         "flex_align": "align--middle-center",
-        "link_text": "View products",
+        "link_text": "Виж всички продукти",
         "link": "",
         "button_type": "btn--primary",
         "button_size": "",
@@ -38,61 +38,6 @@
         "padding_top": 0,
         "padding_bottom": 0,
         "heading_tag": "automatic"
-      }
-    },
-    "section_hero_Hb73ee": {
-      "type": "section-hero",
-      "blocks": {
-        "heading_pFbTr8": {
-          "type": "heading",
-          "settings": {
-            "title": "Тук сме заради кучетата, не заради рекламата",
-            "heading_font_size": "heading-x-large",
-            "heading_tag": "automatic"
-          }
-        },
-        "text_dQ7JcP": {
-          "type": "text",
-          "settings": {
-            "text": "<p>SuperDogs е нещо повече от магазин – ние вярваме, че всяко куче заслужава най-добрата грижа. Нашата мисия е да осигуряваме качествени храни и козметика за стопани, които държат на здравето и щастието на своите любимци.</p>",
-            "text_font_size": "body-large"
-          }
-        },
-        "button_gWFXp8": {
-          "type": "button",
-          "settings": {
-            "link_text": "Виж всички продукти",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "full_width": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_pFbTr8",
-        "text_dQ7JcP",
-        "button_gWFXp8"
-      ],
-      "disabled": true,
-      "name": "Image banner",
-      "settings": {
-        "link": "",
-        "width": "wrapper--full",
-        "height": "screen-height-three-quarters",
-        "flex_align_desktop": "align--middle-center-desktop",
-        "content_width": 50,
-        "mobile_height": "screen-height-three-quarters--mobile",
-        "flex_align_mobile": "align--middle-center-mobile",
-        "color_scheme": "",
-        "show_text_background": false,
-        "overlay_opacity": 0,
-        "show_overlay_text": false,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "show_placeholder": true
       }
     },
     "slideshow-nested": {
@@ -462,11 +407,11 @@
         "text": "",
         "text_font_size": "body-medium",
         "layout": "inline",
-        "layout_desktop": "slider",
+        "layout_desktop": "grid",
         "layout_mobile": "slider",
         "product_limit": 6,
         "grid": 4,
-        "rows": 3,
+        "rows": 2,
         "color_scheme": "scheme-9",
         "padding_top": 48,
         "padding_bottom": 48,
@@ -1406,7 +1351,6 @@
   },
   "order": [
     "section_video_XBiK9G",
-    "section_hero_Hb73ee",
     "slideshow-nested",
     "section_announcement_X7pxCk",
     "section_collections_list_YYrLPA",
