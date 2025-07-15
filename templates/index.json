@@ -1190,6 +1190,15 @@
     "section_reviews_MTdrJX": {
       "type": "section-reviews",
       "blocks": {
+        "review_4PWmrt": {
+          "type": "review",
+          "settings": {
+            "title": "Example Customer",
+            "subheading": "Industry Expert",
+            "review_content": "<p>Use this text to showcase a review from one of your customers. A great review is honest and speaks to the concerns of your customers.</p>",
+            "review_url": ""
+          }
+        },
         "review_haAhBA": {
           "type": "review",
           "settings": {
@@ -1210,6 +1219,7 @@
         },
         "review_6yArPd": {
           "type": "review",
+          "disabled": true,
           "settings": {
             "title": "Kenneth Powell",
             "subheading": "Industry Expert",
@@ -1219,17 +1229,18 @@
         }
       },
       "block_order": [
+        "review_4PWmrt",
         "review_haAhBA",
         "review_9gdJFW",
         "review_6yArPd"
       ],
       "name": "Testimonials",
       "settings": {
-        "show_featured_image": true,
-        "image_aspect_ratio": 1.3,
-        "show_quotation_marks": true,
+        "show_featured_image": false,
+        "image_aspect_ratio": 1,
+        "show_quotation_marks": false,
         "heading_font_size": "heading-small",
-        "text_align": "text-left",
+        "text_align": "text-center",
         "color_scheme": "scheme-2",
         "card_bg_color": "",
         "padding_top": 48,
