@@ -17,19 +17,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Free shipping over $250</p>",
-            "target_url_enabled": false,
-            "target_url": "",
-            "target_referrer_enabled": false,
-            "target_referrer": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "text-2": {
-          "type": "text",
-          "settings": {
-            "text": "<p><a href=\"/collections/new\" title=\"New\">New arrivals are here! Take a peek now</a></p>",
+            "text": "<p>Безплатна доставка при покупка над 100 лв.</p>",
             "target_url_enabled": false,
             "target_url": "",
             "target_referrer_enabled": false,
@@ -40,10 +28,8 @@
         }
       },
       "block_order": [
-        "text",
-        "text-2"
+        "text"
       ],
-      "disabled": true,
       "settings": {
         "show_border": false,
         "layout": "slider",
