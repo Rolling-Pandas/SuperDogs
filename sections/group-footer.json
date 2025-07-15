@@ -28,7 +28,7 @@
         "footer-1": {
           "type": "linklist",
           "settings": {
-            "linklist": "main-menu",
+            "linklist": "footer",
             "title": "",
             "heading_font_size": "heading-medium",
             "column_width": 33,
