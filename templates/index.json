@@ -950,7 +950,7 @@
       ],
       "name": "Products with image",
       "settings": {
-        "width": "wrapper--full",
+        "width": "wrapper",
         "reverse_blocks": true,
         "color_scheme": "",
         "padding_top": 48,
