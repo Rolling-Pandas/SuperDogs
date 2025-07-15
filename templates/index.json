@@ -61,7 +61,7 @@
         "button_gWFXp8": {
           "type": "button",
           "settings": {
-            "link_text": "View products",
+            "link_text": "Виж всички продукти",
             "link": "",
             "button_type": "btn--primary",
             "button_size": "",
