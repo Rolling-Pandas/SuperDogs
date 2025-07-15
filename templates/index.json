@@ -361,7 +361,7 @@
           "type": "collection",
           "settings": {
             "title": "Препоръчани храни",
-            "featured_collection": "",
+            "featured_collection": "консерви-за-кучета-wildborn",
             "show_image": true,
             "align_with_product_images": false,
             "image": "shopify://shop_images/17875513863306308_1743766235.jpg",
@@ -381,7 +381,7 @@
           "type": "collection",
           "settings": {
             "title": "Препоръчана козметика",
-            "featured_collection": "",
+            "featured_collection": "консерви-за-кучета-wildborn",
             "show_image": true,
             "align_with_product_images": false,
             "image": "shopify://shop_images/front-view-woman-washing-dog.jpg",
@@ -790,6 +790,7 @@
         "image_c3gwPU": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/18057912104190001_1748422747_eca07f99-0713-40e7-8772-f812ef08de36.jpg",
             "title": "",
             "heading_font_size": "heading-large",
             "text": "",
@@ -1073,7 +1074,7 @@
       "type": "section-collection",
       "name": "Featured collection",
       "settings": {
-        "featured_collection": "",
+        "featured_collection": "консерви-за-кучета-wildborn",
         "heading": "Най-популярни този месец",
         "heading_font_size": "heading-medium",
         "description": "",
