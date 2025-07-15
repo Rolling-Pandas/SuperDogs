@@ -14,8 +14,41 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "page_JepW4r": {
+          "type": "page",
+          "disabled": true,
+          "settings": {
+            "page": "",
+            "title": "",
+            "heading_font_size": "heading-medium",
+            "column_width": 33,
+            "enable_accordion": false
+          }
+        },
+        "footer-1": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "main-menu",
+            "title": "",
+            "heading_font_size": "heading-medium",
+            "column_width": 33,
+            "enable_accordion": false
+          }
+        },
+        "social_NQpiyL": {
+          "type": "social",
+          "settings": {
+            "title": "Social",
+            "heading_font_size": "heading-medium",
+            "text": "",
+            "column_width": 33,
+            "enable_follow_on_shop": false,
+            "enable_accordion": false
+          }
+        },
         "footer-0": {
           "type": "newsletter",
+          "disabled": true,
           "settings": {
             "title": "Newsletter",
             "heading_font_size": "heading-medium",
@@ -31,35 +64,27 @@
             "column_width": 33
           }
         },
-        "footer-1": {
-          "type": "linklist",
-          "settings": {
-            "linklist": "main-menu",
-            "title": "",
-            "heading_font_size": "heading-medium",
-            "column_width": 33,
-            "enable_accordion": false
-          }
-        },
         "footer-2": {
           "type": "text",
           "settings": {
             "image_width": 150,
             "title": "Contact",
             "heading_font_size": "heading-medium",
-            "text": "<p>1234 Main Street <br>New York, NY 12345 <br> 123.456.7890<br>help@broadcast.com</p>",
+            "text": "<p>1234 Main Street <br/>New York, NY 12345 <br/> 123.456.7890<br/>help@broadcast.com</p>",
             "column_width": 33,
             "enable_accordion": false
           }
         }
       },
       "block_order": [
-        "footer-0",
+        "page_JepW4r",
         "footer-1",
+        "social_NQpiyL",
+        "footer-0",
         "footer-2"
       ],
       "settings": {
-        "logo": "{{ shop.brand.logo }}",
+        "logo": "shopify://shop_images/logo-sd_c23f1604-9aab-41ce-91c5-d771b35f4379.png",
         "logo_image_width": 150,
         "color_scheme": "scheme-2",
         "border_color": "#212121",
