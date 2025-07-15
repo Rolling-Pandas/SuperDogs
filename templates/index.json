@@ -902,73 +902,6 @@
         "padding_bottom": 0
       }
     },
-    "section_announcement_kh9BJ9": {
-      "type": "section-announcement",
-      "blocks": {
-        "text_Eg3VyK": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Винаги до теб със съвет и най-добрите продукти | </p>",
-            "text_font_size": "body-medium",
-            "color": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "text_K6nKfm": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Безплатни индивидуални консултации – толкова, колкото ти трябват </strong>|</p>",
-            "text_font_size": "body-medium",
-            "color": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "message_8YAXj3": {
-          "type": "message",
-          "disabled": true,
-          "settings": {
-            "show_wheel": false,
-            "message": "You are ||amount|| away from free shipping.",
-            "text_font_size": "body-small",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "text_TNJPwQ": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p><strong>Create a scrolling marquee or a simple announcement</strong></p>",
-            "text_font_size": "body-small",
-            "color": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        }
-      },
-      "block_order": [
-        "text_Eg3VyK",
-        "text_K6nKfm",
-        "message_8YAXj3",
-        "text_TNJPwQ"
-      ],
-      "disabled": true,
-      "name": "Scrolling text",
-      "settings": {
-        "slider_speed": 12,
-        "text_alignment": "center",
-        "marquee_speed": 175,
-        "direction": "ticker-rtl",
-        "message_spacing": 5,
-        "show_border": true,
-        "layout": "marquee",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "section_divider_QfEix9": {
       "type": "section-divider",
       "disabled": true,
@@ -979,67 +912,6 @@
         "color_scheme": "scheme-2",
         "padding_top": 6,
         "padding_bottom": 6
-      }
-    },
-    "section_hero_scrolling_PhWrxi": {
-      "type": "section-hero-scrolling",
-      "blocks": {
-        "text_tifTH6": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "description": "Tell your brand's story through images.",
-            "text_font_size": "body-large",
-            "color": ""
-          }
-        },
-        "button_DHQdGQ": {
-          "type": "button",
-          "settings": {
-            "link_text": "View products",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false
-          }
-        },
-        "scrolling_text_pKBywn": {
-          "type": "scrolling_text",
-          "settings": {
-            "text": "<p>Щастливото куче прави света по-добър.</p>",
-            "color": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_tifTH6",
-        "button_DHQdGQ",
-        "scrolling_text_pKBywn"
-      ],
-      "disabled": true,
-      "name": "Image with scrolling text",
-      "settings": {
-        "image_1": "shopify://shop_images/full-shot-family-with-cute-dog-outdoors.jpg",
-        "link": "",
-        "message_spacing": 10,
-        "marquee_speed": 100,
-        "flex_align": "align--middle-center",
-        "type_font": "poppins_n4",
-        "text_font_size_px": 50,
-        "type_letter_spacing": 0,
-        "type_font_caps": false,
-        "scrolling_align": "align--middle-center",
-        "direction": "ticker-rtl",
-        "height": "screen-height-three-quarters",
-        "mobile_image": "shopify://shop_images/happy-family-with-dog-nature-full-shot.jpg",
-        "mobile_height": "screen-height-one-third--mobile",
-        "color_scheme": "scheme-10",
-        "overlay_opacity": 45,
-        "show_overlay_text": false,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "show_placeholder": true
       }
     },
     "section_press_logos_6UcjWc": {
@@ -1251,7 +1123,6 @@
     },
     "section_collection_zERh8W": {
       "type": "section-collection",
-      "disabled": true,
       "name": "Featured collection",
       "settings": {
         "featured_collection": "",
@@ -1275,6 +1146,54 @@
         "padding_top": 48,
         "padding_bottom": 48,
         "heading_tag": "automatic"
+      }
+    },
+    "section_text_promo_JfYWUY": {
+      "type": "section-text-promo",
+      "blocks": {
+        "heading_6iTenW": {
+          "type": "heading",
+          "settings": {
+            "title": "Щастливото куче прави света по-добър",
+            "heading_font_size": "heading-large",
+            "heading_tag": "automatic"
+          }
+        },
+        "text_JdMMeh": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Advertise a promotion or a sale</p>",
+            "text_font_size": "body-medium"
+          }
+        },
+        "button_xkrPJc": {
+          "type": "button",
+          "settings": {
+            "button_text": "Shop now",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_6iTenW",
+        "text_JdMMeh",
+        "button_xkrPJc"
+      ],
+      "name": "Text promo",
+      "settings": {
+        "border": true,
+        "width": "wrapper--full-padded",
+        "color_scheme": "",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "inner_padding": 50,
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     },
     "section_blog_3fFbVc": {
@@ -1498,14 +1417,13 @@
     "section_custom_content_yBfXQJ",
     "section_text_with_products_4rqKzr",
     "section_custom_content_VBQFRi",
-    "section_announcement_kh9BJ9",
     "section_divider_QfEix9",
-    "section_hero_scrolling_PhWrxi",
     "section_press_logos_6UcjWc",
     "section_products_image_nNREHw",
     "section_products_image_ATGBPy",
     "section_reviews_MTdrJX",
     "section_collection_zERh8W",
+    "section_text_promo_JfYWUY",
     "section_blog_3fFbVc",
     "section_newsletter_qBceVw",
     "text-row",
