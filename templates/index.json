@@ -969,13 +969,14 @@
     },
     "section_divider_QfEix9": {
       "type": "section-divider",
+      "disabled": true,
       "name": "Divider",
       "settings": {
         "show_line": true,
         "width": "wrapper--full-padded",
         "color_scheme": "scheme-2",
-        "padding_top": 12,
-        "padding_bottom": 12
+        "padding_top": 6,
+        "padding_bottom": 6
       }
     },
     "section_hero_scrolling_PhWrxi": {
@@ -1014,6 +1015,7 @@
         "button_DHQdGQ",
         "scrolling_text_pKBywn"
       ],
+      "disabled": true,
       "name": "Image with scrolling text",
       "settings": {
         "image_1": "shopify://shop_images/full-shot-family-with-cute-dog-outdoors.jpg",
