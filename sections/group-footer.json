@@ -20,7 +20,7 @@
             "page": "",
             "title": "Щастливото куче прави света по- добър",
             "heading_font_size": "heading-medium",
-            "column_width": 25,
+            "column_width": 33,
             "enable_accordion": false
           }
         },
@@ -30,12 +30,13 @@
             "linklist": "footer",
             "title": "Категории",
             "heading_font_size": "heading-medium",
-            "column_width": 25,
+            "column_width": 33,
             "enable_accordion": false
           }
         },
         "social_NQpiyL": {
           "type": "social",
+          "disabled": true,
           "settings": {
             "title": "Социални медии",
             "heading_font_size": "heading-medium",
@@ -69,8 +70,8 @@
             "image_width": 150,
             "title": "Свържи се с нас",
             "heading_font_size": "heading-medium",
-            "text": "<p>1234 Main Street <br/>New York, NY 12345 <br/> 123.456.7890<br/>help@broadcast.com</p>",
-            "column_width": 25,
+            "text": "<p> гр. Пловдив, ул. Лъджене 21</p><p>+359889444457</p><p> wildborn.bulgaria@gmail.com</p>",
+            "column_width": 33,
             "enable_accordion": false
           }
         }
