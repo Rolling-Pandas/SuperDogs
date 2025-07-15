@@ -1040,6 +1040,55 @@
         "show_placeholder": true
       }
     },
+    "section_press_logos_6UcjWc": {
+      "type": "section-press-logos",
+      "blocks": {
+        "logo_item_header_JVew3D": {
+          "type": "logo-item-header",
+          "settings": {
+            "logo": "shopify://shop_images/logo.svg",
+            "logo_width": 180,
+            "link": "",
+            "text": "Горди сме да работим с най-добрите марки в света на домашните любимци",
+            "heading_font_size": "heading-medium"
+          }
+        },
+        "logo_item_header_7xReaB": {
+          "type": "logo-item-header",
+          "settings": {
+            "logo": "shopify://shop_images/186ed0e1-a59a-45e1-81e6-765dec79e8bd.jpg",
+            "logo_width": 160,
+            "link": "",
+            "text": "Горди сме да работим с най-добрите марки в света на домашните любимци",
+            "heading_font_size": "heading-medium"
+          }
+        },
+        "logo_item_header_yjeyWC": {
+          "type": "logo-item-header",
+          "settings": {
+            "logo": "shopify://shop_images/septona-logo-el.png",
+            "logo_width": 140,
+            "link": "",
+            "text": "Горди сме да работим с най-добрите марки в света на домашните любимци",
+            "heading_font_size": "heading-medium"
+          }
+        }
+      },
+      "block_order": [
+        "logo_item_header_JVew3D",
+        "logo_item_header_7xReaB",
+        "logo_item_header_yjeyWC"
+      ],
+      "name": "Press logos",
+      "settings": {
+        "enable_heading_slider": true,
+        "logo_opacity": 100,
+        "title": "доказани във времето",
+        "color_scheme": "scheme-6",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
     "section_products_image_nNREHw": {
       "type": "section-products-image",
       "blocks": {
@@ -1138,55 +1187,6 @@
         "padding_bottom": 50
       }
     },
-    "section_press_logos_6UcjWc": {
-      "type": "section-press-logos",
-      "blocks": {
-        "logo_item_header_JVew3D": {
-          "type": "logo-item-header",
-          "settings": {
-            "logo": "shopify://shop_images/logo.svg",
-            "logo_width": 180,
-            "link": "",
-            "text": "Горди сме да работим с най-добрите марки в света на домашните любимци",
-            "heading_font_size": "heading-medium"
-          }
-        },
-        "logo_item_header_7xReaB": {
-          "type": "logo-item-header",
-          "settings": {
-            "logo": "shopify://shop_images/186ed0e1-a59a-45e1-81e6-765dec79e8bd.jpg",
-            "logo_width": 160,
-            "link": "",
-            "text": "Горди сме да работим с най-добрите марки в света на домашните любимци",
-            "heading_font_size": "heading-medium"
-          }
-        },
-        "logo_item_header_yjeyWC": {
-          "type": "logo-item-header",
-          "settings": {
-            "logo": "shopify://shop_images/septona-logo-el.png",
-            "logo_width": 140,
-            "link": "",
-            "text": "Горди сме да работим с най-добрите марки в света на домашните любимци",
-            "heading_font_size": "heading-medium"
-          }
-        }
-      },
-      "block_order": [
-        "logo_item_header_JVew3D",
-        "logo_item_header_7xReaB",
-        "logo_item_header_yjeyWC"
-      ],
-      "name": "Press logos",
-      "settings": {
-        "enable_heading_slider": true,
-        "logo_opacity": 100,
-        "title": "доказани във времето",
-        "color_scheme": "scheme-6",
-        "padding_top": 48,
-        "padding_bottom": 48
-      }
-    },
     "section_reviews_MTdrJX": {
       "type": "section-reviews",
       "blocks": {
@@ -1249,6 +1249,7 @@
     },
     "section_collection_zERh8W": {
       "type": "section-collection",
+      "disabled": true,
       "name": "Featured collection",
       "settings": {
         "featured_collection": "",
@@ -1498,9 +1499,9 @@
     "section_announcement_kh9BJ9",
     "section_divider_QfEix9",
     "section_hero_scrolling_PhWrxi",
+    "section_press_logos_6UcjWc",
     "section_products_image_nNREHw",
     "section_products_image_ATGBPy",
-    "section_press_logos_6UcjWc",
     "section_reviews_MTdrJX",
     "section_collection_zERh8W",
     "section_blog_3fFbVc",
