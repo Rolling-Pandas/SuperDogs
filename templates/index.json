@@ -943,7 +943,12 @@
         "products_6gKtqN": {
           "type": "products",
           "settings": {
-            "product_list": [],
+            "product_list": [
+              "wildborn-natural-active-bites-200",
+              "wildborn-natural-goat-bites-200",
+              "wildborn-natural-lamb-bites-200",
+              "wildborn-natural-venison-bites-200"
+            ],
             "layout_mobile": "2"
           }
         }
