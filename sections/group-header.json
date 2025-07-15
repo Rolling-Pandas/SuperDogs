@@ -184,7 +184,7 @@
         "logo": "shopify://shop_images/logo-sd_c23f1604-9aab-41ce-91c5-d771b35f4379.png",
         "logo_max_limit": 160,
         "logo_max_limit_mobile": 190,
-        "main_menu_linklist": "",
+        "main_menu_linklist": "navbar-menu",
         "mobile_menu_linklist": "",
         "enable_search": true,
         "show_social_icons": false,
