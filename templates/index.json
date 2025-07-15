@@ -11,6 +11,9 @@
   "sections": {
     "section_video_XBiK9G": {
       "type": "section-video",
+      "custom_css": [
+        "@media screen and (max-width: 480px) {.hero__title {font-size: 32px; }}"
+      ],
       "name": "Video",
       "settings": {
         "video": "shopify://files/videos/1104437_1080p_Owner_1920x1080.mp4",
