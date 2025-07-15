@@ -1148,17 +1148,17 @@
             "logo_width": 180,
             "link": "",
             "text": "Горди сме да работим с най-добрите марки в света на домашните любимци",
-            "heading_font_size": "heading-small"
+            "heading_font_size": "heading-medium"
           }
         },
         "logo_item_header_7xReaB": {
           "type": "logo-item-header",
           "settings": {
             "logo": "shopify://shop_images/186ed0e1-a59a-45e1-81e6-765dec79e8bd.jpg",
-            "logo_width": 140,
+            "logo_width": 160,
             "link": "",
             "text": "Горди сме да работим с най-добрите марки в света на домашните любимци",
-            "heading_font_size": "heading-small"
+            "heading_font_size": "heading-medium"
           }
         },
         "logo_item_header_yjeyWC": {
@@ -1168,7 +1168,7 @@
             "logo_width": 140,
             "link": "",
             "text": "Горди сме да работим с най-добрите марки в света на домашните любимци",
-            "heading_font_size": "heading-small"
+            "heading_font_size": "heading-medium"
           }
         }
       },
@@ -1180,7 +1180,7 @@
       "name": "Press logos",
       "settings": {
         "enable_heading_slider": true,
-        "logo_opacity": 60,
+        "logo_opacity": 100,
         "title": "доказани във времето",
         "color_scheme": "scheme-6",
         "padding_top": 48,
