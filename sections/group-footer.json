@@ -14,11 +14,21 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "page_ihBXWb": {
+          "type": "page",
+          "settings": {
+            "page": "",
+            "title": "Щастливото куче прави света по- добър",
+            "heading_font_size": "heading-medium",
+            "column_width": 25,
+            "enable_accordion": false
+          }
+        },
         "footer-1": {
           "type": "linklist",
           "settings": {
             "linklist": "footer",
-            "title": "",
+            "title": "Категории",
             "heading_font_size": "heading-medium",
             "column_width": 25,
             "enable_accordion": false
@@ -27,9 +37,9 @@
         "social_NQpiyL": {
           "type": "social",
           "settings": {
-            "title": "Social",
+            "title": "Социални медии",
             "heading_font_size": "heading-medium",
-            "text": "<p>dsadsadsa</p>",
+            "text": "",
             "column_width": 25,
             "enable_follow_on_shop": false,
             "enable_accordion": false
@@ -57,7 +67,7 @@
           "type": "text",
           "settings": {
             "image_width": 150,
-            "title": "Contact",
+            "title": "Свържи се с нас",
             "heading_font_size": "heading-medium",
             "text": "<p>1234 Main Street <br/>New York, NY 12345 <br/> 123.456.7890<br/>help@broadcast.com</p>",
             "column_width": 25,
@@ -66,6 +76,7 @@
         }
       },
       "block_order": [
+        "page_ihBXWb",
         "footer-1",
         "social_NQpiyL",
         "footer-0",
