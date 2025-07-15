@@ -34,36 +34,6 @@
             "enable_accordion": false
           }
         },
-        "social_NQpiyL": {
-          "type": "social",
-          "disabled": true,
-          "settings": {
-            "title": "Социални медии",
-            "heading_font_size": "heading-medium",
-            "text": "",
-            "column_width": 25,
-            "enable_follow_on_shop": false,
-            "enable_accordion": false
-          }
-        },
-        "footer-0": {
-          "type": "newsletter",
-          "disabled": true,
-          "settings": {
-            "title": "Newsletter",
-            "heading_font_size": "heading-medium",
-            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>",
-            "show_name": true,
-            "button_text": "Join",
-            "show_arrow": false,
-            "terms": true,
-            "button_type": "btn--secondary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_social_links": false,
-            "column_width": 33
-          }
-        },
         "footer-2": {
           "type": "text",
           "settings": {
@@ -79,8 +49,6 @@
       "block_order": [
         "page_ihBXWb",
         "footer-1",
-        "social_NQpiyL",
-        "footer-0",
         "footer-2"
       ],
       "settings": {
