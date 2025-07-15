@@ -14,17 +14,6 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "page_JepW4r": {
-          "type": "page",
-          "disabled": true,
-          "settings": {
-            "page": "",
-            "title": "",
-            "heading_font_size": "heading-medium",
-            "column_width": 33,
-            "enable_accordion": false
-          }
-        },
         "footer-1": {
           "type": "linklist",
           "settings": {
@@ -40,7 +29,7 @@
           "settings": {
             "title": "Social",
             "heading_font_size": "heading-medium",
-            "text": "",
+            "text": "<p>dsadsadsa</p>",
             "column_width": 25,
             "enable_follow_on_shop": false,
             "enable_accordion": false
@@ -77,24 +66,31 @@
         }
       },
       "block_order": [
-        "page_JepW4r",
         "footer-1",
         "social_NQpiyL",
         "footer-0",
         "footer-2"
       ],
       "settings": {
-        "logo": "shopify://shop_images/logo-sd_c23f1604-9aab-41ce-91c5-d771b35f4379.png",
-        "logo_image_width": 150,
+        "logo_image_width": 100,
         "color_scheme": "scheme-2",
         "border_color": "#212121",
         "padding_top": 75,
         "padding_bottom": 30
       }
     },
+    "section_anchor_logo_eXJgrH": {
+      "type": "section-anchor-logo",
+      "name": "Logo",
+      "settings": {
+        "logo": "shopify://shop_images/crystal-stream-konserva_5e3941eb-1e28-41e7-ae70-75854fa0d7a2.jpg",
+        "color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
     "supporting-menu": {
       "type": "section-supporting-menu",
-      "disabled": true,
       "settings": {
         "linklist": "",
         "text_font_size": "body-small",
@@ -112,6 +108,7 @@
   },
   "order": [
     "footer",
+    "section_anchor_logo_eXJgrH",
     "supporting-menu"
   ]
 }
