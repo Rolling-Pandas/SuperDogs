@@ -1133,7 +1133,7 @@
       "name": "Text promo",
       "settings": {
         "border": true,
-        "width": "wrapper--full-padded",
+        "width": "wrapper--full",
         "color_scheme": "scheme-2",
         "overlay_opacity": 0,
         "show_overlay_text": false,
