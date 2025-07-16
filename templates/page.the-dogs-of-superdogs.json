@@ -9,10 +9,10 @@
  */
 {
   "sections": {
-    "section_custom_content_WUqeFG": {
+    "section_custom_content_aVxTwL": {
       "type": "section-custom-content",
       "blocks": {
-        "text_4iWijx": {
+        "text_Kx7RXK": {
           "type": "text",
           "settings": {
             "subheading": "Introducing",
@@ -34,7 +34,7 @@
             "heading_tag": "automatic"
           }
         },
-        "image_mWFUXQ": {
+        "image_bFTFFw": {
           "type": "image",
           "settings": {
             "title": "",
@@ -59,180 +59,20 @@
         }
       },
       "block_order": [
-        "text_4iWijx",
-        "image_mWFUXQ"
+        "text_Kx7RXK",
+        "image_bFTFFw"
       ],
       "name": "Custom content",
       "settings": {
         "borders": false,
         "gutters": false,
         "width": "wrapper--full",
-        "height": "sixty-fifty-height-hero",
-        "mobile_height": "four-fifty-height-hero--mobile",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile",
         "reverse_blocks": false,
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "section_text_row_FR3Lyi": {
-      "type": "section-text-row",
-      "blocks": {
-        "icon_9p7RAd": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-shield",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "Secure transactions",
-            "heading_font_size": "heading-small",
-            "text": "<p>Transactions are handled with bank-grade security.</p>",
-            "text_font_size": "body-medium",
-            "heading_tag": "automatic"
-          }
-        },
-        "icon_pRNgji": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-trophy",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "Simple checkout",
-            "heading_font_size": "heading-small",
-            "text": "<p>Our secure checkout is quick and easy to use.</p>",
-            "text_font_size": "body-medium",
-            "heading_tag": "automatic"
-          }
-        },
-        "icon_t8PwQw": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-chat",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "Get in touch",
-            "heading_font_size": "heading-small",
-            "text": "<p>Have questions? Get in touch with us at any time.</p>",
-            "text_font_size": "body-medium",
-            "heading_tag": "automatic"
-          }
-        },
-        "icon_AwdJYt": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-award",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "Title",
-            "heading_font_size": "heading-small",
-            "text": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
-            "text_font_size": "body-medium",
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "icon_9p7RAd",
-        "icon_pRNgji",
-        "icon_t8PwQw",
-        "icon_AwdJYt"
-      ],
-      "name": "Text columns with icons",
-      "settings": {
-        "title": "",
-        "heading_font_size": "heading-medium",
-        "align_heading": "text-center",
-        "align_text": "text-center",
-        "icon_alignment": "icon--top",
-        "width": "wrapper--full-padded",
-        "align_columns": "flex-align-top",
-        "layout": "grid",
-        "grid": 4,
-        "layout_mobile": "2",
-        "color_scheme": "scheme-2",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "heading_tag": "automatic"
-      }
-    },
-    "section_timeline_w3DNB8": {
-      "type": "section-timeline",
-      "blocks": {
-        "timeline_B49gY9": {
-          "type": "timeline",
-          "settings": {
-            "image": "shopify://shop_images/girl-with-golden-retriever-dog.jpg",
-            "subheading": "2010",
-            "title": "Launch day",
-            "heading_font_size": "heading-large",
-            "text": "<p>We celebrated our first step in the ecommerce world by selling our very first product.</p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        },
-        "timeline_N7PbeT": {
-          "type": "timeline",
-          "settings": {
-            "image": "shopify://shop_images/full-shot-family-with-cute-dog-outdoors.jpg",
-            "subheading": "2015",
-            "title": "Introduced our flagship product",
-            "heading_font_size": "heading-large",
-            "text": "<p>Our journey to success was defined by our flagship product. It shaped us into the industry leader we are today.</p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        },
-        "timeline_rgFDmz": {
-          "type": "timeline",
-          "settings": {
-            "image": "shopify://shop_images/happy-family-with-dog-nature-full-shot.jpg",
-            "subheading": "2020",
-            "title": "Launched our partner program",
-            "heading_font_size": "heading-large",
-            "text": "<p>You're what makes us great. With the exciting launch of our partner program you have the power to earn free products!</p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "timeline_B49gY9",
-        "timeline_N7PbeT",
-        "timeline_rgFDmz"
-      ],
-      "name": "Timeline",
-      "settings": {
-        "show_images": true,
-        "title": "Timeline",
-        "heading_font_size": "heading-large",
-        "text": "<p>Visually narrate your company's history and achievements. By offering a dynamic representation of events over time, it educates, captivates, and builds trust among customers.</p>",
-        "text_font_size": "body-medium",
-        "text_alignment": "text-left",
-        "width": "wrapper--full",
-        "mobile_height": "screen-height-one-third--mobile",
-        "color_scheme": "scheme-1",
-        "dot_background": "",
-        "padding_top": 48,
-        "padding_bottom": 0,
-        "heading_tag": "automatic"
       }
     },
     "main": {
@@ -252,10 +92,10 @@
         "heading_tag": "automatic"
       }
     },
-    "section_announcement_khxyUD": {
+    "section_announcement_ikETU4": {
       "type": "section-announcement",
       "blocks": {
-        "text_Uakp9C": {
+        "text_BC9dnT": {
           "type": "text",
           "settings": {
             "text": "<p><strong>Make an announcement</strong> | Target to specific devices or referrers</p>",
@@ -265,7 +105,7 @@
             "target_device": "mobile"
           }
         },
-        "text_Dgj3H6": {
+        "text_xGwBUA": {
           "type": "text",
           "settings": {
             "text": "<p><strong>Create a free shipping countdown</strong></p>",
@@ -275,7 +115,7 @@
             "target_device": "mobile"
           }
         },
-        "message_8trRff": {
+        "message_HxtLEc": {
           "type": "message",
           "settings": {
             "show_wheel": false,
@@ -285,7 +125,7 @@
             "target_device": "mobile"
           }
         },
-        "text_AFDLcn": {
+        "text_F8eNb3": {
           "type": "text",
           "settings": {
             "text": "<p><strong>Create a scrolling marquee or a simple announcement</strong></p>",
@@ -297,10 +137,10 @@
         }
       },
       "block_order": [
-        "text_Uakp9C",
-        "text_Dgj3H6",
-        "message_8trRff",
-        "text_AFDLcn"
+        "text_BC9dnT",
+        "text_xGwBUA",
+        "message_HxtLEc",
+        "text_F8eNb3"
       ],
       "name": "Scrolling text",
       "settings": {
@@ -311,22 +151,22 @@
         "message_spacing": 10,
         "show_border": false,
         "layout": "marquee",
-        "color_scheme": "scheme-2",
-        "padding_top": 18,
-        "padding_bottom": 18
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 32
       }
     },
-    "section_double_yYeMUr": {
+    "section_double_Aq9L9t": {
       "type": "section-double",
       "blocks": {
-        "subheading_zaaawG": {
+        "subheading_Gx3Trr": {
           "type": "subheading",
           "settings": {
             "subheading": "Introducing",
             "padding_bottom": 16
           }
         },
-        "heading_GjUhPX": {
+        "heading_3kFxcx": {
           "type": "heading",
           "settings": {
             "title": "Image with text",
@@ -335,7 +175,7 @@
             "heading_tag": "automatic"
           }
         },
-        "text_9zpEYR": {
+        "text_Dtw6Cc": {
           "type": "text",
           "settings": {
             "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
@@ -343,25 +183,43 @@
             "padding_bottom": 16
           }
         },
-        "buttons_DrjyKy": {
-          "type": "buttons",
-          "disabled": true,
+        "image_6KiTBm": {
+          "type": "image",
           "settings": {
-            "button_text": "Learn more",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
+            "image_width": 100,
+            "padding_bottom": 16
+          }
+        },
+        "image_wYawaG": {
+          "type": "image",
+          "settings": {
+            "image_width": 100,
+            "padding_bottom": 16
+          }
+        },
+        "image_a4pWRX": {
+          "type": "image",
+          "settings": {
+            "image_width": 100,
+            "padding_bottom": 16
+          }
+        },
+        "image_RKbpPF": {
+          "type": "image",
+          "settings": {
+            "image_width": 100,
             "padding_bottom": 16
           }
         }
       },
       "block_order": [
-        "subheading_zaaawG",
-        "heading_GjUhPX",
-        "text_9zpEYR",
-        "buttons_DrjyKy"
+        "subheading_Gx3Trr",
+        "heading_3kFxcx",
+        "text_Dtw6Cc",
+        "image_6KiTBm",
+        "image_wYawaG",
+        "image_a4pWRX",
+        "image_RKbpPF"
       ],
       "name": "Image with text",
       "settings": {
@@ -369,250 +227,20 @@
         "text_alignment": "text-left",
         "layout": "",
         "width": "wrapper--full",
-        "height": "screen-height-two-thirds",
-        "mobile_height": "screen-height-one-half--mobile",
-        "reverse_blocks": false,
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "show_placeholder": true
-      }
-    },
-    "section_custom_content_FVNQWD": {
-      "type": "section-custom-content",
-      "blocks": {
-        "text_r44wxR": {
-          "type": "text",
-          "settings": {
-            "subheading": "Introducing",
-            "title": "Custom content",
-            "heading_font_size": "heading-large",
-            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.</p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "show_social_links": false,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "bg_color": "",
-            "color": "",
-            "heading_tag": "automatic"
-          }
-        },
-        "image_MwGV6q": {
-          "type": "image",
-          "settings": {
-            "title": "",
-            "heading_font_size": "heading-large",
-            "text": "",
-            "text_font_size": "body-medium",
-            "flex_align": "align--middle-center",
-            "show_text_background": false,
-            "bg_color": "",
-            "color": "",
-            "overlay_opacity": 0,
-            "overlay_color": "",
-            "show_overlay_text": false,
-            "link_text": "",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "text_r44wxR",
-        "image_MwGV6q"
-      ],
-      "name": "Custom content",
-      "settings": {
-        "borders": false,
-        "gutters": false,
-        "width": "wrapper--full",
         "height": "screen-height-three-quarters",
         "mobile_height": "screen-height-one-half--mobile",
         "reverse_blocks": false,
         "color_scheme": "",
         "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "section_hero_product_NDc3eH": {
-      "type": "section-hero-product",
-      "blocks": {
-        "heading_DPnVYx": {
-          "type": "heading",
-          "settings": {
-            "title": "Image banner",
-            "heading_font_size": "heading-x-large",
-            "heading_tag": "automatic"
-          }
-        },
-        "text_iRtxBw": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Tell your brand's story through images.</p>",
-            "text_font_size": "body-large"
-          }
-        },
-        "button_99HifF": {
-          "type": "button",
-          "settings": {
-            "link_text": "View products",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "full_width": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_DPnVYx",
-        "text_iRtxBw",
-        "button_99HifF"
-      ],
-      "disabled": true,
-      "name": "Image with product",
-      "settings": {
-        "link": "",
-        "product": "",
-        "description": "Tell your brand's story through images.",
-        "text_font_size": "body-medium",
-        "enable_quick_add": true,
-        "color_product_bg": "#F5F2EC",
-        "color_product_text": "#212121",
-        "width": "wrapper--full",
-        "height": "screen-height-one-third",
-        "mobile_height": "four-fifty-height-hero--mobile",
-        "flex_align_mobile": "align--middle-left-mobile",
-        "color_scheme": "scheme-2",
-        "show_text_background": false,
-        "overlay_opacity": 0,
-        "show_overlay_text": false,
-        "padding_top": 0,
         "padding_bottom": 0,
         "show_placeholder": true
-      }
-    },
-    "section_collections_list_KkLEHw": {
-      "type": "section-collections-list",
-      "blocks": {
-        "collection_MKnKBD": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": ""
-          }
-        },
-        "collection_eRLiNw": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": ""
-          }
-        },
-        "collection_CRFWXM": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_MKnKBD",
-        "collection_eRLiNw",
-        "collection_CRFWXM"
-      ],
-      "name": "Collection list",
-      "settings": {
-        "title": "Collection list",
-        "heading_font_size": "heading-medium",
-        "description": "",
-        "text_font_size": "body-medium",
-        "button_text": "",
-        "button_url": "shopify://collections",
-        "button_type": "btn--primary",
-        "button_size": "",
-        "button_style": "btn--solid",
-        "show_arrow": false,
-        "aspect_ratio": 0.7,
-        "width": "wrapper--full-padded",
-        "layout": "grid",
-        "grid": 3,
-        "layout_mobile": "slider",
-        "color_scheme": "scheme-2",
-        "padding_top": 48,
-        "padding_bottom": 48,
-        "heading_tag": "automatic"
-      }
-    },
-    "section_press_logos_fyxpMV": {
-      "type": "section-press-logos",
-      "blocks": {
-        "logo_item_header_9tXx3J": {
-          "type": "logo-item-header",
-          "settings": {
-            "logo_width": 100,
-            "link": "",
-            "text": "Include a brief quote from a brand that loves your products",
-            "heading_font_size": "heading-small"
-          }
-        },
-        "logo_item_header_dhXjt9": {
-          "type": "logo-item-header",
-          "settings": {
-            "logo_width": 100,
-            "link": "",
-            "text": "Include a brief quote from a brand that loves your products",
-            "heading_font_size": "heading-small"
-          }
-        },
-        "logo_item_header_MeijEQ": {
-          "type": "logo-item-header",
-          "settings": {
-            "logo_width": 100,
-            "link": "",
-            "text": "Include a brief quote from a brand that loves your products",
-            "heading_font_size": "heading-small"
-          }
-        }
-      },
-      "block_order": [
-        "logo_item_header_9tXx3J",
-        "logo_item_header_dhXjt9",
-        "logo_item_header_MeijEQ"
-      ],
-      "name": "Press logos",
-      "settings": {
-        "enable_heading_slider": true,
-        "logo_opacity": 60,
-        "title": "As seen in",
-        "color_scheme": "",
-        "padding_top": 48,
-        "padding_bottom": 48
       }
     }
   },
   "order": [
-    "section_custom_content_WUqeFG",
-    "section_text_row_FR3Lyi",
-    "section_timeline_w3DNB8",
+    "section_custom_content_aVxTwL",
     "main",
-    "section_announcement_khxyUD",
-    "section_double_yYeMUr",
-    "section_custom_content_FVNQWD",
-    "section_hero_product_NDc3eH",
-    "section_collections_list_KkLEHw",
-    "section_press_logos_fyxpMV"
+    "section_announcement_ikETU4",
+    "section_double_Aq9L9t"
   ]
 }
