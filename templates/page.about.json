@@ -1,1 +1,585 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"subheading":""}},"double-1":{"type":"section-double","blocks":{"heading-1-1":{"type":"heading","settings":{"heading_font_size":"heading-x-large"}},"text-1-1":{"type":"text","settings":{}}},"block_order":["heading-1-1","text-1-1"],"settings":{"layout":"is-reversed","height":"sixty-fifty-height-hero","mobile_height":"four-fifty-height-hero--mobile","padding_bottom":50}},"columns":{"type":"section-columns","blocks":{"image-1":{"type":"image","settings":{"image_aspect_ratio":1.2}},"image-2":{"type":"image","settings":{"image_aspect_ratio":1.2}},"image-3":{"type":"image","settings":{"image_aspect_ratio":1.2}}},"block_order":["image-1","image-2","image-3"],"settings":{"align_text":"text-center","width":"wrapper--full-padded","align_columns":"flex-align-top"}},"double-2":{"type":"section-double","blocks":{"heading-2-1":{"type":"heading","settings":{"heading_font_size":"heading-x-large"}},"text-2-1":{"type":"text","settings":{}}},"block_order":["heading-2-1","text-2-1"],"settings":{"height":"sixty-fifty-height-hero","mobile_height":"four-fifty-height-hero--mobile","padding_top":50,"padding_bottom":50}},"announcement":{"type":"section-announcement","blocks":{"text":{"type":"text","settings":{"target_device_enabled":false}}},"block_order":["text"],"settings":{}},"collections-list":{"type":"section-collections-list","blocks":{"collection-1":{"type":"collection","settings":{}},"collection-2":{"type":"collection","settings":{}},"collection-3":{"type":"collection","settings":{}},"collection-4":{"type":"collection","settings":{}}},"block_order":["collection-1","collection-2","collection-3","collection-4"],"settings":{"title":"","aspect_ratio":1.2,"padding_top":50}},"press-logos":{"type":"section-press-logos","blocks":{"logo-item-1":{"type":"logo-item-header","settings":{"logo_width":150}},"logo-item-2":{"type":"logo-item-header","settings":{"logo_width":150}},"logo-item-3":{"type":"logo-item-header","settings":{"logo_width":150}},"logo-item-4":{"type":"logo-item-header","settings":{"logo_width":150}}},"block_order":["logo-item-1","logo-item-2","logo-item-3","logo-item-4"],"settings":{"enable_heading_slider":false}},"divider":{"type":"section-divider","settings":{"padding_top":31}}},"order":["main","double-1","columns","double-2","announcement","collections-list","press-logos","divider"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_text_row_QeyUUb": {
+      "type": "section-text-row",
+      "blocks": {
+        "icon_8BErTT": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "Title",
+            "heading_font_size": "heading-small",
+            "text": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_yCMxCR": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-shield",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "Secure transactions",
+            "heading_font_size": "heading-small",
+            "text": "<p>Transactions are handled with bank-grade security.</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_gA9RHU": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-trophy",
+            "icon_size": 50,
+            "icon_color": "",
+            "title": "Simple checkout",
+            "heading_font_size": "heading-small",
+            "text": "<p>Our secure checkout is quick and easy to use.</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_ght4bT": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-award",
+            "icon_size": 50,
+            "icon_color": "",
+            "title": "Get in touch",
+            "heading_font_size": "heading-small",
+            "text": "<p>Have questions? Get in touch with us at any time.</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "icon_8BErTT",
+        "icon_yCMxCR",
+        "icon_gA9RHU",
+        "icon_ght4bT"
+      ],
+      "disabled": true,
+      "name": "Text columns with icons",
+      "settings": {
+        "title": "",
+        "heading_font_size": "heading-medium",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "icon_alignment": "icon--top",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-top",
+        "layout": "grid",
+        "grid": 4,
+        "layout_mobile": "slider",
+        "color_scheme": "scheme-2",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_custom_content_WUqeFG": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_4iWijx": {
+          "type": "text",
+          "settings": {
+            "subheading": "Introducing",
+            "title": "Custom content",
+            "heading_font_size": "heading-large",
+            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        },
+        "image_mWFUXQ": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_opacity": 0,
+            "overlay_color": "",
+            "show_overlay_text": false,
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "text_4iWijx",
+        "image_mWFUXQ"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full",
+        "height": "sixty-fifty-height-hero",
+        "mobile_height": "seven-fifty-height-hero--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_text_row_FR3Lyi": {
+      "type": "section-text-row",
+      "blocks": {
+        "icon_9p7RAd": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-shield",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "Secure transactions",
+            "heading_font_size": "heading-small",
+            "text": "<p>Transactions are handled with bank-grade security.</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_pRNgji": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-trophy",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "Simple checkout",
+            "heading_font_size": "heading-small",
+            "text": "<p>Our secure checkout is quick and easy to use.</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_t8PwQw": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "Get in touch",
+            "heading_font_size": "heading-small",
+            "text": "<p>Have questions? Get in touch with us at any time.</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "icon_9p7RAd",
+        "icon_pRNgji",
+        "icon_t8PwQw"
+      ],
+      "name": "Text columns with icons",
+      "settings": {
+        "title": "",
+        "heading_font_size": "heading-medium",
+        "align_heading": "text-center",
+        "align_text": "text-center",
+        "icon_alignment": "icon--top",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-top",
+        "layout": "grid",
+        "grid": 3,
+        "layout_mobile": "slider",
+        "color_scheme": "scheme-2",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_timeline_w3DNB8": {
+      "type": "section-timeline",
+      "blocks": {
+        "timeline_B49gY9": {
+          "type": "timeline",
+          "settings": {
+            "image": "shopify://shop_images/girl-with-golden-retriever-dog.jpg",
+            "subheading": "2010",
+            "title": "Launch day",
+            "heading_font_size": "heading-large",
+            "text": "<p>We celebrated our first step in the ecommerce world by selling our very first product.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "timeline_N7PbeT": {
+          "type": "timeline",
+          "settings": {
+            "image": "shopify://shop_images/full-shot-family-with-cute-dog-outdoors.jpg",
+            "subheading": "2015",
+            "title": "Introduced our flagship product",
+            "heading_font_size": "heading-large",
+            "text": "<p>Our journey to success was defined by our flagship product. It shaped us into the industry leader we are today.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "timeline_rgFDmz": {
+          "type": "timeline",
+          "settings": {
+            "image": "shopify://shop_images/happy-family-with-dog-nature-full-shot.jpg",
+            "subheading": "2020",
+            "title": "Launched our partner program",
+            "heading_font_size": "heading-large",
+            "text": "<p>You're what makes us great. With the exciting launch of our partner program you have the power to earn free products!</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "timeline_B49gY9",
+        "timeline_N7PbeT",
+        "timeline_rgFDmz"
+      ],
+      "name": "Timeline",
+      "settings": {
+        "show_images": true,
+        "title": "Timeline",
+        "heading_font_size": "heading-large",
+        "text": "<p>Visually narrate your company's history and achievements. By offering a dynamic representation of events over time, it educates, captivates, and builds trust among customers.</p>",
+        "text_font_size": "body-medium",
+        "text_alignment": "text-left",
+        "width": "wrapper--full",
+        "mobile_height": "screen-height-one-third--mobile",
+        "color_scheme": "scheme-1",
+        "dot_background": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "heading_tag": "automatic"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "heading_font_size": "heading-large",
+        "show_content": true,
+        "text_font_size": "body-medium",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_announcement_khxyUD": {
+      "type": "section-announcement",
+      "blocks": {
+        "text_Uakp9C": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Make an announcement</strong> | Target to specific devices or referrers</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_Dgj3H6": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Create a free shipping countdown</strong></p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "message_8trRff": {
+          "type": "message",
+          "settings": {
+            "show_wheel": false,
+            "message": "You are ||amount|| away from free shipping.",
+            "text_font_size": "body-small",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_AFDLcn": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Create a scrolling marquee or a simple announcement</strong></p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "text_Uakp9C",
+        "text_Dgj3H6",
+        "message_8trRff",
+        "text_AFDLcn"
+      ],
+      "name": "Scrolling text",
+      "settings": {
+        "slider_speed": 7,
+        "text_alignment": "center",
+        "marquee_speed": 100,
+        "direction": "ticker-rtl",
+        "message_spacing": 10,
+        "show_border": false,
+        "layout": "marquee",
+        "color_scheme": "scheme-2",
+        "padding_top": 18,
+        "padding_bottom": 18
+      }
+    },
+    "section_double_yYeMUr": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_zaaawG": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Introducing",
+            "padding_bottom": 16
+          }
+        },
+        "heading_GjUhPX": {
+          "type": "heading",
+          "settings": {
+            "title": "Image with text",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_9zpEYR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_DrjyKy": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_zaaawG",
+        "heading_GjUhPX",
+        "text_9zpEYR",
+        "buttons_DrjyKy"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "screen-height-two-thirds",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_custom_content_FVNQWD": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_r44wxR": {
+          "type": "text",
+          "settings": {
+            "subheading": "Introducing",
+            "title": "Custom content",
+            "heading_font_size": "heading-large",
+            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        },
+        "image_MwGV6q": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_opacity": 0,
+            "overlay_color": "",
+            "show_overlay_text": false,
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "text_r44wxR",
+        "image_MwGV6q"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_hero_product_NDc3eH": {
+      "type": "section-hero-product",
+      "blocks": {
+        "heading_DPnVYx": {
+          "type": "heading",
+          "settings": {
+            "title": "Image banner",
+            "heading_font_size": "heading-x-large",
+            "heading_tag": "automatic"
+          }
+        },
+        "text_iRtxBw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tell your brand's story through images.</p>",
+            "text_font_size": "body-large"
+          }
+        },
+        "button_99HifF": {
+          "type": "button",
+          "settings": {
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "full_width": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_DPnVYx",
+        "text_iRtxBw",
+        "button_99HifF"
+      ],
+      "disabled": true,
+      "name": "Image with product",
+      "settings": {
+        "link": "",
+        "product": "",
+        "description": "Tell your brand's story through images.",
+        "text_font_size": "body-medium",
+        "enable_quick_add": true,
+        "color_product_bg": "#F5F2EC",
+        "color_product_text": "#212121",
+        "width": "wrapper--full",
+        "height": "screen-height-one-third",
+        "mobile_height": "four-fifty-height-hero--mobile",
+        "flex_align_mobile": "align--middle-left-mobile",
+        "color_scheme": "scheme-2",
+        "show_text_background": false,
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    }
+  },
+  "order": [
+    "section_text_row_QeyUUb",
+    "section_custom_content_WUqeFG",
+    "section_text_row_FR3Lyi",
+    "section_timeline_w3DNB8",
+    "main",
+    "section_announcement_khxyUD",
+    "section_double_yYeMUr",
+    "section_custom_content_FVNQWD",
+    "section_hero_product_NDc3eH"
+  ]
+}
