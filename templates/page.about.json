@@ -9,87 +9,6 @@
  */
 {
   "sections": {
-    "section_text_row_QeyUUb": {
-      "type": "section-text-row",
-      "blocks": {
-        "icon_8BErTT": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-award",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "Title",
-            "heading_font_size": "heading-small",
-            "text": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
-            "text_font_size": "body-medium",
-            "heading_tag": "automatic"
-          }
-        },
-        "icon_yCMxCR": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-shield",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "Secure transactions",
-            "heading_font_size": "heading-small",
-            "text": "<p>Transactions are handled with bank-grade security.</p>",
-            "text_font_size": "body-medium",
-            "heading_tag": "automatic"
-          }
-        },
-        "icon_gA9RHU": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-trophy",
-            "icon_size": 50,
-            "icon_color": "",
-            "title": "Simple checkout",
-            "heading_font_size": "heading-small",
-            "text": "<p>Our secure checkout is quick and easy to use.</p>",
-            "text_font_size": "body-medium",
-            "heading_tag": "automatic"
-          }
-        },
-        "icon_ght4bT": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-award",
-            "icon_size": 50,
-            "icon_color": "",
-            "title": "Get in touch",
-            "heading_font_size": "heading-small",
-            "text": "<p>Have questions? Get in touch with us at any time.</p>",
-            "text_font_size": "body-medium",
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "icon_8BErTT",
-        "icon_yCMxCR",
-        "icon_gA9RHU",
-        "icon_ght4bT"
-      ],
-      "disabled": true,
-      "name": "Text columns with icons",
-      "settings": {
-        "title": "",
-        "heading_font_size": "heading-medium",
-        "align_heading": "text-left",
-        "align_text": "text-left",
-        "icon_alignment": "icon--top",
-        "width": "wrapper--full-padded",
-        "align_columns": "flex-align-top",
-        "layout": "grid",
-        "grid": 4,
-        "layout_mobile": "slider",
-        "color_scheme": "scheme-2",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "heading_tag": "automatic"
-      }
-    },
     "section_custom_content_WUqeFG": {
       "type": "section-custom-content",
       "blocks": {
@@ -149,7 +68,7 @@
         "gutters": false,
         "width": "wrapper--full",
         "height": "sixty-fifty-height-hero",
-        "mobile_height": "seven-fifty-height-hero--mobile",
+        "mobile_height": "four-fifty-height-hero--mobile",
         "reverse_blocks": false,
         "color_scheme": "",
         "padding_top": 0,
@@ -197,12 +116,26 @@
             "text_font_size": "body-medium",
             "heading_tag": "automatic"
           }
+        },
+        "icon_AwdJYt": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "Title",
+            "heading_font_size": "heading-small",
+            "text": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
         }
       },
       "block_order": [
         "icon_9p7RAd",
         "icon_pRNgji",
-        "icon_t8PwQw"
+        "icon_t8PwQw",
+        "icon_AwdJYt"
       ],
       "name": "Text columns with icons",
       "settings": {
@@ -214,8 +147,8 @@
         "width": "wrapper--full-padded",
         "align_columns": "flex-align-top",
         "layout": "grid",
-        "grid": 3,
-        "layout_mobile": "slider",
+        "grid": 4,
+        "layout_mobile": "2",
         "color_scheme": "scheme-2",
         "padding_top": 50,
         "padding_bottom": 50,
@@ -612,12 +545,12 @@
         "button_size": "",
         "button_style": "btn--solid",
         "show_arrow": false,
-        "aspect_ratio": 1,
+        "aspect_ratio": 0.7,
         "width": "wrapper--full-padded",
         "layout": "grid",
         "grid": 3,
         "layout_mobile": "slider",
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "padding_top": 48,
         "padding_bottom": 48,
         "heading_tag": "automatic"
@@ -671,7 +604,6 @@
     }
   },
   "order": [
-    "section_text_row_QeyUUb",
     "section_custom_content_WUqeFG",
     "section_text_row_FR3Lyi",
     "section_timeline_w3DNB8",
