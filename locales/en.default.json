@@ -543,5 +543,13 @@
       "newsletter_signup": "Newsletter Signup",
       "login": "Login"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "contact": {
+        "email_label": "Имейл",
+        "email_placeholder": "Имейл"
+      }
+    }
   }
 }
