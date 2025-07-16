@@ -12308,7 +12308,7 @@ main-search .input-holder {
   --padding-vertical: 0.438rem;
   font-family: var(--BTN-FONT-STACK);
   font-style: var(--BTN-FONT-STYLE);
-  font-weight: var(--BTN-FONT-WEIGHT);
+  font-weight: 700;
   text-align: center;
   padding: var(--padding-vertical) 15px;
   width: auto;
@@ -12317,8 +12317,8 @@ main-search .input-holder {
   text-overflow: ellipsis;
   overflow: hidden;
   border-radius: var(--btn-radius);
-  color: var(--text);
-  background: var(--bg);
+  color: #fff;
+  background: #AB8C52;;
 }
 @media only screen and (max-width: 749px) {
   .sale-box,
@@ -23358,6 +23358,17 @@ dialog.is-loading .loader {
   opacity: 1;
   visibility: unset;
   transition: none;
+}
+
+.quick-add__button {
+  background-color: #bff2e7;
+}
+
+.quick-add__button:hover {
+  background-color: #004f46!important;
+  --btn-border-hover: #004f46;
+  --btn-bg-hover: #004f46;
+  color: white;
 }
 
 .quick-add__button,
