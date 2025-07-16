@@ -42,7 +42,7 @@
     },
     "newsletter_form": {
       "newsletter_email": "Имейл",
-      "name": "Name",
+      "name": "Име",
       "submit": "Join",
       "placeholder": "Email Address",
       "thank_you": "Thanks for signing up!",
