@@ -569,6 +569,105 @@
         "padding_bottom": 0,
         "show_placeholder": true
       }
+    },
+    "section_collections_list_KkLEHw": {
+      "type": "section-collections-list",
+      "blocks": {
+        "collection_MKnKBD": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "collection_eRLiNw": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "collection_CRFWXM": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_MKnKBD",
+        "collection_eRLiNw",
+        "collection_CRFWXM"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "title": "Collection list",
+        "heading_font_size": "heading-medium",
+        "description": "",
+        "text_font_size": "body-medium",
+        "button_text": "",
+        "button_url": "shopify://collections",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "aspect_ratio": 1,
+        "width": "wrapper--full-padded",
+        "layout": "grid",
+        "grid": 3,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_press_logos_fyxpMV": {
+      "type": "section-press-logos",
+      "blocks": {
+        "logo_item_header_9tXx3J": {
+          "type": "logo-item-header",
+          "settings": {
+            "logo_width": 100,
+            "link": "",
+            "text": "Include a brief quote from a brand that loves your products",
+            "heading_font_size": "heading-small"
+          }
+        },
+        "logo_item_header_dhXjt9": {
+          "type": "logo-item-header",
+          "settings": {
+            "logo_width": 100,
+            "link": "",
+            "text": "Include a brief quote from a brand that loves your products",
+            "heading_font_size": "heading-small"
+          }
+        },
+        "logo_item_header_MeijEQ": {
+          "type": "logo-item-header",
+          "settings": {
+            "logo_width": 100,
+            "link": "",
+            "text": "Include a brief quote from a brand that loves your products",
+            "heading_font_size": "heading-small"
+          }
+        }
+      },
+      "block_order": [
+        "logo_item_header_9tXx3J",
+        "logo_item_header_dhXjt9",
+        "logo_item_header_MeijEQ"
+      ],
+      "name": "Press logos",
+      "settings": {
+        "enable_heading_slider": true,
+        "logo_opacity": 60,
+        "title": "As seen in",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
     }
   },
   "order": [
@@ -580,6 +679,8 @@
     "section_announcement_khxyUD",
     "section_double_yYeMUr",
     "section_custom_content_FVNQWD",
-    "section_hero_product_NDc3eH"
+    "section_hero_product_NDc3eH",
+    "section_collections_list_KkLEHw",
+    "section_press_logos_fyxpMV"
   ]
 }
