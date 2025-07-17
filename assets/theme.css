@@ -23361,14 +23361,14 @@ dialog.is-loading .loader {
 }
 
 .quick-add__button {
-  background-color: #bff2e7;
+  background-color: #fff9e2;
 }
 
 .quick-add__button:hover {
-  background-color: #004f46!important;
-  --btn-border-hover: #004f46;
-  --btn-bg-hover: #004f46;
-  color: white;
+  background-color: #fff4c8!important;
+  --btn-border-hover: #fff4c8;
+  --btn-bg-hover: #fff4c8;
+  color: #00130f;
 }
 
 .quick-add__button,
