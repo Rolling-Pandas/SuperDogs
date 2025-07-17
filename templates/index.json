@@ -16,7 +16,7 @@
       ],
       "name": "Video",
       "settings": {
-        "video": "shopify://files/videos/1104437_1080p_Owner_1920x1080.mp4",
+        "video": "shopify://files/videos/Athos bez subtitri (1).mp4",
         "show_video_popup": false,
         "video_popup_social": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "title": "Тук сме заради кучетата, не заради рекламата",
@@ -36,7 +36,7 @@
         "color_scheme": "scheme-11",
         "show_text_background": false,
         "color": "",
-        "overlay_opacity": 30,
+        "overlay_opacity": 25,
         "show_overlay_text": false,
         "padding_top": 0,
         "padding_bottom": 0,
@@ -790,7 +790,7 @@
         "image_c3gwPU": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/18057912104190001_1748422747_eca07f99-0713-40e7-8772-f812ef08de36.jpg",
+            "image": "shopify://shop_images/IMG_8890.jpg",
             "title": "",
             "heading_font_size": "heading-large",
             "text": "",
