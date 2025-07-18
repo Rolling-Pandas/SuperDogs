@@ -315,7 +315,7 @@
         "image_qLGwPG": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_8960-3-Photoroom.jpg",
+            "image": "shopify://shop_images/IMG_8960-3-Photoroom_1_1.jpg",
             "title": "",
             "heading_font_size": "heading-large",
             "text": "",
@@ -517,7 +517,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/17965805534190193.jpg",
+            "image": "shopify://shop_images/17965805534190193_1_1.jpg",
             "title": "Храна"
           }
         },
@@ -525,7 +525,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/WhatsApp_2025-07-18_10.16.38_a33e7804.jpg",
+            "image": "shopify://shop_images/WhatsApp_2025-07-18_10.16.38_a33e7804_1.jpg",
             "title": "Грижа и аксесоари"
           }
         },
