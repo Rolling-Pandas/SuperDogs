@@ -615,7 +615,7 @@
         "gutters": false,
         "width": "wrapper--full",
         "height": "screen-height-three-quarters",
-        "mobile_height": "screen-height-one-half--mobile",
+        "mobile_height": "screen-height-one-third--mobile",
         "reverse_blocks": true,
         "color_scheme": "scheme-2",
         "padding_top": 0,
@@ -682,7 +682,7 @@
         "gutters": false,
         "width": "wrapper--full",
         "height": "screen-height-three-quarters",
-        "mobile_height": "screen-height-one-half--mobile",
+        "mobile_height": "screen-height-one-third--mobile",
         "reverse_blocks": false,
         "color_scheme": "scheme-2",
         "padding_top": 0,
@@ -790,7 +790,7 @@
         "image_c3gwPU": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/SuperDogs_ekip_1.png",
+            "image": "shopify://shop_images/Frame_12_90147f36-2154-46fe-9811-8016819fda1a.png",
             "title": "",
             "heading_font_size": "heading-large",
             "text": "",
@@ -844,7 +844,7 @@
         "gutters": false,
         "width": "wrapper--full",
         "height": "screen-height-three-quarters",
-        "mobile_height": "screen-height-one-half--mobile",
+        "mobile_height": "screen-height-one-third--mobile",
         "reverse_blocks": true,
         "color_scheme": "scheme-2",
         "padding_top": 0,
@@ -1234,7 +1234,7 @@
       "settings": {
         "width": "wrapper--full",
         "height": "screen-height-one-third",
-        "mobile_height": "screen-height-one-half--mobile",
+        "mobile_height": "screen-height-one-third--mobile",
         "color_scheme": "scheme-1",
         "padding_top": 0,
         "padding_bottom": 0
