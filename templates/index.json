@@ -364,7 +364,7 @@
             "featured_collection": "консерви-за-кучета-wildborn",
             "show_image": true,
             "align_with_product_images": false,
-            "image": "shopify://shop_images/18072556463298928_1751365450_1.jpg",
+            "image": "shopify://shop_images/18072556463298928_1751365450_1_1.jpg",
             "overlay_opacity": 20,
             "overlay_color": "",
             "description": "",
@@ -427,7 +427,7 @@
         "image_jXQHVY": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/18059375410833795_1730804227.jpg",
+            "image": "shopify://shop_images/18059375410833795_1730804227_1_1.jpg",
             "image_width": 80,
             "image_shape": "blob-three",
             "title": "Премиум качество",
@@ -469,7 +469,7 @@
         "image_3HmWb8": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/18008552054642542_1728916327_0601f497-e8d5-4c52-b375-0f477de2047c.jpg",
+            "image": "shopify://shop_images/18008552054642542_1728916327_0601f497-e8d5-4c52-b375-0f477de2047c_1.jpg",
             "image_width": 80,
             "image_shape": "blob-one",
             "title": "Доказан ефект",
@@ -790,7 +790,7 @@
         "image_c3gwPU": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Frame_12_90147f36-2154-46fe-9811-8016819fda1a.png",
+            "image": "shopify://shop_images/Frame_12_90147f36-2154-46fe-9811-8016819fda1a_1.jpg",
             "title": "",
             "heading_font_size": "heading-large",
             "text": "",
