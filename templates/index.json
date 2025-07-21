@@ -287,73 +287,6 @@
         "heading_tag": "automatic"
       }
     },
-    "section_custom_content_EPRWT7": {
-      "type": "section-custom-content",
-      "blocks": {
-        "text_DFmCMA": {
-          "type": "text",
-          "settings": {
-            "subheading": "За нас",
-            "title": "Грижим се като теб",
-            "heading_font_size": "heading-large",
-            "text": "<p>Не продаваме просто продукти – предлагаме доверие и спокойствие. Вярваме, че истинската грижа започва с любов и отговорност. В SuperDogs намираш не само храна и козметика, а и партньор, който разбира колко важно е кучето ти за теб.</p>",
-            "text_font_size": "body-medium",
-            "button_text": "Научи повече",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "show_social_links": false,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "bg_color": "",
-            "color": "",
-            "heading_tag": "automatic"
-          }
-        },
-        "image_qLGwPG": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/IMG_8960-3-Photoroom_1_1.jpg",
-            "title": "",
-            "heading_font_size": "heading-large",
-            "text": "",
-            "text_font_size": "body-medium",
-            "flex_align": "align--middle-center",
-            "show_text_background": false,
-            "bg_color": "",
-            "color": "",
-            "overlay_opacity": 0,
-            "overlay_color": "",
-            "show_overlay_text": false,
-            "link_text": "",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "text_DFmCMA",
-        "image_qLGwPG"
-      ],
-      "name": "Custom content",
-      "settings": {
-        "borders": false,
-        "gutters": false,
-        "width": "wrapper--full",
-        "height": "screen-height-three-quarters",
-        "mobile_height": "image-height--mobile",
-        "reverse_blocks": false,
-        "color_scheme": "scheme-2",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "section_tab_collections_44zVwb": {
       "type": "section-tab-collections",
       "blocks": {
@@ -614,7 +547,7 @@
         "borders": false,
         "gutters": false,
         "width": "wrapper--full",
-        "height": "screen-height-three-quarters",
+        "height": "screen-height-one-third",
         "mobile_height": "screen-height-one-third--mobile",
         "reverse_blocks": true,
         "color_scheme": "scheme-2",
@@ -681,7 +614,7 @@
         "borders": false,
         "gutters": false,
         "width": "wrapper--full",
-        "height": "screen-height-three-quarters",
+        "height": "screen-height-one-third",
         "mobile_height": "screen-height-one-third--mobile",
         "reverse_blocks": false,
         "color_scheme": "scheme-2",
@@ -843,9 +776,76 @@
         "borders": false,
         "gutters": false,
         "width": "wrapper--full",
-        "height": "screen-height-three-quarters",
+        "height": "screen-height-one-third",
         "mobile_height": "screen-height-one-third--mobile",
         "reverse_blocks": true,
+        "color_scheme": "scheme-2",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_EPRWT7": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_DFmCMA": {
+          "type": "text",
+          "settings": {
+            "subheading": "За нас",
+            "title": "Грижим се като теб",
+            "heading_font_size": "heading-large",
+            "text": "<p>Не продаваме просто продукти – предлагаме доверие и спокойствие. Вярваме, че истинската грижа започва с любов и отговорност. В SuperDogs намираш не само храна и козметика, а и партньор, който разбира колко важно е кучето ти за теб.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "Научи повече",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        },
+        "image_qLGwPG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8960-3-Photoroom_1_1.jpg",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_opacity": 0,
+            "overlay_color": "",
+            "show_overlay_text": false,
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "text_DFmCMA",
+        "image_qLGwPG"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full",
+        "height": "screen-height-one-third",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
         "color_scheme": "scheme-2",
         "padding_top": 0,
         "padding_bottom": 0
@@ -1364,7 +1364,6 @@
     "slideshow-nested",
     "section_announcement_X7pxCk",
     "section_collections_list_YYrLPA",
-    "section_custom_content_EPRWT7",
     "section_tab_collections_44zVwb",
     "section_columns_Py7QTT",
     "section_collections_list_hover_7WKyBr",
@@ -1372,6 +1371,7 @@
     "section_custom_content_yBfXQJ",
     "section_text_with_products_4rqKzr",
     "section_custom_content_VBQFRi",
+    "section_custom_content_EPRWT7",
     "section_divider_QfEix9",
     "section_press_logos_6UcjWc",
     "section_products_image_nNREHw",
