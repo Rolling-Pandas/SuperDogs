@@ -1233,7 +1233,7 @@
       "name": "Newsletter",
       "settings": {
         "width": "wrapper--full",
-        "height": "screen-height-one-third",
+        "height": "screen-height-full",
         "mobile_height": "screen-height-one-third--mobile",
         "color_scheme": "scheme-1",
         "padding_top": 0,
