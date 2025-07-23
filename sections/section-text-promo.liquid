@@ -1,4 +1,30 @@
 <!-- /sections/text-promo.liquid -->
+<style>
+ .custom-quote {
+  position: relative;
+  display: inline;
+}
+
+.custom-quote::before,
+.custom-quote::after {
+  font-size: 2rem; 
+  font-weight: bold;
+  position: relative;
+  line-height: 1;
+}
+
+.custom-quote::before {
+  content: url('{{ "paws-one.svg" | asset_url }}');
+  top: -5px;
+}
+
+.custom-quote::after {
+  content: url('{{ "paws-two.svg" | asset_url }}');
+  top: 11px;
+}
+
+</style>
+
 
 {%- liquid
   assign wrapper_width = section.settings.width
@@ -140,16 +166,19 @@
                     assign heading_tag = block.settings.heading_tag
                   endunless
                 -%}
-
+              
                 <{{ heading_tag }}
-                  class="hero__title {{ block.settings.heading_font_size }}"
-                  data-aos="hero"
-                  data-aos-anchor="{{ animation_anchor }}"
-                  data-aos-order="{{ animation_order }}"
-                  {{ block.shopify_attributes }}
-                >
-                  {{ block.settings.title }}
-                </{{ heading_tag }}>
+                class="hero__title {{ block.settings.heading_font_size }} custom-quote"
+                data-aos="hero"
+                data-aos-anchor="{{ animation_anchor }}"
+                data-aos-order="{{ animation_order }}"
+                {{ block.shopify_attributes }}
+              >
+                {{ block.settings.title }}
+              </{{ heading_tag }}>
+              
+
+            
               {%- endif -%}
 
             {%- when 'text' -%}
