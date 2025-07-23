@@ -37,6 +37,7 @@
         "image_mWFUXQ": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/516802661_10228113201848009_3602903404480353314_n.jpg",
             "title": "",
             "heading_font_size": "heading-large",
             "text": "",
@@ -488,7 +489,7 @@
         "description": "Tell your brand's story through images.",
         "text_font_size": "body-medium",
         "enable_quick_add": true,
-        "color_product_bg": "#F5F2EC",
+        "color_product_bg": "#f5f2ec",
         "color_product_text": "#212121",
         "width": "wrapper--full",
         "height": "screen-height-one-third",
