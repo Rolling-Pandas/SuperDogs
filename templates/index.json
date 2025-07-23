@@ -1116,6 +1116,15 @@
             "review_content": "<p>Особено съм впечатлена от козметичната серия – шампоаните и балсамите ухаят приятно, не дразнят кожата и се отмиват лесно. След баня козината остава свежа и мирише чисто за дни!</p>",
             "review_url": ""
           }
+        },
+        "review_fniyid": {
+          "type": "review",
+          "settings": {
+            "title": "Example Customer",
+            "subheading": "Industry Expert",
+            "review_content": "<p>Определено личи, че продуктите са създадени с грижа и внимание към домашните любимци. Радвам се, че открихме марка, на която можем да се доверим напълно.<br/>Препоръчвам с две ръце на всички стопани, които търсят най-доброто за своя четириног приятел!</p>",
+            "review_url": ""
+          }
         }
       },
       "block_order": [
@@ -1126,7 +1135,8 @@
         "review_mVwx9N",
         "review_HctKTx",
         "review_kzBiFh",
-        "review_6eVjLG"
+        "review_6eVjLG",
+        "review_fniyid"
       ],
       "name": "Testimonials",
       "settings": {
