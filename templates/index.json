@@ -1090,6 +1090,15 @@
             "review_url": ""
           }
         },
+        "review_HctKTx": {
+          "type": "review",
+          "settings": {
+            "title": "Георги Въжаров",
+            "subheading": "",
+            "review_content": "<p>От лакомствата до гранулата, нашият космат любимец е фен на всичко, което е пробвал с марка Wildborn.</p>",
+            "review_url": ""
+          }
+        },
         "review_kzBiFh": {
           "type": "review",
           "settings": {
@@ -1106,6 +1115,7 @@
         "review_rKpqJn",
         "review_9gdJFW",
         "review_mVwx9N",
+        "review_HctKTx",
         "review_kzBiFh"
       ],
       "name": "Testimonials",
