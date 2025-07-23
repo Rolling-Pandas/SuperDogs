@@ -641,7 +641,7 @@
         "layout_desktop": "grid",
         "grid": 4,
         "rows": 1,
-        "width": "wrapper",
+        "width": "wrapper--full-padded",
         "layout_mobile": "slider",
         "color_scheme": "",
         "padding_top": 60,
