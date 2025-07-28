@@ -15,12 +15,12 @@
         "text_4iWijx": {
           "type": "text",
           "settings": {
-            "subheading": "Introducing",
-            "title": "Custom content",
+            "subheading": "",
+            "title": "Повече от магазин – ние сме кучешки хора",
             "heading_font_size": "heading-large",
-            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.</p>",
+            "text": "<p>Ние не сме просто нов бранд в кучешкия свят – над<strong>24 години отглеждаме и развъждаме елитни кучета от породата Бобтейл</strong>, а вече<strong>10 години нашите кучета са терапевти и верни помощници в служба на обществото</strong>. SuperDogs е резултат от дългогодишна отдаденост, професионализъм и истинска любов към кучетата. Знаем точно от какво имат нужда, защото живеем в техния свят всеки ден.</p>",
             "text_font_size": "body-medium",
-            "button_text": "Learn more",
+            "button_text": "",
             "button_url": "",
             "button_type": "btn--primary",
             "button_size": "",
