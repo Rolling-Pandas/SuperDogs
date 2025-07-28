@@ -20,11 +20,23 @@
             "padding_bottom": 8
           }
         },
+        "text_h9dDpK": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "heading_font_size": "body-medium",
+            "text": "<p>Get in touch with us at any time.</p>",
+            "text_font_size": "body-medium",
+            "text_alignment": "text-left",
+            "layout": "left",
+            "padding_bottom": 16
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
-            "text_font_size": "body-medium",
-            "padding_bottom": 16
+            "text_font_size": "body-x-large",
+            "padding_bottom": 26
           }
         },
         "variants": {
@@ -58,35 +70,59 @@
             "padding_bottom": 32
           }
         },
-        "accordion_1": {
-          "type": "accordion",
+        "icon": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-truck",
+            "icon_size": 20,
+            "icon_color": "",
+            "text": "<p>Free shipping on orders over $100</p>",
+            "text_font_size": "body-medium",
+            "width": "full",
+            "padding_bottom": 16
+          }
+        },
+        "fit_guide_yEaGYB": {
+          "type": "fit-guide",
+          "settings": {
+            "heading": "Fit",
+            "selected_segment": "1",
+            "left_label": "Small",
+            "middle_label": "True to size",
+            "right_label": "Large",
+            "fit_color": "",
+            "padding_bottom": 14
+          }
+        },
+        "tab_richtext_XQkk9W": {
+          "type": "tab_richtext",
           "settings": {
             "show_description": true,
             "show_read_more": false,
-            "default_open": true,
-            "heading": "Accordion",
-            "text": "<p>This content type will accept <strong>rich text</strong> to help with adding styles and links to additional pages or content. Use this to add supplementary information to help your buyers.</p>",
-            "show_icon": false,
-            "icon_name": "icon-award",
-            "icon_size": 20,
-            "icon_color": "",
+            "title_1": "Tab",
+            "raw_content_1": "<p>This content type will accept <strong>rich text</strong> to help with adding styles and links to additional pages or content. Use this to add supplementary information to help your buyers.</p>",
+            "title_2": "Info",
+            "raw_content_2": "<p>You can use product metafields to assign content to this tab that is unique to an individual product.  Use tabs to highlight unique features, sizing information, or other sales information.</p>",
+            "title_3": "",
+            "raw_content_3": "",
+            "title_4": "",
+            "raw_content_4": "",
+            "title_5": "",
+            "raw_content_5": "",
             "padding_bottom": 0
           }
         },
-        "accordion_2": {
-          "type": "accordion",
-          "disabled": true,
+        "upsell_TaMPbm": {
+          "type": "upsell",
           "settings": {
-            "show_description": false,
-            "show_read_more": false,
-            "default_open": false,
-            "heading": "Shipping & Returns",
-            "text": "<p>This content type will accept <strong>rich text</strong> to help with adding styles and links to additional pages or content. Use this to add supplementary information to help your buyers.</p>",
-            "show_icon": false,
-            "icon_name": "icon-award",
-            "icon_size": 20,
-            "icon_color": "",
-            "padding_bottom": 16
+            "upsell_product": "",
+            "upsell_product_list": [],
+            "show_available_upsell_only": false,
+            "layout": "stacked",
+            "autoplay": false,
+            "autoplay_speed": 8,
+            "bg_color": "",
+            "padding_bottom": 18
           }
         },
         "complementary-products": {
@@ -99,30 +135,20 @@
             "bg_color": "",
             "padding_bottom": 16
           }
-        },
-        "icon": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-truck",
-            "icon_size": 20,
-            "icon_color": "",
-            "text": "<p>Free shipping on orders over $100</p>",
-            "text_font_size": "body-medium",
-            "width": "full",
-            "padding_bottom": 16
-          }
         }
       },
       "block_order": [
         "title",
+        "text_h9dDpK",
         "price",
         "variants",
         "buttons",
         "pickup",
-        "accordion_1",
-        "accordion_2",
-        "complementary-products",
-        "icon"
+        "icon",
+        "fit_guide_yEaGYB",
+        "tab_richtext_XQkk9W",
+        "upsell_TaMPbm",
+        "complementary-products"
       ],
       "settings": {
         "product_sticky_enable": true,
