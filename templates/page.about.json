@@ -585,7 +585,8 @@
         "logo_item_header_dhXjt9": {
           "type": "logo-item-header",
           "settings": {
-            "logo_width": 100,
+            "logo": "shopify://shop_images/les_poochs_brushes.webp",
+            "logo_width": 120,
             "link": "",
             "text": "Include a brief quote from a brand that loves your products",
             "heading_font_size": "heading-small"
@@ -594,7 +595,8 @@
         "logo_item_header_MeijEQ": {
           "type": "logo-item-header",
           "settings": {
-            "logo_width": 100,
+            "logo": "shopify://shop_images/utsumi_logo.webp",
+            "logo_width": 180,
             "link": "",
             "text": "Include a brief quote from a brand that loves your products",
             "heading_font_size": "heading-small"
