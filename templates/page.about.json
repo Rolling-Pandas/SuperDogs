@@ -85,9 +85,9 @@
             "icon_name": "icon-shield",
             "icon_size": 20,
             "icon_color": "",
-            "title": "Secure transactions",
+            "title": "Мисия",
             "heading_font_size": "heading-small",
-            "text": "<p>Transactions are handled with bank-grade security.</p>",
+            "text": "<p>Нашата мисия е да подобрим качеството на живот, здравето и щастието на вашето куче – чрез премиум продукти, които правят разлика в живота му.</p>",
             "text_font_size": "body-medium",
             "heading_tag": "automatic"
           }
@@ -98,9 +98,9 @@
             "icon_name": "icon-trophy",
             "icon_size": 20,
             "icon_color": "",
-            "title": "Simple checkout",
+            "title": "Ценности",
             "heading_font_size": "heading-small",
-            "text": "<p>Our secure checkout is quick and easy to use.</p>",
+            "text": "<p>Доверие, прозрачност и лично отношение – основата, на която градим всичко, което правим.</p>",
             "text_font_size": "body-medium",
             "heading_tag": "automatic"
           }
