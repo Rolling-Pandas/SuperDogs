@@ -92,6 +92,19 @@
             "heading_tag": "automatic"
           }
         },
+        "icon_AwdJYt": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "Мечти",
+            "heading_font_size": "heading-small",
+            "text": "<p>Да направим съжителството между хора и животни по-хармонично. Избирайки качество, си спестявате много тревоги и посещения при ветеринар. Искаме да променим стандарта на живот на домашните любимци в България – стъпка по стъпка, куче по куче.</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
         "icon_pRNgji": {
           "type": "icon",
           "settings": {
@@ -117,26 +130,13 @@
             "text_font_size": "body-medium",
             "heading_tag": "automatic"
           }
-        },
-        "icon_AwdJYt": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-award",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "Мечти",
-            "heading_font_size": "heading-small",
-            "text": "<p>Да направим съжителството между хора и животни по-хармонично. Избирайки качество, си спестявате много тревоги и посещения при ветеринар. Искаме да променим стандарта на живот на домашните любимци в България – стъпка по стъпка, куче по куче.</p>",
-            "text_font_size": "body-medium",
-            "heading_tag": "automatic"
-          }
         }
       },
       "block_order": [
         "icon_9p7RAd",
+        "icon_AwdJYt",
         "icon_pRNgji",
-        "icon_t8PwQw",
-        "icon_AwdJYt"
+        "icon_t8PwQw"
       ],
       "name": "Text columns with icons",
       "settings": {
@@ -163,10 +163,10 @@
           "type": "timeline",
           "settings": {
             "image": "shopify://shop_images/girl-with-golden-retriever-dog.jpg",
-            "subheading": "2010",
-            "title": "Launch day",
+            "subheading": "",
+            "title": "Нашето начало",
             "heading_font_size": "heading-large",
-            "text": "<p>We celebrated our first step in the ecommerce world by selling our very first product.</p>",
+            "text": "<p>Всичко започна с едно куче – Мон. Кучето, което промени живота ни и докосна много човешки съдби. Първият терапевт, първото вдъхновение. Мон ни научи какво означава истинска връзка и ни показа посоката, по която да вървим.</p>",
             "text_font_size": "body-medium",
             "button_text": "",
             "button_url": "",
@@ -181,10 +181,10 @@
           "type": "timeline",
           "settings": {
             "image": "shopify://shop_images/full-shot-family-with-cute-dog-outdoors.jpg",
-            "subheading": "2015",
-            "title": "Introduced our flagship product",
+            "subheading": "",
+            "title": "Пътят, по който минахме",
             "heading_font_size": "heading-large",
-            "text": "<p>Our journey to success was defined by our flagship product. It shaped us into the industry leader we are today.</p>",
+            "text": "<p>Първо израснахме като хора – отдадени изцяло на кучетата си и тяхното благополучие. После, вдъхновени от тях, създадохме нашата бизнес идея. Вече над две десетилетия развъждаме елитни кучета от породата Бобтейл, а последните 10 години активно работим с тях като терапевтични помощници в служба на обществото. Нашите кучета участват активно в престижни световни и европейски киноложки форуми, където обменяме опит с водещи развъдчици и кинолози, някои от тях с над 50-годишен опит.<br/><br/></p>",
             "text_font_size": "body-medium",
             "button_text": "",
             "button_url": "",
@@ -199,10 +199,10 @@
           "type": "timeline",
           "settings": {
             "image": "shopify://shop_images/happy-family-with-dog-nature-full-shot.jpg",
-            "subheading": "2020",
-            "title": "Launched our partner program",
+            "subheading": "",
+            "title": "Къде сме днес",
             "heading_font_size": "heading-large",
-            "text": "<p>You're what makes us great. With the exciting launch of our partner program you have the power to earn free products!</p>",
+            "text": "<p>Днес SuperDogs е доказан избор за хората, които търсят качество, професионализъм и грижа за своя домашен любимец. Партнираме си с водещи брандове и експерти, а нашата общност от истински кучешки хора расте всеки ден.</p>",
             "text_font_size": "body-medium",
             "button_text": "",
             "button_url": "",
@@ -222,9 +222,9 @@
       "name": "Timeline",
       "settings": {
         "show_images": true,
-        "title": "Timeline",
+        "title": "Нашата история в три стъпки",
         "heading_font_size": "heading-large",
-        "text": "<p>Visually narrate your company's history and achievements. By offering a dynamic representation of events over time, it educates, captivates, and builds trust among customers.</p>",
+        "text": "",
         "text_font_size": "body-medium",
         "text_alignment": "text-left",
         "width": "wrapper--full",
