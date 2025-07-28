@@ -82,7 +82,7 @@
         "icon_9p7RAd": {
           "type": "icon",
           "settings": {
-            "icon_name": "icon-shield",
+            "icon_name": "icon-star",
             "icon_size": 20,
             "icon_color": "",
             "title": "Мисия",
@@ -95,7 +95,7 @@
         "icon_AwdJYt": {
           "type": "icon",
           "settings": {
-            "icon_name": "icon-award",
+            "icon_name": "icon-donation",
             "icon_size": 20,
             "icon_color": "",
             "title": "Мечти",
@@ -108,7 +108,7 @@
         "icon_pRNgji": {
           "type": "icon",
           "settings": {
-            "icon_name": "icon-trophy",
+            "icon_name": "icon-flower",
             "icon_size": 20,
             "icon_color": "",
             "title": "Ценности",
