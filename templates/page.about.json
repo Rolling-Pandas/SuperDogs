@@ -549,9 +549,9 @@
       ],
       "name": "Collection list",
       "settings": {
-        "title": "Collection list",
+        "title": "Заглавие",
         "heading_font_size": "heading-medium",
-        "description": "",
+        "description": "<p>Магически инструменти, които превръщат грижата за козината в ритуал на красотата. Изработени с японска прецизност и американски професионализъм, нашите четки и гребени укротяват дори най-трудните козини, превръщайки разресването в удоволствие и за кучето, и за теб.<br/></p>",
         "text_font_size": "body-medium",
         "button_text": "",
         "button_url": "shopify://collections",
