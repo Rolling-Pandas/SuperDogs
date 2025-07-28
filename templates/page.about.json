@@ -111,9 +111,9 @@
             "icon_name": "icon-chat",
             "icon_size": 20,
             "icon_color": "",
-            "title": "Get in touch",
+            "title": "Консултации",
             "heading_font_size": "heading-small",
-            "text": "<p>Have questions? Get in touch with us at any time.</p>",
+            "text": "<p>Безплатни професионални консултации за хранене, грижа и поведение – ние разговаряме с вас, независимо дали ще станете наши клиенти, защото всяко куче е различно и заслужава индивидуален подход.</p>",
             "text_font_size": "body-medium",
             "heading_tag": "automatic"
           }
@@ -124,9 +124,9 @@
             "icon_name": "icon-award",
             "icon_size": 20,
             "icon_color": "",
-            "title": "Title",
+            "title": "Мечти",
             "heading_font_size": "heading-small",
-            "text": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
+            "text": "<p>Да направим съжителството между хора и животни по-хармонично. Избирайки качество, си спестявате много тревоги и посещения при ветеринар. Искаме да променим стандарта на живот на домашните любимци в България – стъпка по стъпка, куче по куче.</p>",
             "text_font_size": "body-medium",
             "heading_tag": "automatic"
           }
