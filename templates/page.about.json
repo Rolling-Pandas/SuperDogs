@@ -256,40 +256,51 @@
     "section_announcement_khxyUD": {
       "type": "section-announcement",
       "blocks": {
-        "text_Uakp9C": {
+        "heading_mreQiM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Търсиш ли правилната храна за твоето куче?",
+            "heading_font_size": "heading-small"
+          }
+        },
+        "text_Nf9QXB": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Make an announcement</strong> | Target to specific devices or referrers</p>",
+            "text": "<p>Има ли кучето ти алергия или непоносимост към определени храни? Ще ти помогнем да избереш най-подходящото меню, за да е здраво и щастливо.</p>",
             "text_font_size": "body-small",
             "color": "",
             "target_device_enabled": false,
             "target_device": "mobile"
           }
         },
-        "text_Dgj3H6": {
+        "heading_fCjwM8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Грижа за козината и кожата – персонални препоръки и съвети",
+            "heading_font_size": "heading-small"
+          }
+        },
+        "text_ifHCam": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Create a free shipping countdown</strong></p>",
+            "text": "<p>Консултация с професионалисти, които разбират специфичните нужди на твоята порода. Препоръки за подходящи продукти и ефективни грижи за здрава кожа и красива козина.</p>",
             "text_font_size": "body-small",
             "color": "",
             "target_device_enabled": false,
             "target_device": "mobile"
           }
         },
-        "message_8trRff": {
-          "type": "message",
+        "heading_khhBMQ": {
+          "type": "heading",
           "settings": {
-            "show_wheel": false,
-            "message": "You are ||amount|| away from free shipping.",
-            "text_font_size": "body-small",
-            "target_device_enabled": false,
-            "target_device": "mobile"
+            "heading": "Поведенчески проблеми? Правилното хранене е част от решението.",
+            "heading_font_size": "heading-small"
           }
         },
-        "text_AFDLcn": {
+        "text_pdTMBU": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Create a scrolling marquee or a simple announcement</strong></p>",
+            "text": "<p>Подпомагаме решаването на поведенчески проблеми с консултации и индивидуален подход. Правилната храна често е ключът към по-спокойно и хармонично поведение.</p>",
             "text_font_size": "body-small",
             "color": "",
             "target_device_enabled": false,
@@ -298,10 +309,12 @@
         }
       },
       "block_order": [
-        "text_Uakp9C",
-        "text_Dgj3H6",
-        "message_8trRff",
-        "text_AFDLcn"
+        "heading_mreQiM",
+        "text_Nf9QXB",
+        "heading_fCjwM8",
+        "text_ifHCam",
+        "heading_khhBMQ",
+        "text_pdTMBU"
       ],
       "name": "Scrolling text",
       "settings": {
