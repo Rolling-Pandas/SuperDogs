@@ -343,7 +343,7 @@
         "heading_GjUhPX": {
           "type": "heading",
           "settings": {
-            "title": "Image with text",
+            "title": "Различни сме, защото истински ни е грижа",
             "heading_font_size": "heading-large",
             "padding_bottom": 16,
             "heading_tag": "automatic"
@@ -352,7 +352,7 @@
         "text_9zpEYR": {
           "type": "text",
           "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text": "<p>Не сме просто продавачи на продукти. SuperDogs е мястото, където здравето и щастието на вашето куче винаги са на първо място. Инвестираме в личен контакт и внимателно подбираме асортимента си, за да гарантираме, че вашият любимец ще получи това, което наистина заслужава – без компромиси.</p>",
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
@@ -399,9 +399,9 @@
           "type": "text",
           "settings": {
             "subheading": "Introducing",
-            "title": "Custom content",
+            "title": "Партньори, на които имаме доверие",
             "heading_font_size": "heading-large",
-            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.</p>",
+            "text": "<p>Работим само с марки, доказали се във времето – лидери в световната индустрия за грижа за кучета. Всяка от тях отговаря на нашите високи критерии за качество, надеждност и етика.</p><p><br/><strong>Wildborn</strong> – естествена и балансирана храна от Германия, без зърно и глутен, създадена за перфектното здраве на твоето куче.</p><p><strong>H-Project Line</strong> – професионална италианска козметика с екстракт от охлювена слуз, която нежно и ефективно възстановява кожата и козината.</p><p><strong>Septona</strong> – изключително нежни почистващи кърпи и пелени, гарантиращи ежедневен комфорт и деликатна грижа.</p><p><strong>Utsumi</strong> – японски четки и гребени, съчетаващи изтънченост, традиция и прецизност, за да направят ежедневното разресване истински ритуал на красотата.</p><p><strong>Les Poochs</strong> – първокласни четки от САЩ, които се справят и с най-трудните козини, предпочитани от топ грумърите по света.</p>",
             "text_font_size": "body-medium",
             "button_text": "",
             "button_url": "",
