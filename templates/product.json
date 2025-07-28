@@ -75,6 +75,7 @@
         },
         "accordion_2": {
           "type": "accordion",
+          "disabled": true,
           "settings": {
             "show_description": false,
             "show_read_more": false,
@@ -291,6 +292,7 @@
         "about-1",
         "about-2"
       ],
+      "disabled": true,
       "settings": {
         "default_open": false,
         "title": "About us",
