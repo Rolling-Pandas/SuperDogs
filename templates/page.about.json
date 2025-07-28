@@ -379,6 +379,7 @@
       ],
       "name": "Image with text",
       "settings": {
+        "image_1": "shopify://shop_images/young-beautiful-girl-lying-with-beagle-dog-grass-park.jpg",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "",
@@ -420,6 +421,7 @@
         "image_MwGV6q": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/18182521606319568_1749459849.jpg",
             "title": "",
             "heading_font_size": "heading-large",
             "text": "",
