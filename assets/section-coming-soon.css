@@ -1,0 +1,48 @@
+.coming-soon-section h2 {
+    margin-block: 14px;
+}
+
+.coming-soon-form-wrapper {
+    margin-block: 28px 108px;
+}
+
+.coming-soon-grid {
+    display: grid;
+    grid-template-columns: 1.09760273973fr 1fr;
+    gap: 55px;
+}
+
+.coming-soon-logo img {
+    display: flex;
+    max-width: 250px;
+    margin-bottom: 85px;
+}
+
+.coming-soon-image {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 40px;
+}
+
+.contact-button {
+    background: #AB8C52;
+    padding: 4px;
+    padding-right: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-family: var(--FONT-STACK-HEADING);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.1;
+    letter-spacing: 0;
+    text-align: center;
+    color: white;
+    border-radius: 100px;
+}
+
+.contact-button svg {
+    width: 48px;
+    aspect-ratio: 1;
+}

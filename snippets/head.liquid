@@ -581,6 +581,7 @@
 {%- endunless -%} {% endcomment %}
 
 {{ 'theme.css' | asset_url | stylesheet_tag }}
+{{ 'base.css' | asset_url | stylesheet_tag }}
 
 {%- if settings.swatches_type != 'disabled' or settings.show_siblings -%}
   {{ 'swatches.css' | asset_url | stylesheet_tag }}
