@@ -1433,6 +1433,15 @@
         "padding_top": 50,
         "padding_bottom": 50
       }
+    },
+    "coming_soon_gmMBRM": {
+      "type": "coming-soon",
+      "name": "Coming Soon",
+      "settings": {
+        "subheading": "Очаквайте скоро",
+        "heading": "Абонирай се за известие",
+        "description": "Остави ни имейл и ще ти пишем веднага щом стартираме!"
+      }
     }
   },
   "order": [
@@ -1459,6 +1468,7 @@
     "section_blog_3fFbVc",
     "section_newsletter_qBceVw",
     "text-row",
-    "section_products_image_cJDAmk"
+    "section_products_image_cJDAmk",
+    "coming_soon_gmMBRM"
   ]
 }
