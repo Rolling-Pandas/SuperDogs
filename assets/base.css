@@ -1,6 +1,8 @@
 .container-large {
+    width: 100%;
     max-width: 1440px;
     padding-inline: 80px;
+    margin-inline: auto;
 }
 
 .custom-subheading {
@@ -26,4 +28,31 @@
     letter-spacing: 0;
     color: #212121;
     margin: 0;
+}
+
+.h2-custom {
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 1;
+    letter-spacing: 0;
+    text-align: center;
+    color: #00352F;
+}
+
+@media screen and (max-width: 768px) {
+    .container-large {
+        padding-inline: 16px;
+    }
+
+    .h2-custom {
+        font-size: 32px;
+    }
+
+    .custom-subheading {
+        font-size: 20px;
+    }
+
+    .p-md {
+        font-size: 18px;
+    }
 }
