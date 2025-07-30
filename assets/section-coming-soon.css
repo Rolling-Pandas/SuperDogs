@@ -155,10 +155,10 @@ body {
         padding-block: 50px;
     }
 
-    .coming-soon-left {
+    /* .coming-soon-left {
         align-items: center;
         text-align: center;
-    }
+    } */
 
     .coming-soon-logo img {
         max-width: 200px;
