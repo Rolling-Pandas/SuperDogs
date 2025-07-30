@@ -494,6 +494,70 @@
         "padding_top": 30,
         "padding_bottom": 30
       }
+    },
+    "section_announcement_RYNRtc": {
+      "type": "section-announcement",
+      "blocks": {
+        "text_3EDmbM": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Make an announcement</strong> | Target to specific devices or referrers</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_JfJ49D": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Create a free shipping countdown</strong></p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "message_wMdpUK": {
+          "type": "message",
+          "settings": {
+            "show_wheel": false,
+            "message": "You are ||amount|| away from free shipping.",
+            "text_font_size": "body-small",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_iKiC67": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Create a scrolling marquee or a simple announcement</strong></p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "text_3EDmbM",
+        "text_JfJ49D",
+        "message_wMdpUK",
+        "text_iKiC67"
+      ],
+      "name": "Scrolling text",
+      "settings": {
+        "slider_speed": 7,
+        "text_alignment": "center",
+        "marquee_speed": 100,
+        "direction": "ticker-rtl",
+        "message_spacing": 10,
+        "show_border": false,
+        "layout": "marquee",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -503,6 +567,7 @@
     "about",
     "custom",
     "imgtxt",
-    "related"
+    "related",
+    "section_announcement_RYNRtc"
   ]
 }
