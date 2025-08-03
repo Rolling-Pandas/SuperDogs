@@ -104,12 +104,12 @@
         "icon_i8jhUc": {
           "type": "icon",
           "settings": {
-            "icon_name": "icon-shield",
+            "icon_name": "icon-mail",
             "icon_size": 20,
             "icon_color": "",
-            "title": "Secure transactions",
+            "title": "Имейл",
             "heading_font_size": "heading-small",
-            "text": "<p>Transactions are handled with bank-grade security.</p>",
+            "text": "<p> wildborn.bulgaria@gmail.com</p>",
             "text_font_size": "body-medium",
             "heading_tag": "automatic"
           }
@@ -117,7 +117,7 @@
         "icon_ceqieF": {
           "type": "icon",
           "settings": {
-            "icon_name": "icon-trophy",
+            "icon_name": "icon-phone",
             "icon_size": 20,
             "icon_color": "",
             "title": "Телефон",
@@ -130,10 +130,10 @@
         "icon_HtQ9CP": {
           "type": "icon",
           "settings": {
-            "icon_name": "icon-chat",
+            "icon_name": "icon-location",
             "icon_size": 20,
             "icon_color": "",
-            "title": "Къде да ни намериш",
+            "title": "Адрес",
             "heading_font_size": "heading-small",
             "text": "<p> гр. Пловдив, ул. Лъджене 21</p>",
             "text_font_size": "body-medium",
