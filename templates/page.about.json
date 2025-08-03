@@ -69,7 +69,7 @@
         "gutters": false,
         "width": "wrapper--full",
         "height": "sixty-fifty-height-hero",
-        "mobile_height": "four-fifty-height-hero--mobile",
+        "mobile_height": "screen-height-one-third--mobile",
         "reverse_blocks": false,
         "color_scheme": "",
         "padding_top": 0,
