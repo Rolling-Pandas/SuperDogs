@@ -11,6 +11,72 @@
   "type": "footer",
   "name": "Footer",
   "sections": {
+    "section_announcement_BJ8jc4": {
+      "type": "section-announcement",
+      "blocks": {
+        "text_V4DqPC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Винаги до теб със съвет и най-добрите продукти | </p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_KGdFm7": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Безплатни индивидуални консултации – толкова, колкото ти трябват</strong></p>",
+            "text_font_size": "body-medium",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "message_eAacxL": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "show_wheel": false,
+            "message": "Винаги до теб със съвет и най-добрите продукти |",
+            "text_font_size": "body-small",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_EEmXyE": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><strong>Create a scrolling marquee or a simple announcement</strong></p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "text_V4DqPC",
+        "text_KGdFm7",
+        "message_eAacxL",
+        "text_EEmXyE"
+      ],
+      "name": "Scrolling text",
+      "settings": {
+        "slider_speed": 7,
+        "text_alignment": "center",
+        "marquee_speed": 100,
+        "direction": "ticker-rtl",
+        "message_spacing": 10,
+        "show_border": false,
+        "layout": "marquee",
+        "color_scheme": "scheme-2",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -100,6 +166,7 @@
     }
   },
   "order": [
+    "section_announcement_BJ8jc4",
     "footer",
     "section_anchor_logo_eXJgrH",
     "supporting-menu"

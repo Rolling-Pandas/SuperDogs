@@ -189,37 +189,85 @@
             "image_width": 100,
             "padding_bottom": 16
           }
-        },
-        "image_wYawaG": {
-          "type": "image",
-          "settings": {
-            "image_width": 100,
-            "padding_bottom": 16
-          }
-        },
-        "image_a4pWRX": {
-          "type": "image",
-          "settings": {
-            "image_width": 100,
-            "padding_bottom": 16
-          }
-        },
-        "image_RKbpPF": {
-          "type": "image",
-          "settings": {
-            "image_width": 100,
-            "padding_bottom": 16
-          }
         }
       },
       "block_order": [
         "subheading_Gx3Trr",
         "heading_3kFxcx",
         "text_Dtw6Cc",
-        "image_6KiTBm",
-        "image_wYawaG",
-        "image_a4pWRX",
-        "image_RKbpPF"
+        "image_6KiTBm"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_double_7HUFMV": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_Enrk93": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Introducing",
+            "padding_bottom": 16
+          }
+        },
+        "heading_LPUbym": {
+          "type": "heading",
+          "settings": {
+            "title": "Image with text",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_6iGrew": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "video_P3DUb8": {
+          "type": "video",
+          "settings": {
+            "video_width": 100,
+            "custom_aspect_ratio": false,
+            "aspect_ratio": 1,
+            "padding_bottom": 16
+          }
+        },
+        "buttons_r3rywX": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Enrk93",
+        "heading_LPUbym",
+        "text_6iGrew",
+        "video_P3DUb8",
+        "buttons_r3rywX"
       ],
       "name": "Image with text",
       "settings": {
@@ -280,72 +328,6 @@
         "padding_bottom": 100
       }
     },
-    "section_custom_content_gjKyxd": {
-      "type": "section-custom-content",
-      "blocks": {
-        "text_E3dPLC": {
-          "type": "text",
-          "settings": {
-            "subheading": "Introducing",
-            "title": "Custom content",
-            "heading_font_size": "heading-large",
-            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.</p>",
-            "text_font_size": "body-medium",
-            "button_text": "Learn more",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "show_social_links": false,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "bg_color": "",
-            "color": "",
-            "heading_tag": "automatic"
-          }
-        },
-        "image_MnFGbF": {
-          "type": "image",
-          "settings": {
-            "title": "",
-            "heading_font_size": "heading-large",
-            "text": "",
-            "text_font_size": "body-medium",
-            "flex_align": "align--middle-center",
-            "show_text_background": false,
-            "bg_color": "",
-            "color": "",
-            "overlay_opacity": 0,
-            "overlay_color": "",
-            "show_overlay_text": false,
-            "link_text": "",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "text_E3dPLC",
-        "image_MnFGbF"
-      ],
-      "name": "Custom content",
-      "settings": {
-        "borders": false,
-        "gutters": false,
-        "width": "wrapper--full",
-        "height": "screen-height-three-quarters",
-        "mobile_height": "screen-height-one-half--mobile",
-        "reverse_blocks": false,
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "section_blog_rxWz7Q": {
       "type": "section-blog",
       "name": "Blog posts",
@@ -376,7 +358,7 @@
     "main",
     "section_announcement_ikETU4",
     "section_double_Aq9L9t",
-    "section_custom_content_gjKyxd",
+    "section_double_7HUFMV",
     "section_rich_text_8rcPDL",
     "section_blog_rxWz7Q"
   ]
