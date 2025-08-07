@@ -1436,7 +1436,6 @@
     },
     "coming_soon_gmMBRM": {
       "type": "coming-soon",
-      "disabled": true,
       "name": "Coming Soon",
       "settings": {
         "subheading": "Очаквайте скоро",
