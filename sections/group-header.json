@@ -30,6 +30,7 @@
       "block_order": [
         "text"
       ],
+      "disabled": true,
       "settings": {
         "show_border": false,
         "layout": "slider",
@@ -136,6 +137,7 @@
         "image-4",
         "image-5"
       ],
+      "disabled": true,
       "settings": {
         "header_sticky": false,
         "header_style": "logo_beside",
