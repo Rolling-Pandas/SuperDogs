@@ -551,5 +551,10 @@
         "email_placeholder": "Имейл"
       }
     }
+  },
+  "customer_accounts": {
+    "shop_policies": {
+      "privacy_policy": "Политика за поверителност"
+    }
   }
 }
