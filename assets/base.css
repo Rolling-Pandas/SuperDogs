@@ -43,6 +43,10 @@
     filter: invert(1);
 }
 
+.swym-wishlist-collections-v2-container {
+    padding-top: 6px;
+}
+
 @media screen and (max-width: 768px) {
     .container-large {
         padding-inline: 16px;
