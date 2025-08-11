@@ -141,6 +141,11 @@
           "other_delivery_button_text": "Други методи за доставка",
           "econt_form_heading": "Моля, попълнете данните за доставка"
         }
+      },
+      "4335876967291805281": {
+        "type": "shopify://apps/bgn-eur-dual-display/blocks/app-embed/4f45d3bd-181d-446c-a64e-f22fbf0bd89e",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
