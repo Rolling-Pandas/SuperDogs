@@ -44,7 +44,7 @@
 }
 
 .swym-wishlist-collections-v2-container {
-    padding-top: 6px;
+    padding-top: 6px !important;
 }
 
 @media screen and (max-width: 768px) {
