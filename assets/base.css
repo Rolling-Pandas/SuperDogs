@@ -39,6 +39,10 @@
     color: #00352F;
 }
 
+#swym-plugin #swym-anchor.swym-heart i:after {
+    filter: invert(1);
+}
+
 @media screen and (max-width: 768px) {
     .container-large {
         padding-inline: 16px;
