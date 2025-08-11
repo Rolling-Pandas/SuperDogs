@@ -39,9 +39,9 @@
     color: #00352F;
 }
 
-#swym-plugin #swym-anchor.swym-heart i:after {
+/* #swym-plugin #swym-anchor.swym-heart i:after {
     filter: invert(1);
-}
+} */
 
 .swym-wishlist-collections-v2-container {
     padding-top: 6px !important;
