@@ -15,7 +15,7 @@
         "title": {
           "type": "title",
           "settings": {
-            "subheading_option": "breadcrumb",
+            "subheading_option": "collection",
             "heading_font_size": "heading-medium",
             "padding_bottom": 8
           }
@@ -187,7 +187,7 @@
         "image_size": "normal",
         "mobile_image_style": "thumbs",
         "color_scheme": "",
-        "padding_top": 90,
+        "padding_top": 20,
         "padding_bottom": 30
       }
     },

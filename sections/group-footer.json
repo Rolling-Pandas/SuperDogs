@@ -106,7 +106,7 @@
           "type": "linklist",
           "settings": {
             "linklist": "footer",
-            "title": "Категории",
+            "title": "Полезни линкове",
             "heading_font_size": "heading-medium",
             "column_width": 33,
             "enable_accordion": false
@@ -118,7 +118,7 @@
             "image_width": 150,
             "title": "Свържи се с нас",
             "heading_font_size": "heading-medium",
-            "text": "<p> гр. Пловдив, ул. Лъджене 21</p><p>+359889444457</p><p> wildborn.bulgaria@gmail.com</p>",
+            "text": "<p> гр. Пловдив, ул. Лъджене 21</p><p><a href=\"tel:+359889444457\" target=\"_blank\" title=\"tel:+359889444457\">+359889444457</a></p><p><a href=\"mailto:info@superdogs.bg\" title=\"mailto:info@superdogs.bg\">info@superdogs.bg</a></p>",
             "column_width": 33,
             "enable_accordion": false
           }
