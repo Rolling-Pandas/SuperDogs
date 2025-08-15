@@ -235,7 +235,7 @@
       ],
       "settings": {
         "default_open": false,
-        "title": "FAQ",
+        "title": "Често задавани въпроси",
         "heading_font_size": "heading-small",
         "show_icon": false,
         "icon_name": "icon-award",
@@ -297,7 +297,7 @@
       ],
       "settings": {
         "default_open": false,
-        "title": "Shipping",
+        "title": "Доставка",
         "heading_font_size": "heading-small",
         "show_icon": false,
         "icon_name": "icon-award",
@@ -496,14 +496,14 @@
         "related": {
           "type": "related",
           "settings": {
-            "product_recommendations_heading": "Related products",
+            "product_recommendations_heading": "Сходни продукти",
             "limit": 4
           }
         },
         "recent": {
           "type": "recent",
           "settings": {
-            "product_recently_heading": "Recently viewed",
+            "product_recently_heading": "Наскоро прегледани",
             "product_recently_limit": 4
           }
         }
