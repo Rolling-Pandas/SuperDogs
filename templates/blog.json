@@ -16,7 +16,7 @@
           "type": "featured_post",
           "settings": {
             "featured_post": "news/wildborn-натуралната-кучешка-храна-за-здраве-и-жизненост",
-            "subheading": "Featured post"
+            "subheading": ""
           }
         }
       },
@@ -28,7 +28,7 @@
         "show_date": false,
         "heading_font_size": "heading-large",
         "show_button": true,
-        "button_text": "Read more",
+        "button_text": "",
         "button_type": "btn--primary",
         "button_size": "",
         "button_style": "btn--text",

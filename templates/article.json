@@ -22,7 +22,7 @@
         "recent-articles": {
           "type": "recent",
           "settings": {
-            "title": "Recent articles"
+            "title": "Последни блогове"
           }
         }
       },
