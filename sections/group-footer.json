@@ -63,7 +63,6 @@
         "message_eAacxL",
         "text_EEmXyE"
       ],
-      "disabled": true,
       "name": "Scrolling text",
       "settings": {
         "slider_speed": 7,
@@ -131,7 +130,6 @@
         "footer-1",
         "footer-2"
       ],
-      "disabled": true,
       "settings": {
         "logo_image_width": 100,
         "color_scheme": "scheme-2",
@@ -142,7 +140,6 @@
     },
     "section_anchor_logo_eXJgrH": {
       "type": "section-anchor-logo",
-      "disabled": true,
       "name": "Logo",
       "settings": {
         "logo": "shopify://shop_images/SD_2_PNG.png",
@@ -153,7 +150,6 @@
     },
     "supporting-menu": {
       "type": "section-supporting-menu",
-      "disabled": true,
       "settings": {
         "linklist": "",
         "text_font_size": "body-small",

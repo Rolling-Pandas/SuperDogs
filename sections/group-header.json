@@ -30,7 +30,6 @@
       "block_order": [
         "text"
       ],
-      "disabled": true,
       "settings": {
         "show_border": false,
         "layout": "slider",
@@ -51,6 +50,7 @@
       "blocks": {
         "image-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "position": "1",
             "aspect_ratio": 1,
@@ -67,6 +67,7 @@
         },
         "image-2": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "position": "2",
             "aspect_ratio": 1,
@@ -83,6 +84,7 @@
         },
         "image-3": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "position": "2",
             "aspect_ratio": 1,
@@ -99,6 +101,7 @@
         },
         "image-4": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "position": "2",
             "aspect_ratio": 1,
@@ -115,6 +118,7 @@
         },
         "image-5": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "position": "2",
             "aspect_ratio": 1,
@@ -137,7 +141,6 @@
         "image-4",
         "image-5"
       ],
-      "disabled": true,
       "settings": {
         "header_sticky": false,
         "header_style": "logo_beside",
@@ -147,7 +150,7 @@
         "show_icons": true,
         "icon_as_circle": false,
         "cart_icon_family": "bag",
-        "logo": "shopify://shop_images/SD_2_PNG.png",
+        "logo": "shopify://shop_images/logo-sd_719b42bc-7e89-45b9-a695-c0f4e85ad29c.png",
         "logo_max_limit": 160,
         "logo_max_limit_mobile": 190,
         "main_menu_linklist": "navbar-menu",
@@ -164,6 +167,7 @@
         "show_country_flag": false,
         "highlight_item": "Sale",
         "highlight_item_color": "#d02e2e",
+        "transparent_logo": "shopify://shop_images/SD_2_PNG.png",
         "transparent_home": true,
         "transparent_collection": false,
         "transparent_article": false,
