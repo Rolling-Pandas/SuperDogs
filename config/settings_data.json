@@ -85,6 +85,15 @@
     "checkout_button_color": "#ab8c52",
     "checkout_error_color": "#c85c42",
     "sale_background_color": "#be563f",
+    "sections": {
+      "gift-card": {
+        "type": "gift-card",
+        "settings": {
+          "logo": "shopify://shop_images/logo-sd_1_1_1.png",
+          "logo_max_limit": 250
+        }
+      }
+    },
     "content_for_index": [],
     "blocks": {
       "10274264662263595587": {
