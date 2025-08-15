@@ -25,7 +25,7 @@
           "settings": {
             "title": "",
             "heading_font_size": "body-medium",
-            "text": "<p>Get in touch with us at any time.</p>",
+            "text": "<p><strong>Wildborn Soft Amber с 70% прясно патешко месо</strong> е беззърнена храна, създадена специално за кучета с чувствителен стомах и склонност към алергии.</p><p>Меките гранули са приготвени на пара в собствен месен сок – лесни за дъвчене, вкусни и щадящи храносмилането.</p><p>Без зърнени храни, глутен, месно брашно, добавена захар или изкуствени подобрители.</p><p>Поддържа здрава кожа, лъскава козина и спомага за силен имунитет и добро храносмилане.</p><p>Идеален избор за стопани, които търсят висококачествена, пълноценна и внимателно приготвена храна за своето куче.{{ product.metafields.custom.short_description | metafield_tag }}</p>",
             "text_font_size": "body-medium",
             "text_alignment": "text-left",
             "layout": "left",
@@ -76,7 +76,7 @@
             "icon_name": "icon-truck",
             "icon_size": 20,
             "icon_color": "",
-            "text": "<p>Free shipping on orders over $100</p>",
+            "text": "<p>Безплатна доставка при покупка над 100 лв.(51,13 €)</p>",
             "text_font_size": "body-medium",
             "width": "full",
             "padding_bottom": 16
@@ -110,6 +110,7 @@
         },
         "fit_guide_yEaGYB": {
           "type": "fit-guide",
+          "disabled": true,
           "settings": {
             "heading": "Fit",
             "selected_segment": "1",
@@ -122,6 +123,7 @@
         },
         "tab_richtext_XQkk9W": {
           "type": "tab_richtext",
+          "disabled": true,
           "settings": {
             "show_description": true,
             "show_read_more": false,
@@ -141,7 +143,7 @@
         "upsell_TaMPbm": {
           "type": "upsell",
           "settings": {
-            "upsell_product": "",
+            "upsell_product": "{{ product.metafields.custom.upsell_product.value }}",
             "upsell_product_list": [],
             "show_available_upsell_only": false,
             "layout": "stacked",
@@ -177,6 +179,10 @@
         "upsell_TaMPbm",
         "complementary-products"
       ],
+      "custom_css": [
+        "#swym-atw-button-container button {border-radius: 300px;}",
+        "#swym-atw-button-container {margin-bottom: 24px;}"
+      ],
       "settings": {
         "product_sticky_enable": true,
         "variant_image_scroll": true,
@@ -189,6 +195,36 @@
         "color_scheme": "",
         "padding_top": 20,
         "padding_bottom": 30
+      }
+    },
+    "section_accordion_QbAY9h": {
+      "type": "section-accordion",
+      "blocks": {
+        "text_HzKKFY": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "heading_font_size": "heading-small",
+            "text": "<p></p>{{ product.description }}"
+          }
+        }
+      },
+      "block_order": [
+        "text_HzKKFY"
+      ],
+      "name": "Accordion",
+      "settings": {
+        "default_open": false,
+        "title": "Допълнителна информация",
+        "heading_font_size": "heading-small",
+        "show_icon": false,
+        "icon_name": "icon-award",
+        "icon_size": 20,
+        "width": "wrapper",
+        "color_scheme": "",
+        "icon_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "faq": {
@@ -243,7 +279,7 @@
         "width": "wrapper",
         "color_scheme": "",
         "icon_color": "",
-        "padding_top": 30,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
@@ -413,6 +449,7 @@
         "custom-0",
         "custom-1"
       ],
+      "disabled": true,
       "settings": {
         "borders": false,
         "gutters": false,
@@ -478,6 +515,7 @@
         "imgtxt-0",
         "imgtxt-1"
       ],
+      "disabled": true,
       "settings": {
         "borders": false,
         "gutters": false,
@@ -589,6 +627,7 @@
   },
   "order": [
     "main",
+    "section_accordion_QbAY9h",
     "faq",
     "shipping",
     "about",
