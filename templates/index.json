@@ -314,7 +314,7 @@
           "type": "collection",
           "settings": {
             "title": "Препоръчана козметика",
-            "featured_collection": "козметика",
+            "featured_collection": "kozmetika",
             "show_image": true,
             "align_with_product_images": false,
             "image": "shopify://shop_images/IMG_E3125.heic",
@@ -465,7 +465,7 @@
         "collection_84egEf": {
           "type": "collection",
           "settings": {
-            "collection": "козметика",
+            "collection": "kozmetika",
             "image": "shopify://shop_images/IMG_E3122.heic",
             "title": "Козметика"
           }
@@ -567,7 +567,7 @@
             "text": "<p>Нашата козметична линия предлага продукти, които не само подхранват кожата и козината на кучето ти, но и се грижат за ръцете на грумъра. Всички продукти са разработени с внимание и отговорност към околната среда, защото вярваме, че добрата грижа започва от природата.</p>",
             "text_font_size": "body-medium",
             "button_text": "Разгледай козметиката",
-            "button_url": "shopify://collections/козметика",
+            "button_url": "shopify://collections/kozmetika",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
