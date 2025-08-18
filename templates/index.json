@@ -449,7 +449,7 @@
         "collection_neNXza": {
           "type": "collection",
           "settings": {
-            "collection": "храна",
+            "collection": "hrana-za-kucheta",
             "image": "shopify://shop_images/17965805534190193_1_1.jpg",
             "title": "Храна"
           }
@@ -524,7 +524,7 @@
             "text": "<p>Предлагаме само храни с висококачествени съставки, без зърно и без глутен, за да бъде всяко хранене удоволствие и грижа.</p>",
             "text_font_size": "body-medium",
             "button_text": "Разгледай храните",
-            "button_url": "shopify://collections/храна",
+            "button_url": "shopify://collections/hrana-za-kucheta",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
