@@ -71,6 +71,8 @@
     "favicon": "shopify://shop_images/superdogs-favicon.png",
     "free_shipping_limit": "200",
     "show_lock_icon": true,
+    "accept_terms_text": "<p>Съгласен/съгласна съм с общите условия</p>",
+    "empty_cart_menu": "navbar-menu",
     "show_recently_viewed_products": true,
     "currency_code_enable": false,
     "header_link_hover": "#AB8C52",
