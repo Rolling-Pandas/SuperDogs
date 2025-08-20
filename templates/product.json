@@ -181,7 +181,8 @@
       ],
       "custom_css": [
         "#swym-atw-button-container button {border-radius: 300px;}",
-        "#swym-atw-button-container {margin-bottom: 24px;}"
+        "#swym-atw-button-container {margin-bottom: 24px;}",
+        ".product-price {opacity: 1!important;}"
       ],
       "settings": {
         "product_sticky_enable": true,
