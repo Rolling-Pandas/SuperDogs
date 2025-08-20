@@ -182,10 +182,10 @@
       "custom_css": [
         "#swym-atw-button-container button {border-radius: 300px;}",
         "#swym-atw-button-container {margin-bottom: 24px;}",
-        ".product__price {opacity: 1!important;}",
+        ".product__price {opacity: 1 !important;}",
         ".btn__price {display: flex;}",
         ".btn__price .currency-converted {margin-left: 5px;}",
-        "@media only screen and (max-width: 600px) {.product__submit__item--inline {display: flex;flex-direction: column;align-items: flex-start;}}"
+        "@media only screen and (max-width: 850px) {.product__submit__item--inline {display: flex; flex-direction: column; align-items: flex-start; } .product__submit__item .btn {min-height: 48px; }}"
       ],
       "settings": {
         "product_sticky_enable": true,
