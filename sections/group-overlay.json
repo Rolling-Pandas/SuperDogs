@@ -34,7 +34,7 @@
         "free-shipping": {
           "type": "free-shipping",
           "settings": {
-            "message": "You are ||amount|| away from free shipping.",
+            "message": "Остават ви още ||amount|| до безплатна доставка..",
             "text_font_size": "body-x-small",
             "color_scheme": "",
             "pin_to_bottom": false
