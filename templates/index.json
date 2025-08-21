@@ -971,10 +971,10 @@
           "type": "products",
           "settings": {
             "product_list": [
-              "wildborn-natural-active-bites-200",
-              "wildborn-natural-goat-bites-200",
-              "wildborn-natural-lamb-bites-200",
-              "wildborn-natural-venison-bites-200"
+              "wildborn-premium-liver-sausage-1",
+              "wildborn-premium-liver-sausage",
+              "wildborn-natural-fish-bites",
+              "wildborn-natural-iberico-bites"
             ],
             "layout_mobile": "2"
           }
