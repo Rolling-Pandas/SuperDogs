@@ -1,3 +1,64 @@
+<style>
+  .dog-trigger { cursor: pointer; padding: 12px 16px; border: 1px solid #ddd; border-radius: 8px; display: inline-block; }
+  .dog-modal { position: fixed; inset: 0; display: none; z-index: 9999;}
+  .dog-modal[open] { display: block; }
+  .dog-modal__overlay { position: absolute; inset: 0; background: rgba(0,0,0,0.45); }
+  .dog-modal__dialog { position: relative; max-width: 720px; margin: 6vh auto; background: #fff; padding: 20px; border-radius: 10px; max-height: 80vh;
+  overflow: auto; }
+  .dog-modal__close { position: absolute; top: 8px; right: 10px; font-size: 20px; background: none; border: 0; cursor: pointer; }
+  #dog-forms .dog { border: 1px solid #eee; padding: 12px; border-radius: 8px; margin: 12px 0; }
+  #dog-forms label { display:block; margin: 6px 0; }
+  .dog-modal__actions { display:grid; gap: 10px; margin-top: 12px; grid-template-columns: 0.4fr 1fr;     position: sticky;
+    background-color: white;
+    bottom: -20px; 
+  padding-top: 10px;
+padding-bottom: 20px;}
+  .btn-link { background:none; border:0; text-decoration: underline; cursor:pointer; }
+  .dog-msg { color: #137333; }
+  .dog-err { color: #b80606; }
+  .cart__checkout[disabled] {  opacity: 0.6;
+  cursor: not-allowed;
+  pointer-events: none; }
+
+  .cart__buttons__fieldset {
+    position: relative;
+  }
+
+  #add-dog {
+    background-color: #fff9e2;
+    border-radius: 100px;
+    color: #00352f;
+  }
+
+  #dog-info-trigger {
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+  }
+
+  .dog-modal__actions button {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  @media only screen and (max-width: 750px) {
+  .dog-modal__actions {
+    grid-template-columns: 1fr;
+  }
+
+  .dog-modal__dialog {
+    max-width: 90%;
+  }
+
+  #add-dog {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+</style>
+
 {%- liquid
   assign animation_name = 'cart-items-fade'
   assign animation_duration = 500
@@ -96,6 +157,9 @@
 
           <div class="cart__buttons{% if settings.enable_accept_terms %} cart__buttons--disabled{% endif %}" data-cart-checkout-buttons>
             <fieldset class="cart__buttons__fieldset" data-cart-checkout-button>
+              <div id="dog-info-trigger" class="dog-trigger" role="button" tabindex="0">
+              ➕ Добави данни за куче
+              </div>
               <button type="submit" name="checkout" class="btn btn--primary btn--solid btn--full cart__checkout">
                 {%- if settings.show_lock_icon -%}
                   {%- render 'animated-icon', filename: 'icon-lock' -%}
@@ -395,6 +459,385 @@
     </cart-drawer>
   </div>
 {%- endif -%}
+
+<div id="dog-modal" class="dog-modal" aria-hidden="true">
+  <div class="dog-modal__overlay" data-close></div>
+
+  <div class="dog-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="dog-modal-title">
+    <div class="dog-modal__dialog-wrapper">
+    <button class="dog-modal__close" type="button" data-close aria-label="Затвори">×</button>
+    <h3 id="dog-modal-title">Информация за вашето куче</h3>
+
+    <div id="dog-forms"></div>
+
+    <!-- Template for one dog block -->
+    <template id="dog-form-template">
+      <fieldset class="dog">
+        <legend>Куче <span class="dog-index"></span></legend>
+
+        <label>Име на кучето
+          <input name="name" required>
+        </label>
+
+        <label>Възраст на кучето
+          <input name="age" required>
+        </label>
+
+        <label>Пол на кучето
+          <select name="sex">
+            <option>Мъжко</option>
+            <option>Женско</option>
+          </select>
+        </label>
+
+        <label>Порода
+          <input name="breed" required>
+        </label>
+
+        <label>Кастрация
+          <select name="neutered">
+            <option>Не</option>
+            <option>Да</option>
+          </select>
+        </label>
+
+        <label>Служебно куче
+          <select name="service">
+            <option>Не</option>
+            <option>Да</option>
+          </select>
+        </label>
+
+        <button type="button" class="dog-remove">Премахни това куче</button>
+      </fieldset>
+    </template>
+
+    <div class="dog-modal__actions">
+      <button type="button" id="add-dog">Добави още куче</button>
+      {% comment %} <button type="button" id="save-dogs">Запази</button>
+      <button type="button" id="clear-dogs" class="btn-link">Изтрий всички данни</button> {% endcomment %}
+      <button type="submit" name="checkout" class="btn btn--primary btn--solid btn--full cart__checkout">
+        {%- if settings.show_lock_icon -%}
+          {%- render 'animated-icon', filename: 'icon-lock' -%}
+        {%- endif -%}
+
+        {{- 'cart.general.checkout' | t -}}
+      </button>
+    </div>
+
+    <p id="dog-msg" class="dog-msg" hidden>✅ Записано в количката.</p>
+    <p id="dog-err" class="dog-err" hidden>⚠️ Възникна грешка. Опитайте отново.</p>
+  </div>
+  </div>
+</div>
+
+<script>
+(function() {
+  let initialized = false;
+
+  function boot() {
+    if (initialized) return;
+
+    const trigger   = document.getElementById('dog-info-trigger');
+    const modal     = document.getElementById('dog-modal');
+    const formsWrap = document.getElementById('dog-forms');
+    const tpl       = document.getElementById('dog-form-template');
+
+    // If the DOM for the modal isn't present yet (cart drawer/section), retry soon
+    if (!trigger || !modal || !formsWrap || !tpl) {
+      requestAnimationFrame(boot);
+      return;
+    }
+
+    initialized = true;
+
+    const overlayEls = modal.querySelectorAll('[data-close]');
+    const closeBtn   = modal.querySelector('.dog-modal__close');
+    const addBtn     = document.getElementById('add-dog');
+    const saveBtn    = document.getElementById('save-dogs');
+    const clearBtn   = document.getElementById('clear-dogs');
+    const msgEl      = document.getElementById('dog-msg');
+    const errEl      = document.getElementById('dog-err');
+
+    const KEY_COUNT = 'Куче брой';
+    const KEY_PREFIX = 'Куче';
+    const SEP = ' – ';
+    const MAX_DOGS = 6;
+
+    // ===== Helpers
+    function openModal() {
+  modal.setAttribute('open', '');
+  modal.setAttribute('aria-hidden', 'false');
+  document.body.classList.add('modal-open');
+  msgEl.hidden = true; 
+  errEl.hidden = true;
+
+  // If your theme injects modal content on open, wait a tick,
+  // then ensure at least one dog block exists.
+  setTimeout(() => {
+    // re-query in case the modal content was injected
+    const freshFormsWrap = document.getElementById('dog-forms');
+    if (freshFormsWrap && !freshFormsWrap.querySelector('.dog')) {
+      addDog();            // add one by default
+      updateCheckoutGuard();
+    }
+  }, 0);
+
+  interceptCheckoutClicks(); // make sure guard is bound (drawers)
+}
+    function closeModal() {
+      modal.removeAttribute('open');
+      modal.setAttribute('aria-hidden','true');
+      document.body.classList.remove('modal-open');
+    }
+    function renumber() {
+      [...formsWrap.querySelectorAll('.dog')].forEach((fs, i) => {
+        fs.querySelector('.dog-index').textContent = i + 1;
+      });
+    }
+
+    // ===== Checkout guard
+    const checkoutButtons = () => Array.from(document.querySelectorAll('button[name="checkout"], .cart__checkout'));
+    function isFirstDogValid() {
+      const first = formsWrap.querySelector('.dog');
+      if (!first) return false;
+      const name  = first.querySelector('[name="name"]')?.value.trim();
+      const age   = first.querySelector('[name="age"]')?.value.trim();
+      const breed = first.querySelector('[name="breed"]')?.value.trim();
+      return Boolean(name && age && breed);
+    }
+    function setCheckoutDisabled(disabled) {
+      checkoutButtons().forEach(btn => {
+        if (disabled) btn.setAttribute('disabled','disabled'); else btn.removeAttribute('disabled');
+      });
+    }
+    function updateCheckoutGuard() { setCheckoutDisabled(!isFirstDogValid()); }
+    function interceptCheckoutClicks() {
+      checkoutButtons().forEach(btn => {
+        if (btn.dataset.dogBound) return;
+        btn.dataset.dogBound = '1';
+        btn.addEventListener('click', (e) => {
+          if (!isFirstDogValid()) {
+            e.preventDefault(); e.stopPropagation();
+            openModal();
+            const first = formsWrap.querySelector('.dog');
+            const missing = [
+              first.querySelector('[name="name"]'),
+              first.querySelector('[name="age"]'),
+              first.querySelector('[name="breed"]')
+            ].find(el => !el.value?.trim());
+            (missing || first.querySelector('[name="name"]'))?.focus();
+            if (msgEl) { msgEl.hidden = false; msgEl.textContent = '⚠️ Моля, попълнете поне Име, Възраст и Порода за първото куче.'; }
+          }
+        }, true);
+      });
+    }
+
+    // ===== Autosave (debounced)
+    let saveTimer = null;
+    function debounceSave() {
+      msgEl.hidden = false; msgEl.textContent = '💾 Записване…'; errEl.hidden = true;
+      clearTimeout(saveTimer);
+      saveTimer = setTimeout(autoSave, 500);
+    }
+
+    function hasAnyValue(fs) {
+      return ['name','age','breed'].some(n => fs.querySelector(`[name="${n}"]`)?.value.trim());
+    }
+    function buildAttributesObject() {
+      const attrs = {};
+      const blocks = [...formsWrap.querySelectorAll('.dog')].filter(hasAnyValue);
+
+      if (blocks.length === 0) {
+        attrs[KEY_COUNT] = '';
+        for (let i = 1; i <= MAX_DOGS; i++) {
+          ['Име','Възраст','Пол','Порода','Кастрация','Служебно'].forEach(label => {
+            attrs[`${KEY_PREFIX} ${i}${SEP}${label}`] = '';
+          });
+        }
+        return attrs;
+      }
+
+      attrs[KEY_COUNT] = String(blocks.length);
+      blocks.forEach((fs, i) => {
+        const idx = i + 1;
+        attrs[`${KEY_PREFIX} ${idx}${SEP}Име`]       = fs.querySelector('[name="name"]').value.trim();
+        attrs[`${KEY_PREFIX} ${idx}${SEP}Възраст`]   = fs.querySelector('[name="age"]').value.trim();
+        attrs[`${KEY_PREFIX} ${idx}${SEP}Пол`]       = fs.querySelector('[name="sex"]').value;
+        attrs[`${KEY_PREFIX} ${idx}${SEP}Порода`]    = fs.querySelector('[name="breed"]').value.trim();
+        attrs[`${KEY_PREFIX} ${idx}${SEP}Кастрация`] = fs.querySelector('[name="neutered"]').value;
+        attrs[`${KEY_PREFIX} ${idx}${SEP}Служебно`]  = fs.querySelector('[name="service"]').value;
+      });
+      for (let j = blocks.length + 1; j <= MAX_DOGS; j++) {
+        ['Име','Възраст','Пол','Порода','Кастрация','Служебно'].forEach(label => {
+          attrs[`${KEY_PREFIX} ${j}${SEP}${label}`] = '';
+        });
+      }
+      return attrs;
+    }
+
+    async function updateCartAttributes(attrs) {
+      const res = await fetch('/cart/update.js', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify({ attributes: attrs })
+      });
+      if (!res.ok) throw new Error('network');
+      return res.json();
+    }
+
+    async function autoSave() {
+      try {
+        const attrs = buildAttributesObject();
+        await updateCartAttributes(attrs);
+        msgEl.hidden = false; msgEl.textContent = '✅ Записано.'; errEl.hidden = true;
+      } catch (e) {
+        errEl.hidden = false; msgEl.hidden = true;
+      }
+    }
+
+    function wireInputs(fs) {
+      fs.querySelectorAll('input, select, textarea').forEach(el => {
+        el.addEventListener('input', () => { debounceSave(); updateCheckoutGuard(); });
+        el.addEventListener('change', () => { debounceSave(); updateCheckoutGuard(); });
+      });
+    }
+
+    // ===== Add/remove dogs
+    function addDog(prefill) {
+      if (formsWrap.children.length >= MAX_DOGS) return;
+      const node = tpl.content.cloneNode(true);
+      const fs = node.querySelector('.dog');
+
+      fs.querySelector('.dog-remove').addEventListener('click', () => {
+        if (formsWrap.children.length > 1) {
+          fs.remove();
+          renumber();
+        } else {
+          fs.querySelectorAll('input').forEach(i => i.value = '');
+          fs.querySelector('[name="sex"]').value = 'Мъжко';
+          fs.querySelector('[name="neutered"]').value = 'Не';
+          fs.querySelector('[name="service"]').value = 'Не';
+        }
+        debounceSave(); updateCheckoutGuard();
+      });
+
+      formsWrap.appendChild(fs);
+      renumber();
+      wireInputs(fs);
+
+      if (prefill) {
+        fs.querySelector('[name="name"]').value = prefill.name || '';
+        fs.querySelector('[name="age"]').value = prefill.age || '';
+        fs.querySelector('[name="sex"]').value = prefill.sex || 'Мъжко';
+        fs.querySelector('[name="breed"]').value = prefill.breed || '';
+        fs.querySelector('[name="neutered"]').value = prefill.neutered || 'Не';
+        fs.querySelector('[name="service"]').value = prefill.service || 'Не';
+      }
+    }
+
+    async function prefillFromCart() {
+      try {
+        const res = await fetch('/cart.js', { headers: { 'Accept': 'application/json' }});
+        const cart = await res.json();
+        const a = cart.attributes || {};
+        const count = parseInt(a[KEY_COUNT] || '0', 10) || 0;
+
+        if (count > 0) {
+          formsWrap.innerHTML = '';
+          for (let i = 1; i <= count; i++) {
+            addDog({
+              name: a[`${KEY_PREFIX} ${i}${SEP}Име`] || '',
+              age: a[`${KEY_PREFIX} ${i}${SEP}Възраст`] || '',
+              sex: a[`${KEY_PREFIX} ${i}${SEP}Пол`] || 'Мъжко',
+              breed: a[`${KEY_PREFIX} ${i}${SEP}Порода`] || '',
+              neutered: a[`${KEY_PREFIX} ${i}${SEP}Кастрация`] || 'Не',
+              service: a[`${KEY_PREFIX} ${i}${SEP}Служебно`] || 'Не'
+            });
+          }
+        }
+      } catch(e) {
+        // ignore; we'll ensure at least one below
+      }
+      // Ensure at least one dog exists, always
+      if (!formsWrap.querySelector('.dog')) addDog();
+      updateCheckoutGuard();
+    }
+
+    async function clearAllDogAttributes() {
+      const attrs = {};
+      attrs[KEY_COUNT] = '';
+      for (let i = 1; i <= MAX_DOGS; i++) {
+        ['Име','Възраст','Пол','Порода','Кастрация','Служебно'].forEach(label => {
+          attrs[`${KEY_PREFIX} ${i}${SEP}${label}`] = '';
+        });
+      }
+      await updateCartAttributes(attrs);
+    }
+
+    // ===== Wire up UI
+    trigger.addEventListener('click', openModal);
+    trigger.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openModal(); }});
+    [...overlayEls].forEach(el => el.addEventListener('click', closeModal));
+    closeBtn.addEventListener('click', closeModal);
+
+    addBtn.addEventListener('click', () => { addDog(); debounceSave(); updateCheckoutGuard(); });
+    if (saveBtn) saveBtn.addEventListener('click', autoSave);
+
+    clearBtn.addEventListener('click', async () => {
+      if (!confirm('Да изтрием всички данни за кучета от количката?')) return;
+      try {
+        await clearAllDogAttributes();
+        formsWrap.innerHTML = '';
+        addDog();
+        msgEl.textContent = '🗑️ Данните са изтрити.';
+        msgEl.hidden = false; errEl.hidden = true;
+        updateCheckoutGuard();
+      } catch(e) {
+        errEl.hidden = false; msgEl.hidden = true;
+      }
+    });
+
+    // ===== Initial render: add one immediately, then prefill/replace
+    if (!formsWrap.querySelector('.dog')) addDog();
+    prefillFromCart();
+    interceptCheckoutClicks();
+
+    // Handle Shopify section/cart drawer re-renders
+    document.addEventListener('shopify:section:load', boot);
+    document.addEventListener('shopify:section:reorder', boot);
+    const obs = new MutationObserver(() => { interceptCheckoutClicks(); updateCheckoutGuard(); });
+    obs.observe(document.body, { childList: true, subtree: true });
+  }
+
+  // Start after DOM is ready (covers scripts in <head> or with defer)
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', boot);
+  } else {
+    boot();
+  }
+})();
+
+(function(){
+  let firstTriggerClick = false;
+
+  document.getElementById('dog-info-trigger')?.addEventListener('click', () => {
+    // openModal() is already wired in your main script
+    // This extra bit runs only on first click
+    if (!firstTriggerClick) {
+      firstTriggerClick = true;
+
+      setTimeout(() => {
+        const formsWrap = document.getElementById('dog-forms');
+        // If still no dog, simulate Add Dog
+        if (formsWrap && !formsWrap.querySelector('.dog')) {
+          document.getElementById('add-dog')?.click();
+        }
+      }, 200); // wait a moment for modal content to mount
+    }
+  });
+})();
+</script>
 
 {% schema %}
 {
