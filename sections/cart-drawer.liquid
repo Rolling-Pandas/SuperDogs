@@ -470,7 +470,6 @@ padding-bottom: 20px;}
 
     <div id="dog-forms"></div>
 
-    <!-- Template for one dog block -->
     <template id="dog-form-template">
       <fieldset class="dog">
         <legend>Куче <span class="dog-index"></span></legend>
@@ -543,7 +542,6 @@ padding-bottom: 20px;}
     const formsWrap = document.getElementById('dog-forms');
     const tpl       = document.getElementById('dog-form-template');
 
-    // If the DOM for the modal isn't present yet (cart drawer/section), retry soon
     if (!trigger || !modal || !formsWrap || !tpl) {
       requestAnimationFrame(boot);
       return;
@@ -564,7 +562,6 @@ padding-bottom: 20px;}
     const SEP = ' – ';
     const MAX_DOGS = 6;
 
-    // ===== Helpers
     function openModal() {
   modal.setAttribute('open', '');
   modal.setAttribute('aria-hidden', 'false');
@@ -572,18 +569,15 @@ padding-bottom: 20px;}
   msgEl.hidden = true; 
   errEl.hidden = true;
 
-  // If your theme injects modal content on open, wait a tick,
-  // then ensure at least one dog block exists.
   setTimeout(() => {
-    // re-query in case the modal content was injected
     const freshFormsWrap = document.getElementById('dog-forms');
     if (freshFormsWrap && !freshFormsWrap.querySelector('.dog')) {
-      addDog();            // add one by default
+      addDog();        
       updateCheckoutGuard();
     }
   }, 0);
 
-  interceptCheckoutClicks(); // make sure guard is bound (drawers)
+  interceptCheckoutClicks(); 
 }
     function closeModal() {
       modal.removeAttribute('open');
@@ -596,7 +590,6 @@ padding-bottom: 20px;}
       });
     }
 
-    // ===== Checkout guard
     const checkoutButtons = () => Array.from(document.querySelectorAll('button[name="checkout"], .cart__checkout'));
     function isFirstDogValid() {
       const first = formsWrap.querySelector('.dog');
@@ -703,7 +696,6 @@ padding-bottom: 20px;}
       });
     }
 
-    // ===== Add/remove dogs
     function addDog(prefill) {
       if (formsWrap.children.length >= MAX_DOGS) return;
       const node = tpl.content.cloneNode(true);
@@ -757,9 +749,7 @@ padding-bottom: 20px;}
           }
         }
       } catch(e) {
-        // ignore; we'll ensure at least one below
       }
-      // Ensure at least one dog exists, always
       if (!formsWrap.querySelector('.dog')) addDog();
       updateCheckoutGuard();
     }
@@ -775,7 +765,6 @@ padding-bottom: 20px;}
       await updateCartAttributes(attrs);
     }
 
-    // ===== Wire up UI
     trigger.addEventListener('click', openModal);
     trigger.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openModal(); }});
     [...overlayEls].forEach(el => el.addEventListener('click', closeModal));
@@ -798,19 +787,16 @@ padding-bottom: 20px;}
       }
     });
 
-    // ===== Initial render: add one immediately, then prefill/replace
     if (!formsWrap.querySelector('.dog')) addDog();
     prefillFromCart();
     interceptCheckoutClicks();
 
-    // Handle Shopify section/cart drawer re-renders
     document.addEventListener('shopify:section:load', boot);
     document.addEventListener('shopify:section:reorder', boot);
     const obs = new MutationObserver(() => { interceptCheckoutClicks(); updateCheckoutGuard(); });
     obs.observe(document.body, { childList: true, subtree: true });
   }
 
-  // Start after DOM is ready (covers scripts in <head> or with defer)
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', boot);
   } else {
@@ -822,18 +808,15 @@ padding-bottom: 20px;}
   let firstTriggerClick = false;
 
   document.getElementById('dog-info-trigger')?.addEventListener('click', () => {
-    // openModal() is already wired in your main script
-    // This extra bit runs only on first click
     if (!firstTriggerClick) {
       firstTriggerClick = true;
 
       setTimeout(() => {
         const formsWrap = document.getElementById('dog-forms');
-        // If still no dog, simulate Add Dog
         if (formsWrap && !formsWrap.querySelector('.dog')) {
           document.getElementById('add-dog')?.click();
         }
-      }, 200); // wait a moment for modal content to mount
+      }, 200);
     }
   });
 })();
