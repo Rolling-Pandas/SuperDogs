@@ -125,9 +125,9 @@
           "settings": {
             "show_description": true,
             "show_read_more": false,
-            "title_1": "Tab",
+            "title_1": "",
             "raw_content_1": "<p>This content type will accept <strong>rich text</strong> to help with adding styles and links to additional pages or content. Use this to add supplementary information to help your buyers.</p>",
-            "title_2": "Info",
+            "title_2": "",
             "raw_content_2": "<p>You can use product metafields to assign content to this tab that is unique to an individual product.  Use tabs to highlight unique features, sizing information, or other sales information.</p>",
             "title_3": "",
             "raw_content_3": "",
