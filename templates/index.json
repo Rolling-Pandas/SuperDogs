@@ -970,12 +970,7 @@
         "products_6gKtqN": {
           "type": "products",
           "settings": {
-            "product_list": [
-              "wildborn-natural-active-bites-200",
-              "wildborn-natural-goat-bites-200",
-              "wildborn-natural-lamb-bites-200",
-              "wildborn-natural-venison-bites-200"
-            ],
+            "product_list": [],
             "layout_mobile": "2"
           }
         }
@@ -1231,7 +1226,7 @@
       "type": "section-blog",
       "name": "Blog posts",
       "settings": {
-        "blog_name": "",
+        "blog_name": "news",
         "aspect_ratio": 1,
         "title": "Научи най-новото за грижата за твоето куче",
         "heading_font_size": "heading-medium",
@@ -1436,6 +1431,7 @@
     },
     "coming_soon_gmMBRM": {
       "type": "coming-soon",
+      "disabled": true,
       "name": "Coming Soon",
       "settings": {
         "subheading": "Очаквайте скоро",
