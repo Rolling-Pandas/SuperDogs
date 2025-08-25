@@ -72,6 +72,7 @@
         },
         "icon": {
           "type": "icon",
+          "disabled": true,
           "settings": {
             "icon_name": "icon-truck",
             "icon_size": 20,
@@ -110,6 +111,7 @@
         },
         "fit_guide_yEaGYB": {
           "type": "fit-guide",
+          "disabled": true,
           "settings": {
             "heading": "Fit",
             "selected_segment": "1",
