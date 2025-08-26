@@ -922,12 +922,34 @@
             "text": "Горди сме да работим с най-добрите марки в света на домашните любимци",
             "heading_font_size": "heading-medium"
           }
+        },
+        "logo_item_header_RQbiEB": {
+          "type": "logo-item-header",
+          "settings": {
+            "logo": "shopify://shop_images/les_poochs_brushes_f320f523-8cea-45d0-a9f7-47aa67b1db3f.webp",
+            "logo_width": 120,
+            "link": "",
+            "text": "Горди сме да работим с най-добрите марки в света на домашните любимци",
+            "heading_font_size": "heading-medium"
+          }
+        },
+        "logo_item_header_LAdPat": {
+          "type": "logo-item-header",
+          "settings": {
+            "logo": "shopify://shop_images/utsumi_logo_4470ea49-b656-4f83-8190-03542e69af34.webp",
+            "logo_width": 120,
+            "link": "",
+            "text": "Горди сме да работим с най-добрите марки в света на домашните любимци",
+            "heading_font_size": "heading-medium"
+          }
         }
       },
       "block_order": [
         "logo_item_header_JVew3D",
         "logo_item_header_7xReaB",
-        "logo_item_header_yjeyWC"
+        "logo_item_header_yjeyWC",
+        "logo_item_header_RQbiEB",
+        "logo_item_header_LAdPat"
       ],
       "name": "Press logos",
       "settings": {
