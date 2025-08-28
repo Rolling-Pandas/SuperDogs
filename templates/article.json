@@ -30,6 +30,9 @@
         "related-products",
         "recent-articles"
       ],
+      "custom_css": [
+        "@media only screen and (max-width: 750px) {.article__hero {padding-bottom: 0px; }}"
+      ],
       "settings": {
         "show_image": true,
         "show_date": false,
