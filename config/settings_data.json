@@ -69,7 +69,7 @@
     "collection_swatch_style": "limited",
     "swatch_color_list": "Black: #000000\nWhite: #fafafa\nBlank: blank.png\nBronze: #A07636\nSilver: #CECBC7",
     "favicon": "shopify://shop_images/fav-superdogs.png",
-    "free_shipping_limit": "200",
+    "free_shipping_limit": "100",
     "show_lock_icon": true,
     "accept_terms_text": "<p>Съгласен/съгласна съм с общите условия</p>",
     "empty_cart_menu": "navbar-menu",
