@@ -592,39 +592,16 @@ padding-bottom: 20px;}
 
     const checkoutButtons = () => Array.from(document.querySelectorAll('button[name="checkout"], .cart__checkout'));
     function isFirstDogValid() {
-      const first = formsWrap.querySelector('.dog');
-      if (!first) return false;
-      const name  = first.querySelector('[name="name"]')?.value.trim();
-      const age   = first.querySelector('[name="age"]')?.value.trim();
-      const breed = first.querySelector('[name="breed"]')?.value.trim();
-      return Boolean(name && age && breed);
+      // Make dog info optional: always allow checkout
+      return true;
     }
     function setCheckoutDisabled(disabled) {
       checkoutButtons().forEach(btn => {
         if (disabled) btn.setAttribute('disabled','disabled'); else btn.removeAttribute('disabled');
       });
     }
-    function updateCheckoutGuard() { setCheckoutDisabled(!isFirstDogValid()); }
-    function interceptCheckoutClicks() {
-      checkoutButtons().forEach(btn => {
-        if (btn.dataset.dogBound) return;
-        btn.dataset.dogBound = '1';
-        btn.addEventListener('click', (e) => {
-          if (!isFirstDogValid()) {
-            e.preventDefault(); e.stopPropagation();
-            openModal();
-            const first = formsWrap.querySelector('.dog');
-            const missing = [
-              first.querySelector('[name="name"]'),
-              first.querySelector('[name="age"]'),
-              first.querySelector('[name="breed"]')
-            ].find(el => !el.value?.trim());
-            (missing || first.querySelector('[name="name"]'))?.focus();
-            if (msgEl) { msgEl.hidden = false; msgEl.textContent = '⚠️ Моля, попълнете поне Име, Възраст и Порода за първото куче.'; }
-          }
-        }, true);
-      });
-    }
+    function updateCheckoutGuard() { setCheckoutDisabled(false); }
+    function interceptCheckoutClicks() { /* no-op: dog info optional */ }
 
     // ===== Autosave (debounced)
     let saveTimer = null;
