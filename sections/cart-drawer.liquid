@@ -515,13 +515,15 @@ padding-bottom: 20px;}
       <button type="button" id="add-dog">Добави още куче</button>
       {% comment %} <button type="button" id="save-dogs">Запази</button>
       <button type="button" id="clear-dogs" class="btn-link">Изтрий всички данни</button> {% endcomment %}
-      <button type="submit" name="checkout" class="btn btn--primary btn--solid btn--full cart__checkout">
-        {%- if settings.show_lock_icon -%}
-          {%- render 'animated-icon', filename: 'icon-lock' -%}
-        {%- endif -%}
+      <form action="{{ routes.cart_url }}" method="post" style="margin: 0;">
+        <button type="submit" name="checkout" class="btn btn--primary btn--solid btn--full cart__checkout">
+          {%- if settings.show_lock_icon -%}
+            {%- render 'animated-icon', filename: 'icon-lock' -%}
+          {%- endif -%}
 
-        {{- 'cart.general.checkout' | t -}}
-      </button>
+          {{- 'cart.general.checkout' | t -}}
+        </button>
+      </form>
     </div>
 
     <p id="dog-msg" class="dog-msg" hidden>✅ Записано в количката.</p>
