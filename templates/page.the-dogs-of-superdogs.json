@@ -393,6 +393,7 @@
         },
         "image_DJRizy": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image_width": 66,
             "image_shape": "normal",
@@ -413,6 +414,7 @@
         },
         "image_EFNbhj": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image_width": 66,
             "image_shape": "normal",
@@ -454,6 +456,115 @@
         "padding_bottom": 50,
         "heading_tag": "automatic"
       }
+    },
+    "section_columns_NgkYQk": {
+      "type": "section-columns",
+      "blocks": {
+        "image_gxWfT6": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image_width": 66,
+            "image_shape": "normal",
+            "title": "Мъдрост и радост в малките моменти",
+            "heading_font_size": "heading-small",
+            "text": "<p>В техните очи има мъдрост, която ни учи на вярност и безусловна любов. С всяко махване на опашка те ни напомнят, че радостта се крие в малките моменти – в играта, в разходката, в простото присъствие един до друг. С тях светът става по-мек, по-човечен и по-смислен. Те превръщат обикновения ден в празник на приятелството.<br/><br/></p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_pAzKHh": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image_width": 66,
+            "image_shape": "normal",
+            "title": "Силата на суперкучето",
+            "heading_font_size": "heading-small",
+            "text": "<p>Суперкучето може да излекува сърце, да донесе усмивка и да върне надеждата там, където вече я няма. То ни показва, че доверието и приятелството имат силата да променят живота завинаги. Едно вярно куче може да стане опора в трудни времена, източник на сила и светлина, когато човекът се чувства изгубен. Това е силата на връзката, която не може да се измери, но може да се почувства.<br/><br/></p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_MmJGew": {
+          "type": "image",
+          "settings": {
+            "image_width": 66,
+            "image_shape": "normal",
+            "title": "Уроците, които ни дават",
+            "heading_font_size": "heading-small",
+            "text": "<p>В техния свят няма предразсъдъци, няма разделение – има само обич и вярност. Суперкучето е наш учител по смелост, търпение и доброта. То ни показва, че дори най-малките жестове на внимание имат огромно значение. С всяка своя стъпка до нас, то ни кара да вярваме, че заедно можем да изградим по-добър свят, основан на любов и уважение.<br/><br/></p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_gcV3PJ": {
+          "type": "image",
+          "settings": {
+            "image_width": 66,
+            "image_shape": "normal",
+            "title": "Любовта, която променя всичко",
+            "heading_font_size": "heading-small",
+            "text": "<p>Когато се грижим за тях, ние се учим да се грижим и един за друг. Суперкучетата са живото доказателство, че любовта може да промени всичко – да стопли, да излекува, да вдъхнови. Именно затова вярваме, че всяко куче може да бъде Суперкуче – достатъчно е само да му дадем шанс и да му покажем обичта, която заслужава.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "image_gxWfT6",
+        "image_pAzKHh",
+        "image_MmJGew",
+        "image_gcV3PJ"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "",
+        "heading_font_size": "heading-medium",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "align_columns": "flex-align-center",
+        "layout": "grid",
+        "grid": 4,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
     }
   },
   "order": [
@@ -465,6 +576,7 @@
     "section_double_Aq9L9t",
     "section_double_7HUFMV",
     "section_blog_rxWz7Q",
-    "section_columns_fM8xQX"
+    "section_columns_fM8xQX",
+    "section_columns_NgkYQk"
   ]
 }
