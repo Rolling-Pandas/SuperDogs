@@ -449,7 +449,7 @@
         "width": "wrapper",
         "align_columns": "flex-align-center",
         "layout": "grid",
-        "grid": 4,
+        "grid": 2,
         "layout_mobile": "slider",
         "color_scheme": "",
         "padding_top": 50,
@@ -558,7 +558,7 @@
         "width": "wrapper",
         "align_columns": "flex-align-center",
         "layout": "grid",
-        "grid": 4,
+        "grid": 2,
         "layout_mobile": "slider",
         "color_scheme": "",
         "padding_top": 50,
@@ -572,11 +572,11 @@
     "section_hero_dXdTV7",
     "section_custom_content_aVxTwL",
     "main",
+    "section_columns_fM8xQX",
     "section_announcement_ikETU4",
     "section_double_Aq9L9t",
+    "section_columns_NgkYQk",
     "section_double_7HUFMV",
-    "section_blog_rxWz7Q",
-    "section_columns_fM8xQX",
-    "section_columns_NgkYQk"
+    "section_blog_rxWz7Q"
   ]
 }
