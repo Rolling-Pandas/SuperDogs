@@ -49,6 +49,7 @@
       "type": "section-hero",
       "name": "Image banner",
       "settings": {
+        "image_1": "shopify://shop_images/selective-focus-shot-three-adorable-dogs.jpg",
         "link": "",
         "width": "wrapper--full-padded",
         "height": "screen-height-two-thirds",
@@ -93,6 +94,7 @@
         "image_bFTFFw": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/pexels-edd1egalaxy-3628100.jpg",
             "title": "",
             "heading_font_size": "heading-large",
             "text": "",
@@ -248,6 +250,7 @@
       ],
       "name": "Image with text",
       "settings": {
+        "image_1": "shopify://shop_images/beautiful-woman-walking-out-her-dogs-field.jpg",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "",
@@ -420,6 +423,7 @@
       ],
       "name": "Image with text",
       "settings": {
+        "image_1": "shopify://shop_images/pexels-impact-dog-crates-1789722873-28948918.jpg",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "is-reversed",
