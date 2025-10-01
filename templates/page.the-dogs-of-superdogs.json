@@ -443,7 +443,8 @@
         "image_EACCya": {
           "type": "image",
           "settings": {
-            "image_width": 66,
+            "image": "shopify://shop_images/dog-training_1.svg",
+            "image_width": 35,
             "image_shape": "normal",
             "title": "Мъдрост и радост в малките моменти",
             "heading_font_size": "heading-small",
@@ -463,7 +464,8 @@
         "image_etEdHM": {
           "type": "image",
           "settings": {
-            "image_width": 66,
+            "image": "shopify://shop_images/dog-training_2.svg",
+            "image_width": 35,
             "image_shape": "normal",
             "title": "Силата на суперкучето",
             "heading_font_size": "heading-small",
@@ -483,7 +485,8 @@
         "image_DJRizy": {
           "type": "image",
           "settings": {
-            "image_width": 66,
+            "image": "shopify://shop_images/dog-training_3_1.svg",
+            "image_width": 35,
             "image_shape": "normal",
             "title": "Уроците, които ни дават",
             "heading_font_size": "heading-small",
@@ -503,7 +506,8 @@
         "image_EFNbhj": {
           "type": "image",
           "settings": {
-            "image_width": 66,
+            "image": "shopify://shop_images/dog-training_3_1.svg",
+            "image_width": 35,
             "image_shape": "normal",
             "title": "Любовта, която променя всичко",
             "heading_font_size": "heading-small",
@@ -538,7 +542,7 @@
         "layout": "grid",
         "grid": 4,
         "layout_mobile": "slider",
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "padding_top": 50,
         "padding_bottom": 50,
         "heading_tag": "automatic"
