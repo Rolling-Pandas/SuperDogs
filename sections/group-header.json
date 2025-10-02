@@ -11,6 +11,34 @@
   "type": "header",
   "name": "Header",
   "sections": {
+    "175938417623bec642": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_552e915_LACmp6": {
+          "type": "ai_gen_block_552e915",
+          "settings": {
+            "banner_text": "Световен ден на животните – Само днес 10% отстъпка на всичко! Код: ANIMAL10",
+            "banner_link": "shopify://collections",
+            "show_close_button": true,
+            "background_color": "#183028",
+            "text_color": "#ffffff",
+            "font_family": "dm_sans_n4",
+            "font_size": 16,
+            "font_size_mobile": 14,
+            "max_width": 1200,
+            "padding_vertical": 16,
+            "padding_horizontal": 24,
+            "padding_vertical_mobile": 12,
+            "padding_horizontal_mobile": 16
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_552e915_LACmp6"
+      ],
+      "settings": {}
+    },
     "announcement": {
       "type": "announcement",
       "blocks": {
@@ -292,6 +320,7 @@
     }
   },
   "order": [
+    "175938417623bec642",
     "announcement",
     "header",
     "mobile-menu"
