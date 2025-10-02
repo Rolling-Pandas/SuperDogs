@@ -1,6 +1,302 @@
+{% doc %}
+  @prompt
+    A promo banner with text: "🎉 World Animal Day – Only today -10% on everything! Code: ANIMAL10"
+    Background color green, text color white, centered, full width.
+    
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-promo-banner-{{ ai_gen_id }} {
+    width: 100%;
+    background-color: {{ block.settings.background_color }};
+    color: {{ block.settings.text_color }};
+    padding: {{ block.settings.padding_vertical }}px {{ block.settings.padding_horizontal }}px;
+    text-align: center;
+    font-family: {{ block.settings.font_family.family }}, {{ block.settings.font_family.fallback_families }};
+    font-weight: {{ block.settings.font_family.weight }};
+    font-size: {{ block.settings.font_size }}px;
+    line-height: 1.4;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .ai-promo-banner-content-{{ ai_gen_id }} {
+    max-width: {{ block.settings.max_width }}px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+  }
+
+  .ai-promo-banner-text-{{ ai_gen_id }} {
+    margin: 0;
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+  }
+
+  .ai-promo-banner-link-{{ ai_gen_id }} {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .ai-promo-banner-link-{{ ai_gen_id }}:hover {
+    opacity: 0.9;
+  }
+
+  .ai-promo-banner-link-{{ ai_gen_id }}:focus {
+    outline: 2px solid {{ block.settings.text_color }};
+    outline-offset: 2px;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-promo-banner-{{ ai_gen_id }} {
+      font-size: {{ block.settings.font_size_mobile }}px;
+      padding: {{ block.settings.padding_vertical_mobile }}px {{ block.settings.padding_horizontal_mobile }}px;
+    }
+  }
+
+  {% if block.settings.show_close_button %}
+    .ai-promo-banner-close-{{ ai_gen_id }} {
+      position: absolute;
+      top: 50%;
+      right: {{ block.settings.padding_horizontal }}px;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      color: {{ block.settings.text_color }};
+      cursor: pointer;
+      padding: 4px;
+      z-index: 3;
+      opacity: 0.8;
+      transition: opacity 0.2s ease;
+    }
+
+    .ai-promo-banner-close-{{ ai_gen_id }}:hover {
+      opacity: 1;
+    }
+
+    .ai-promo-banner-close-{{ ai_gen_id }}:focus {
+      outline: 2px solid {{ block.settings.text_color }};
+      outline-offset: 2px;
+    }
+
+    .ai-promo-banner-close-{{ ai_gen_id }} svg {
+      width: 20px;
+      height: 20px;
+      display: block;
+    }
+
+    @media screen and (max-width: 749px) {
+      .ai-promo-banner-close-{{ ai_gen_id }} {
+        right: {{ block.settings.padding_horizontal_mobile }}px;
+      }
+    }
+  {% endif %}
+{% endstyle %}
+
+<promo-banner-{{ ai_gen_id }}
+  class="ai-promo-banner-{{ ai_gen_id }}"
+  {{ block.shopify_attributes }}
+  {% if block.settings.show_close_button %}data-dismissible="true"{% endif %}
+>
+  {% if block.settings.banner_link != blank %}
+    <a href="{{ block.settings.banner_link }}" class="ai-promo-banner-link-{{ ai_gen_id }}">
+  {% endif %}
+  
+  <div class="ai-promo-banner-content-{{ ai_gen_id }}">
+    {% if block.settings.banner_text != blank %}
+      <p class="ai-promo-banner-text-{{ ai_gen_id }}">{{ block.settings.banner_text }}</p>
+    {% endif %}
+  </div>
+  
+  {% if block.settings.banner_link != blank %}
+    </a>
+  {% endif %}
+
+  {% if block.settings.show_close_button %}
+    <button
+      class="ai-promo-banner-close-{{ ai_gen_id }}"
+      aria-label="Close banner"
+      type="button"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+  {% endif %}
+</promo-banner-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class PromoBanner{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+      }
+
+      connectedCallback() {
+        this.closeButton = this.querySelector('.ai-promo-banner-close-{{ ai_gen_id }}');
+        
+        if (this.closeButton) {
+          this.closeButton.addEventListener('click', this.handleClose.bind(this));
+        }
+
+        if (this.dataset.dismissible === 'true') {
+          this.checkDismissedState();
+        }
+      }
+
+      handleClose() {
+        this.style.display = 'none';
+        
+        if (this.dataset.dismissible === 'true') {
+          localStorage.setItem('promo-banner-{{ ai_gen_id }}-dismissed', 'true');
+        }
+      }
+
+      checkDismissedState() {
+        const isDismissed = localStorage.getItem('promo-banner-{{ ai_gen_id }}-dismissed');
+        if (isDismissed === 'true') {
+          this.style.display = 'none';
+        }
+      }
+    }
+
+    customElements.define('promo-banner-{{ ai_gen_id }}', PromoBanner{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Promo banner",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "textarea",
+      "id": "banner_text",
+      "label": "Banner text",
+      "default": "🎉 World Animal Day – Only today -10% on everything! Code: ANIMAL10"
+    },
+    {
+      "type": "url",
+      "id": "banner_link",
+      "label": "Banner link"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_close_button",
+      "label": "Show close button",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Style"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#22c55e"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "font_picker",
+      "id": "font_family",
+      "label": "Font",
+      "default": "dm_sans_n4"
+    },
+    {
+      "type": "range",
+      "id": "font_size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Font size",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "font_size_mobile",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "label": "Mobile font size",
+      "default": 14
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "max_width",
+      "min": 600,
+      "max": 1400,
+      "step": 50,
+      "unit": "px",
+      "label": "Maximum width",
+      "default": 1200
+    },
+    {
+      "type": "range",
+      "id": "padding_vertical",
+      "min": 8,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Vertical padding",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "padding_horizontal",
+      "min": 16,
+      "max": 60,
+      "step": 4,
+      "unit": "px",
+      "label": "Horizontal padding",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "padding_vertical_mobile",
+      "min": 8,
+      "max": 32,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile vertical padding",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "padding_horizontal_mobile",
+      "min": 16,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile horizontal padding",
+      "default": 16
+    }
+  ],
+  "presets": [
+    {
+      "name": "Promo banner"
+    }
+  ]
+}
 {% endschema %}
