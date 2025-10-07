@@ -17001,6 +17001,10 @@ body .shopify-policy__container {
   margin-bottom: 0;
 }
 
+.shopify-policy__title {
+  display: none;
+}
+
 .page__title,
 .shopify-policy__title h1 {
   font-size: var(--font-heading-medium);

@@ -97,7 +97,7 @@
             "title": "Щастливото куче прави света по-добър",
             "heading_font_size": "heading-medium",
             "text": "<p>Вярваме, че истинската грижа започва с любов и отговорност.</p>",
-            "column_width": 33,
+            "column_width": 25,
             "enable_follow_on_shop": false,
             "enable_accordion": false
           }
@@ -108,7 +108,17 @@
             "linklist": "footer",
             "title": "Полезни линкове",
             "heading_font_size": "heading-medium",
-            "column_width": 33,
+            "column_width": 25,
+            "enable_accordion": false
+          }
+        },
+        "linklist_378epd": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "policies-menu",
+            "title": "",
+            "heading_font_size": "heading-medium",
+            "column_width": 25,
             "enable_accordion": false
           }
         },
@@ -119,7 +129,7 @@
             "title": "Свържи се с нас",
             "heading_font_size": "heading-medium",
             "text": "<p> гр. Пловдив, ул. Лъджене 21</p><p><a href=\"tel:+359889444457\" target=\"_blank\" title=\"tel:+359889444457\">+359889444457</a></p><p><a href=\"mailto:info@superdogs.bg\" title=\"mailto:info@superdogs.bg\">info@superdogs.bg</a></p>",
-            "column_width": 33,
+            "column_width": 25,
             "enable_accordion": false
           }
         }
@@ -128,6 +138,7 @@
         "page_ihBXWb",
         "social_9GenBd",
         "footer-1",
+        "linklist_378epd",
         "footer-2"
       ],
       "settings": {
