@@ -1,0 +1,37 @@
+<!doctype html>
+<html class="no-js no-touch supports-no-cookies" lang="{{ request.locale.iso_code }}">
+  <head>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MVQHRJS3');</script>
+  <!-- End Google Tag Manager -->
+  
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BXQZB0KL2B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BXQZB0KL2B');
+</script>
+    {%- render 'head' -%}
+<meta property="fb:app_id" content="1123248209777704">
+    {{ content_for_header }}
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=El+Messiri:wght@400;700&family=IBM+Plex+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+  <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=dac49a40"></script> 
+</head>
+
+  <body
+    id="{{ page_title | handle }}"
+    class="template-{{ template.name | handle }} grid-{{ settings.grid_style }}{% if customer %} customer-logged-in{% endif %}{% if settings.animations_enable %} aos-initialized{% endif %}{% if settings.product_grid_outline %} has-line-design{% endif %}"
+    data-animations="{{ settings.animations_enable }}"
+  ><main role="main" id="MainContent" class="main-content">
+        {{ content_for_layout }}
+      </main></body>
+</html>

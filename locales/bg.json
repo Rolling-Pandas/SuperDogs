@@ -8,130 +8,6 @@
  * ------------------------------------------------------------
  */
 {
-  "general": {
-    "ie11_support_message": "Този сайт има ограничена поддръжка за вашия браузър. Препоръчваме да преминете към Edge, Chrome, Safari или Firefox.",
-    "swatches": {
-      "color": "Цвят"
-    },
-    "siblings": {
-      "label": "Цвят"
-    },
-    "products_with_count": {
-      "one": "{{ count }} продукт",
-      "other": "{{ count }} продукта"
-    },
-    "size_chart": {
-      "title": "Таблица с размери",
-      "size": "Размер"
-    },
-    "404": {
-      "title": "404 Страницата не е намерена",
-      "subtext_html": "Страницата, която търсите, не съществува."
-    },
-    "meta": {
-      "tags": "С етикет „{{ tags }}“",
-      "page": "Страница {{ page }}"
-    },
-    "breadcrumbs": {
-      "home": "Начало",
-      "products": "Продукти",
-      "go_back": "Назад"
-    },
-    "forms": {
-      "post_error": "Съжаляваме, възникна грешка. Моля, коригирайте следното и изпратете отново:"
-    },
-    "newsletter_form": {
-      "newsletter_email": "Имейл",
-      "name": "Име",
-      "submit": "Абонирай се",
-      "placeholder": "Имейл адрес",
-      "thank_you": "Благодарим за абонамента!",
-      "thank_you_with_code_html": "Благодарим за абонамента! Използвайте кода <span>Discount10</span> за 10% отстъпка.",
-      "error_message": "Този клиент вече е абониран!",
-      "product_notification_for": "Известие за продукт",
-      "newsletter_product_availability": "Уведомете ме, когато е налично",
-      "notify": "Уведоми ме",
-      "email": "Вашият имейл",
-      "email_label": "Моля, въведете вашия имейл и ние ще ви уведомим, когато избраният артикул стане наличен.",
-      "notification_success": "Вашият имейл беше получен."
-    },
-    "search": {
-      "articles": "Публикации в блога",
-      "no_results": "Няма намерени резултати за „{{ terms }}“. Проверете правописа или използвайте друга дума или фраза.",
-      "page": "Страница",
-      "products": "Продукти",
-      "results_pages_with_count": {
-        "one": "{{ count }} страница",
-        "other": "{{ count }} страници"
-      },
-      "results_suggestions_with_count": {
-        "one": "{{ count }} предложение",
-        "other": "{{ count }} предложения"
-      },
-      "results_products_with_count": {
-        "one": "{{ count }} продукт",
-        "other": "{{ count }} продукта"
-      },
-      "results_with_count": {
-        "one": "{{ count }} резултат",
-        "other": "{{ count }} резултата"
-      },
-      "results_with_count_and_term": {
-        "one": "Намерен е {{ count }} резултат за „{{ terms }}“",
-        "other": "Намерени са {{ count }} резултата за „{{ terms }}“"
-      },
-      "title": "Резултати от търсенето",
-      "search_for": "Търсене за „{{ terms }}“",
-      "reset": "Нулирай",
-      "clear": "Изчисти",
-      "suggestions": "Предложения",
-      "pages": "Страници",
-      "placeholder": "Търсене в магазина",
-      "search": "Търси",
-      "popular_searches": "Популярни търсения",
-      "popular_products": "Популярни продукти"
-    },
-    "accessibility": {
-      "skip_to_content": "Пропусни към съдържанието",
-      "unit_price_separator": "за",
-      "close": "Затвори",
-      "show_menu": "Покажи меню",
-      "exit_menu": "Затвори менюто",
-      "view": "Виж",
-      "scroll_to_top": "Върни в началото",
-      "scroll_to_product": "Превърти до продукта",
-      "scroll_to_logo": "Превърти до логото",
-      "footer_logo": "Лого в долната част",
-      "slide_image": "Снимка на слайд"
-    },
-    "social": {
-      "share_on_facebook": "Сподели",
-      "share_on_twitter": "Туитни",
-      "share_on_pinterest": "Запази",
-      "copied_text": "Копирано!",
-      "alt_text": {
-        "share_on_facebook": "Сподели във Facebook",
-        "share_on_twitter": "Туитни в Twitter",
-        "share_on_pinterest": "Запази в Pinterest"
-      }
-    },
-    "share": {
-      "share": "Сподели",
-      "share_url": "Линк",
-      "copy_to_clipboard": "Копирай линка",
-      "success_message": "Линкът е копиран в клипборда"
-    },
-    "money": {
-      "free": "Безплатно"
-    },
-    "pagination": {
-      "prev": "Предишна",
-      "next": "Следваща"
-    },
-    "shop_the_look": {
-      "button": "Пазарувай визията"
-    }
-  },
   "blogs": {
     "article": {
       "by_author": "От {{ author }}",
@@ -259,6 +135,12 @@
       "post_success": "Благодарим ви за запитването. Ще се свържем с вас възможно най-скоро."
     }
   },
+  "countdown": {
+    "days": "Дни",
+    "hours": "Часове",
+    "minutes": "Минути",
+    "seconds": "Секунди"
+  },
   "customer": {
     "account": {
       "account": "Акаунт",
@@ -370,9 +252,150 @@
       "sign_in_cta": "Влезте тук"
     }
   },
+  "customer_accounts": {
+    "shop_policies": {
+      "privacy_policy": "Политика за поверителност"
+    }
+  },
   "date_formats": {
     "full_date": "%d %B %Y",
     "full_date_and_time": "%d %B %Y %H:%M"
+  },
+  "general": {
+    "404": {
+      "title": "404 Страницата не е намерена",
+      "subtext_html": "Страницата, която търсите, не съществува."
+    },
+    "ie11_support_message": "Този сайт има ограничена поддръжка за вашия браузър. Препоръчваме да преминете към Edge, Chrome, Safari или Firefox.",
+    "swatches": {
+      "color": "Цвят"
+    },
+    "siblings": {
+      "label": "Цвят"
+    },
+    "products_with_count": {
+      "one": "{{ count }} продукт",
+      "other": "{{ count }} продукта"
+    },
+    "size_chart": {
+      "title": "Таблица с размери",
+      "size": "Размер"
+    },
+    "meta": {
+      "tags": "С етикет „{{ tags }}“",
+      "page": "Страница {{ page }}"
+    },
+    "breadcrumbs": {
+      "home": "Начало",
+      "products": "Продукти",
+      "go_back": "Назад"
+    },
+    "forms": {
+      "post_error": "Съжаляваме, възникна грешка. Моля, коригирайте следното и изпратете отново:"
+    },
+    "newsletter_form": {
+      "newsletter_email": "Имейл",
+      "name": "Име",
+      "submit": "Абонирай се",
+      "placeholder": "Имейл адрес",
+      "thank_you": "Благодарим за абонамента!",
+      "thank_you_with_code_html": "Благодарим за абонамента! Използвайте кода <span>Discount10</span> за 10% отстъпка.",
+      "error_message": "Този клиент вече е абониран!",
+      "product_notification_for": "Известие за продукт",
+      "newsletter_product_availability": "Уведомете ме, когато е налично",
+      "notify": "Уведоми ме",
+      "email": "Вашият имейл",
+      "email_label": "Моля, въведете вашия имейл и ние ще ви уведомим, когато избраният артикул стане наличен.",
+      "notification_success": "Вашият имейл беше получен."
+    },
+    "search": {
+      "articles": "Публикации в блога",
+      "no_results": "Няма намерени резултати за „{{ terms }}“. Проверете правописа или използвайте друга дума или фраза.",
+      "page": "Страница",
+      "products": "Продукти",
+      "results_pages_with_count": {
+        "one": "{{ count }} страница",
+        "other": "{{ count }} страници"
+      },
+      "results_suggestions_with_count": {
+        "one": "{{ count }} предложение",
+        "other": "{{ count }} предложения"
+      },
+      "results_products_with_count": {
+        "one": "{{ count }} продукт",
+        "other": "{{ count }} продукта"
+      },
+      "results_with_count": {
+        "one": "{{ count }} резултат",
+        "other": "{{ count }} резултата"
+      },
+      "results_with_count_and_term": {
+        "one": "Намерен е {{ count }} резултат за „{{ terms }}“",
+        "other": "Намерени са {{ count }} резултата за „{{ terms }}“"
+      },
+      "title": "Резултати от търсенето",
+      "search_for": "Търсене за „{{ terms }}“",
+      "reset": "Нулирай",
+      "clear": "Изчисти",
+      "suggestions": "Предложения",
+      "pages": "Страници",
+      "placeholder": "Търсене в магазина",
+      "search": "Търси",
+      "popular_searches": "Популярни търсения",
+      "popular_products": "Популярни продукти"
+    },
+    "accessibility": {
+      "skip_to_content": "Пропусни към съдържанието",
+      "unit_price_separator": "за",
+      "close": "Затвори",
+      "show_menu": "Покажи меню",
+      "exit_menu": "Затвори менюто",
+      "view": "Виж",
+      "scroll_to_top": "Върни в началото",
+      "scroll_to_product": "Превърти до продукта",
+      "scroll_to_logo": "Превърти до логото",
+      "footer_logo": "Лого в долната част",
+      "slide_image": "Снимка на слайд"
+    },
+    "social": {
+      "share_on_facebook": "Сподели",
+      "share_on_twitter": "Туитни",
+      "share_on_pinterest": "Запази",
+      "copied_text": "Копирано!",
+      "alt_text": {
+        "share_on_facebook": "Сподели във Facebook",
+        "share_on_twitter": "Туитни в Twitter",
+        "share_on_pinterest": "Запази в Pinterest"
+      }
+    },
+    "share": {
+      "share": "Сподели",
+      "share_url": "Линк",
+      "copy_to_clipboard": "Копирай линка",
+      "success_message": "Линкът е копиран в клипборда"
+    },
+    "money": {
+      "free": "Безплатно"
+    },
+    "pagination": {
+      "prev": "Предишна",
+      "next": "Следваща"
+    },
+    "shop_the_look": {
+      "button": "Пазарувай визията"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "title": "Ето вашата подаръчна карта за {{ value }} от {{ shop }}!",
+      "subtext": "Това е вашата подаръчна карта!",
+      "disabled": "Деактивирана",
+      "expired": "Изтекла на {{ expiry }}",
+      "active": "Изтича на {{ expiry }}",
+      "redeem": "Използвайте този код при плащане, за да осребрите картата",
+      "shop_link": "Започни пазаруването",
+      "print": "Печат"
+    }
   },
   "home_page": {
     "sections": {
@@ -420,6 +443,24 @@
     "search_page": {
       "singular_article": "Публикация",
       "singular_page": "Страница"
+    }
+  },
+  "password": {
+    "page": {
+      "title": "Скоро отваряме",
+      "powered_by": "Този магазин ще бъде захранван от"
+    },
+    "form": {
+      "success": "Благодарим за абонамента!",
+      "newsletter_title": "Абонирайте се за новости",
+      "placeholder": "email@example.com",
+      "login": "Парола"
+    },
+    "buttons": {
+      "sign_up": "Регистрация",
+      "store_login": "Вход в магазина",
+      "newsletter_signup": "Абониране за бюлетин",
+      "login": "Вход"
     }
   },
   "products": {
@@ -494,24 +535,6 @@
       }
     }
   },
-  "countdown": {
-    "days": "Дни",
-    "hours": "Часове",
-    "minutes": "Минути",
-    "seconds": "Секунди"
-  },
-  "gift_cards": {
-    "issued": {
-      "title": "Ето вашата подаръчна карта за {{ value }} от {{ shop }}!",
-      "subtext": "Това е вашата подаръчна карта!",
-      "disabled": "Деактивирана",
-      "expired": "Изтекла на {{ expiry }}",
-      "active": "Изтича на {{ expiry }}",
-      "redeem": "Използвайте този код при плащане, за да осребрите картата",
-      "shop_link": "Започни пазаруването",
-      "print": "Печат"
-    }
-  },
   "recipient": {
     "form": {
       "checkbox": "Искам да изпратя това като подарък",
@@ -526,24 +549,6 @@
       "send_on_label": "Изпрати на (по избор)"
     }
   },
-  "password": {
-    "page": {
-      "title": "Скоро отваряме",
-      "powered_by": "Този магазин ще бъде захранван от"
-    },
-    "form": {
-      "success": "Благодарим за абонамента!",
-      "newsletter_title": "Абонирайте се за новости",
-      "placeholder": "email@example.com",
-      "login": "Парола"
-    },
-    "buttons": {
-      "sign_up": "Регистрация",
-      "store_login": "Вход в магазина",
-      "newsletter_signup": "Абониране за бюлетин",
-      "login": "Вход"
-    }
-  },
   "shopify": {
     "checkout": {
       "contact": {
@@ -555,9 +560,50 @@
       }
     }
   },
-  "customer_accounts": {
-    "shop_policies": {
-      "privacy_policy": "Политика за поверителност"
+  "gempages": {
+    "Carousel": {
+      "no_slider": "No Slider"
+    },
+    "CarouselV3": {
+      "no_slider": "No Slider"
+    },
+    "Newsletter": {
+      "err_msg_default": "Can’t send email. Please try again later.",
+      "success_msg_default": "Thanks for subscribing"
+    },
+    "IconListV2": {
+      "icons_not_found": "Icons not found"
+    },
+    "IconList": {
+      "icons_not_found": "Icons not found"
+    },
+    "IconListHoz": {
+      "icons_not_found": "Icons not found"
+    },
+    "Product": {
+      "product_not_found": "Product not found"
+    },
+    "ProductList": {
+      "product_not_found": "Product Not Found!",
+      "no_products_found": "No products found!",
+      "no_related_products": "No related products!"
+    },
+    "ProductListV3": {
+      "product_not_found": "Product Not Found!",
+      "no_products_found": "No products found!",
+      "no_related_products": "No related products!"
+    },
+    "ProductTitle": {
+      "product_not_found": "Product Not Found"
+    },
+    "ProductVariants": {
+      "please_select": "Please select an option"
+    },
+    "StockCounter": {
+      "let_buy_now": "<mark>HURRY!</mark> LET BUY NOW"
+    },
+    "Breadcrumb": {
+      "home": "Home"
     }
   }
 }
