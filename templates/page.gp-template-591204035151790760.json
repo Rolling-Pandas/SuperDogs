@@ -1,0 +1,88 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "gp_section_591204141989102221": {
+      "settings": {
+        "checksum": "7f73b07b070b0b8930dc377da31ee5387abad4abf3ec49902127e95e74ff82a4_1_1_1_0__1",
+        "ggg3bygYwxN_text": "Професионална селекция за поддръжка на обемна, здрава козина."
+      },
+      "type": "gp-section-591204141989102221"
+    },
+    "gp_section_591204142022656970": {
+      "settings": {
+        "checksum": "f0ccfae115a0d52423de57a0de1f5409396bd78e5915ede7d0f635ae191c77ab_1_1_1_0__1",
+        "gg-RB35wIGb_text": "Тайната на здравата козина при помераните&nbsp;<br>започва с правилната грижа",
+        "section_preload": "true"
+      },
+      "type": "gp-section-591204142022656970"
+    },
+    "gp_section_591204142156874698": {
+      "settings": {
+        "checksum": "69a68debed0ab7c86c36a2eb014fd045062504afb2ec85ef24fad701975ef8b6_1_1_1_0__1",
+        "gg1YBuzaX4M_text": "<p>България, 4000 Пловдив</p><p>ул. Лъджене 21</p>",
+        "gg1hSCNTg4K_text": "<p>T:</p>",
+        "gg3CdbAaPNa_text": "<p>Aдрес:</p>",
+        "ggTYI1zDFhB_text": "<p>E:</p>",
+        "ggV7u2DcBYd_text": "<p>info@superdogs.bg</p>",
+        "ggWVVzqIv5o_text": "<p>+359889444457</p>",
+        "ggfE-JqBThC_text": "<p>© 2025 SuperDogs.bg | Всички права запазени</p>"
+      },
+      "type": "gp-section-591204142156874698"
+    },
+    "gp_section_591204142374978506": {
+      "settings": {
+        "checksum": "375b4981a7cb17e3db95846eb13380077a81a078d382e01866c43d445aadb3d3_1_1_1_0__1",
+        "ggAEGUVUrVB_text": "<p>24/7 Безплатни консултации</p>",
+        "ggAcdWVSbUB_text": "<p>Сигурно плащане</p>",
+        "ggcREs5h72H_text": "<p>Гарантирана стойност за парите Ви.</p>",
+        "ggdAA-sDlIn_text": "<p>Безплатна доставка над 100 лв.</p>"
+      },
+      "type": "gp-section-591204142374978506"
+    },
+    "gp_section_591204142391755722": {
+      "settings": {
+        "checksum": "119ff164a206f37eb160a6908b2ed48b200e96f69e24c7f47ddd57c2e96f0dc3_1_1_1_0__1",
+        "gg9_94lzrog_text": "<p>Безплатна доставка при поръчка над 100 лв. Изпращане в рамките на 2 работни дни. Гарантирана стойност за парите Ви! 14 дни право на връщане при условие, че продуктът не е разопакован или употребяван.</p>",
+        "gg_P4fhsstM_text": "<p><strong>MORGANA Conditioner Spray</strong>&nbsp;е професионален&nbsp;<strong>спрей за разплитане и разресване</strong>, създаден с идеална формула за лесно премахване на възли и сплъстена козина. Този спрей възстановява и предпазва козината от вредните ефекти на околната среда и химическите въздействия. Ефективен&nbsp;<strong>омекотител</strong>&nbsp;и&nbsp;<strong>антистатик</strong>, подходящ за всички типове козина.</p><ul><li><strong>Бързо действие</strong>&nbsp;– омекотява и придава кадифена мекота на козината</li><li><strong>Подхранващ ефект</strong>&nbsp;с дълготрайно въздействие</li><li><strong>Ефективен против възли</strong>&nbsp;– лесно премахва възли и сплъстявания</li><li>Защитава и възстановява козината от&nbsp;<strong>вредните ефекти на околната среда и химическите въздействия</strong></li><li>Подготвя козината за измиване, подходящ за&nbsp;<strong>тънка, суха и изтощена козина</strong></li><li><strong>Антистатичен</strong>&nbsp;и омекотяващ ефект за лесно разресване</li></ul>",
+        "ggoQ57UGBz1_childItem_0": "<p>Описание на продукта</p>",
+        "ggoQ57UGBz1_childItem_1": "<p>Начин на употреба</p>",
+        "ggoQ57UGBz1_childItem_2": "<p>Доставка и връщане</p>",
+        "ggoV5dBWdlO_text": "<p><span style=\"background-color:rgb(252,251,249);color:rgb(33,33,33);font-size:14px;\">Нанесете директно върху козината, върху възли или по цялата дължина на козината, която ще се третира. След напръскване изчакайте няколко минути и след това нежно разплетете и разрешете козината с подходяща четка.&nbsp;</span></p>",
+        "ggqW4owX-QT_continueSelling": "Restock soon, PREORDER NOW!",
+        "ggqW4owX-QT_outOfStockMessage": "OUT OF STOCK",
+        "ggqW4owX-QT_template": "⚠️ Остават само <span class='gp-text-g-text-1'><$quantity$></span> броя на склад!",
+        "ggqW4owX-QT_unlimitedQuantityMessage": "\n      <mark class='gp-text-white gp-py-1 gp-px-2 gp-mr-1 gp-inline-block gp-my-[1px] gp-bg-g-text-1'>\n    HURRY!</mark> LET BUY NOW",
+        "gguBYU_WtkR_label": "Купи сега",
+        "gguBYU_WtkR_outOfStockLabel": "Out of stock",
+        "gguBYU_WtkR_unavailableLabel": "Unavailable"
+      },
+      "type": "gp-section-591204142391755722"
+    },
+    "gp_section_591688220136178317": {
+      "settings": {
+        "checksum": "dbc7019e2886b36a89fcfcfe4421892b0c68f1221fb41b44ed7dd9fee0d21476_1_1_1_0__1",
+        "gg4MZ9wQEUI_text": "<p><strong>След първото къпане козината стана като облак.</strong><br><strong>Никога не съм вярвала, че продуктите могат да направят такава разлика.</strong><br><strong>- </strong><i><strong>Мария Т., собственик на померан Лъки</strong></i></p>",
+        "ggCvuRoYRO7_label": "<p>Разкрий тайната на пухкавата козина</p>",
+        "ggJrHbRNMik_text": "<p>&nbsp;</p><p><span style=\"color:#3E4A56;font-size:22px;\"><strong>Нежна грижа за пухкавите померани - храна и козметика, които поддържат здрава кожа и бляскава козина.</strong></span><br>&nbsp;</p>",
+        "ggVwX91mgPB_text": "<p><span style=\"font-size:22px;\"><strong>#SuperDogs Care for Pomeranians</strong></span></p>"
+      },
+      "type": "gp-section-591688220136178317"
+    }
+  },
+  "order": [
+    "gp_section_591204142022656970",
+    "gp_section_591204142374978506",
+    "gp_section_591688220136178317",
+    "gp_section_591204141989102221",
+    "gp_section_591204142391755722",
+    "gp_section_591204142156874698"
+  ]
+}
