@@ -37,697 +37,750 @@
   ],
   "sections": {
     "coming_soon_gmMBRM": {
+      "type": "coming-soon",
       "disabled": true,
       "name": "Coming Soon",
       "settings": {
-        "contact_button_text": "Имаш въпроси? Свържи се с нас",
-        "contact_button_url": "tel:0889444457",
-        "description": "Стани сред първите, които ще открият нашия свят за истински кучелюбци!",
+        "subheading": "Очаквайте скоро",
         "heading": "Абонирай се за известие",
-        "subheading": "Очаквайте скоро"
-      },
-      "type": "coming-soon"
+        "description": "Стани сред първите, които ще открият нашия свят за истински кучелюбци!",
+        "contact_button_text": "Имаш въпроси? Свържи се с нас",
+        "contact_button_url": "tel:0889444457"
+      }
     },
     "section_announcement_X7pxCk": {
+      "type": "section-announcement",
+      "blocks": {
+        "message_nHiTwG": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "show_wheel": false,
+            "message": "You are ||amount|| away from free shipping.",
+            "text_font_size": "body-small",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_HXzhUC": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Безплатни индивидуални консултации – толкова, колкото ти трябват |</strong></p>",
+            "text_font_size": "body-medium",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_LpDzCQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Винаги до теб със съвет и най-добрите продукти | </p>",
+            "text_font_size": "body-medium",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_cVYmVW": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><strong>Create a scrolling marquee or a simple announcement</strong></p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
       "block_order": [
         "text_LpDzCQ",
         "text_HXzhUC",
         "message_nHiTwG",
         "text_cVYmVW"
       ],
-      "blocks": {
-        "message_nHiTwG": {
-          "disabled": true,
-          "settings": {
-            "message": "You are ||amount|| away from free shipping.",
-            "show_wheel": false,
-            "target_device": "mobile",
-            "target_device_enabled": false,
-            "text_font_size": "body-small"
-          },
-          "type": "message"
-        },
-        "text_HXzhUC": {
-          "settings": {
-            "color": "",
-            "target_device": "mobile",
-            "target_device_enabled": false,
-            "text": "<p><strong>Безплатни индивидуални консултации – толкова, колкото ти трябват |</strong></p>",
-            "text_font_size": "body-medium"
-          },
-          "type": "text"
-        },
-        "text_LpDzCQ": {
-          "settings": {
-            "color": "",
-            "target_device": "mobile",
-            "target_device_enabled": false,
-            "text": "<p>Винаги до теб със съвет и най-добрите продукти | </p>",
-            "text_font_size": "body-medium"
-          },
-          "type": "text"
-        },
-        "text_cVYmVW": {
-          "disabled": true,
-          "settings": {
-            "color": "",
-            "target_device": "mobile",
-            "target_device_enabled": false,
-            "text": "<p><strong>Create a scrolling marquee or a simple announcement</strong></p>",
-            "text_font_size": "body-small"
-          },
-          "type": "text"
-        }
-      },
       "name": "Scrolling text",
       "settings": {
-        "color_scheme": "",
-        "direction": "ticker-rtl",
-        "layout": "marquee",
-        "marquee_speed": 175,
-        "message_spacing": 5,
-        "padding_bottom": 12,
-        "padding_top": 12,
-        "show_border": true,
         "slider_speed": 12,
-        "text_alignment": "center"
-      },
-      "type": "section-announcement"
+        "text_alignment": "center",
+        "marquee_speed": 175,
+        "direction": "ticker-rtl",
+        "message_spacing": 5,
+        "show_border": true,
+        "layout": "marquee",
+        "color_scheme": "",
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
     },
     "section_blog_3fFbVc": {
+      "type": "section-blog",
       "name": "Blog posts",
       "settings": {
-        "aspect_ratio": 1,
         "blog_name": "news",
-        "color_scheme": "scheme-6",
-        "grid": 3,
+        "aspect_ratio": 1,
+        "title": "Научи най-новото за грижата за твоето куче",
         "heading_font_size": "heading-medium",
-        "heading_tag": "automatic",
-        "padding_bottom": 48,
-        "padding_top": 48,
-        "rows": 1,
+        "title_font_size": "heading-small",
+        "show_tags": false,
         "show_author": false,
+        "show_date": false,
         "show_button": false,
         "show_comments": false,
-        "show_date": false,
-        "show_tags": false,
-        "title": "Научи най-новото за грижата за твоето куче",
-        "title_font_size": "heading-small",
-        "title_tag": "automatic",
-        "width": "wrapper--full-padded"
-      },
-      "type": "section-blog"
+        "width": "wrapper--full-padded",
+        "grid": 3,
+        "rows": 1,
+        "color_scheme": "scheme-6",
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "heading_tag": "automatic",
+        "title_tag": "automatic"
+      }
     },
     "section_collection_rpRkfF": {
+      "type": "section-collection",
       "name": "Featured collection",
       "settings": {
-        "button_size": "",
-        "button_style": "btn--solid",
-        "button_type": "btn--primary",
-        "color_scheme": "",
-        "description": "",
         "featured_collection": "hrana-za-kucheta-suha-hrana-za-kucheta-wildborn-sensitive",
-        "grid": 4,
         "heading": "Най-продавани",
         "heading_font_size": "heading-medium",
-        "heading_tag": "automatic",
+        "description": "",
+        "text_font_size": "body-medium",
         "layout": "inline",
-        "layout_desktop": "grid",
-        "layout_mobile": "slider",
         "link_text": "Купи сега",
         "link_url": "shopify://collections/hrana-za-kucheta-suha-hrana-za-kucheta-wildborn-sensitive",
-        "padding_bottom": 60,
-        "padding_top": 60,
-        "rows": 1,
-        "show_arrow": false,
-        "text_font_size": "body-medium",
-        "width": "wrapper--full-padded"
-      },
-      "type": "section-collection"
-    },
-    "section_collection_zERh8W": {
-      "name": "Featured collection",
-      "settings": {
+        "button_type": "btn--primary",
         "button_size": "",
         "button_style": "btn--solid",
-        "button_type": "btn--primary",
-        "color_scheme": "scheme-1",
-        "description": "",
-        "featured_collection": "konservi-za-kucheta-wildborn",
+        "show_arrow": false,
+        "layout_desktop": "grid",
         "grid": 4,
+        "rows": 1,
+        "width": "wrapper--full-padded",
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_collection_zERh8W": {
+      "type": "section-collection",
+      "name": "Featured collection",
+      "settings": {
+        "featured_collection": "konservi-za-kucheta-wildborn",
         "heading": "Най-популярни този месец",
         "heading_font_size": "heading-medium",
-        "heading_tag": "automatic",
+        "description": "",
+        "text_font_size": "body-medium",
         "layout": "inline",
-        "layout_desktop": "grid",
-        "layout_mobile": "slider",
         "link_text": "Виж всички",
         "link_url": "",
-        "padding_bottom": 48,
-        "padding_top": 48,
-        "rows": 1,
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
         "show_arrow": false,
-        "text_font_size": "body-medium",
-        "width": "wrapper--full-padded"
-      },
-      "type": "section-collection"
+        "layout_desktop": "grid",
+        "grid": 4,
+        "rows": 1,
+        "width": "wrapper--full-padded",
+        "layout_mobile": "slider",
+        "color_scheme": "scheme-1",
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "heading_tag": "automatic"
+      }
     },
     "section_collections_list_YYrLPA": {
+      "type": "section-collections-list",
+      "blocks": {
+        "collection_J4yECR": {
+          "type": "collection",
+          "settings": {
+            "collection": "grebeni-utsumi",
+            "collection_image": "shopify://shop_images/barsy-192.jpg",
+            "title": ""
+          }
+        },
+        "collection_ft4XUC": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "collection_m7k74q": {
+          "type": "collection",
+          "settings": {
+            "collection": "scissors-utsumi",
+            "collection_image": "shopify://shop_images/JYO-KING-0004_6a081fa6-445e-4083-8bab-2f11da8de869.png",
+            "title": ""
+          }
+        }
+      },
       "block_order": [
         "collection_J4yECR",
         "collection_ft4XUC",
         "collection_m7k74q"
       ],
-      "blocks": {
-        "collection_J4yECR": {
-          "settings": {
-            "collection": "гребени",
-            "collection_image": "shopify://shop_images/barsy-192.jpg",
-            "title": ""
-          },
-          "type": "collection"
-        },
-        "collection_ft4XUC": {
-          "settings": {
-            "collection": "",
-            "title": ""
-          },
-          "type": "collection"
-        },
-        "collection_m7k74q": {
-          "settings": {
-            "collection": "scissors-utsumi",
-            "collection_image": "shopify://shop_images/JYO-KING-0004_6a081fa6-445e-4083-8bab-2f11da8de869.png",
-            "title": ""
-          },
-          "type": "collection"
-        }
-      },
       "disabled": true,
       "name": "Collection list",
       "settings": {
-        "aspect_ratio": 1,
+        "title": "Collection list",
+        "heading_font_size": "heading-medium",
+        "description": "",
+        "text_font_size": "body-medium",
+        "button_text": "",
+        "button_url": "shopify://collections",
+        "button_type": "btn--primary",
         "button_size": "",
         "button_style": "btn--solid",
-        "button_text": "",
-        "button_type": "btn--primary",
-        "button_url": "shopify://collections",
-        "color_scheme": "",
-        "description": "",
-        "grid": 3,
-        "heading_font_size": "heading-medium",
-        "heading_tag": "automatic",
-        "layout": "grid",
-        "layout_mobile": "slider",
-        "padding_bottom": 32,
-        "padding_top": 32,
         "show_arrow": false,
-        "text_font_size": "body-medium",
-        "title": "Collection list",
-        "width": "wrapper--full-padded"
-      },
-      "type": "section-collections-list"
+        "aspect_ratio": 1,
+        "width": "wrapper--full-padded",
+        "layout": "grid",
+        "grid": 3,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "heading_tag": "automatic"
+      }
     },
     "section_collections_list_hover_7WKyBr": {
+      "type": "section-collections-list-hover",
+      "blocks": {
+        "collection_84egEf": {
+          "type": "collection",
+          "settings": {
+            "collection": "kozmetika",
+            "image": "shopify://shop_images/IMG_E3122.heic",
+            "title": "Козметика"
+          }
+        },
+        "collection_8gnfNQ": {
+          "type": "collection",
+          "settings": {
+            "collection": "produkti-za-grizha-i-higiena",
+            "image": "shopify://shop_images/WhatsApp_2025-07-18_10.16.38_a33e7804_1.jpg",
+            "title": "Грижа и аксесоари"
+          }
+        },
+        "collection_neNXza": {
+          "type": "collection",
+          "settings": {
+            "collection": "hrana-za-kucheta",
+            "image": "shopify://shop_images/17965805534190193_1_1.jpg",
+            "title": "Храна"
+          }
+        }
+      },
       "block_order": [
         "collection_neNXza",
         "collection_8gnfNQ",
         "collection_84egEf"
       ],
-      "blocks": {
-        "collection_84egEf": {
-          "settings": {
-            "collection": "kozmetika",
-            "image": "shopify://shop_images/IMG_E3122.heic",
-            "title": "Козметика"
-          },
-          "type": "collection"
-        },
-        "collection_8gnfNQ": {
-          "settings": {
-            "collection": "produkti-za-grizha-i-higiena",
-            "image": "shopify://shop_images/WhatsApp_2025-07-18_10.16.38_a33e7804_1.jpg",
-            "title": "Грижа и аксесоари"
-          },
-          "type": "collection"
-        },
-        "collection_neNXza": {
-          "settings": {
-            "collection": "hrana-za-kucheta",
-            "image": "shopify://shop_images/17965805534190193_1_1.jpg",
-            "title": "Храна"
-          },
-          "type": "collection"
-        }
-      },
       "name": "Collection list hover",
       "settings": {
-        "color_scheme": "scheme-10",
         "heading_font_size": "heading-large",
         "height": "five-fifty-height-hero",
         "mobile_height": "screen-height-one-third--mobile",
+        "color_scheme": "scheme-10",
         "overlay_opacity": 40,
-        "padding_bottom": 0,
+        "show_overlay_text": false,
         "padding_top": 0,
-        "show_overlay_text": false
-      },
-      "type": "section-collections-list-hover"
+        "padding_bottom": 0
+      }
     },
     "section_columns_Py7QTT": {
+      "type": "section-columns",
+      "blocks": {
+        "image_3HmWb8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/18008552054642542_1728916327_0601f497-e8d5-4c52-b375-0f477de2047c_1.jpg",
+            "image_width": 80,
+            "image_shape": "blob-one",
+            "title": "Доказан ефект",
+            "heading_font_size": "heading-small",
+            "text": "<p>Резултати, които виждаш</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_bfxFAe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_E3130_1fe3c27b-c0b2-4284-935f-62ceffcb3f56.heic",
+            "image_width": 80,
+            "image_shape": "blob-two",
+            "title": "Произход, на който вярваш",
+            "heading_font_size": "heading-small",
+            "text": "<p>прозрачен произход на продуктите</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_jXQHVY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/18059375410833795_1730804227_1_1.jpg",
+            "image_width": 80,
+            "image_shape": "blob-three",
+            "title": "Премиум качество",
+            "heading_font_size": "heading-small",
+            "text": "<p>внимателно подбрани производители на храна, козметика и аксесоари, само това, което бихме дали на нашите кучета</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        }
+      },
       "block_order": [
         "image_jXQHVY",
         "image_bfxFAe",
         "image_3HmWb8"
       ],
-      "blocks": {
-        "image_3HmWb8": {
-          "settings": {
-            "button_size": "",
-            "button_style": "btn--solid",
-            "button_text": "",
-            "button_type": "btn--primary",
-            "button_url": "",
-            "heading_font_size": "heading-small",
-            "heading_tag": "automatic",
-            "image": "shopify://shop_images/18008552054642542_1728916327_0601f497-e8d5-4c52-b375-0f477de2047c_1.jpg",
-            "image_aspect_ratio": 1,
-            "image_shape": "blob-one",
-            "image_width": 80,
-            "mobile_image_aspect_ratio": 1,
-            "show_arrow": false,
-            "text": "<p>Резултати, които виждаш</p>",
-            "text_font_size": "body-medium",
-            "title": "Доказан ефект"
-          },
-          "type": "image"
-        },
-        "image_bfxFAe": {
-          "settings": {
-            "button_size": "",
-            "button_style": "btn--solid",
-            "button_text": "",
-            "button_type": "btn--primary",
-            "button_url": "",
-            "heading_font_size": "heading-small",
-            "heading_tag": "automatic",
-            "image": "shopify://shop_images/IMG_E3130_1fe3c27b-c0b2-4284-935f-62ceffcb3f56.heic",
-            "image_aspect_ratio": 1,
-            "image_shape": "blob-two",
-            "image_width": 80,
-            "mobile_image_aspect_ratio": 1,
-            "show_arrow": false,
-            "text": "<p>прозрачен произход на продуктите</p>",
-            "text_font_size": "body-medium",
-            "title": "Произход, на който вярваш"
-          },
-          "type": "image"
-        },
-        "image_jXQHVY": {
-          "settings": {
-            "button_size": "",
-            "button_style": "btn--solid",
-            "button_text": "",
-            "button_type": "btn--primary",
-            "button_url": "",
-            "heading_font_size": "heading-small",
-            "heading_tag": "automatic",
-            "image": "shopify://shop_images/18059375410833795_1730804227_1_1.jpg",
-            "image_aspect_ratio": 1,
-            "image_shape": "blob-three",
-            "image_width": 80,
-            "mobile_image_aspect_ratio": 1,
-            "show_arrow": false,
-            "text": "<p>внимателно подбрани производители на храна, козметика и аксесоари, само това, което бихме дали на нашите кучета</p>",
-            "text_font_size": "body-medium",
-            "title": "Премиум качество"
-          },
-          "type": "image"
-        }
-      },
       "name": "Text columns with images",
       "settings": {
-        "align_columns": "flex-align-top",
+        "title": "Защо SuperDogs?",
+        "heading_font_size": "heading-medium",
         "align_heading": "text-center",
         "align_text": "text-center",
-        "color_scheme": "",
-        "grid": 3,
-        "heading_font_size": "heading-medium",
-        "heading_tag": "automatic",
+        "width": "wrapper",
+        "align_columns": "flex-align-top",
         "layout": "grid",
+        "grid": 3,
         "layout_mobile": "slider",
-        "padding_bottom": 48,
+        "color_scheme": "",
         "padding_top": 48,
-        "title": "Защо SuperDogs?",
-        "width": "wrapper"
-      },
-      "type": "section-columns"
+        "padding_bottom": 48,
+        "heading_tag": "automatic"
+      }
     },
     "section_custom_content_EPRWT7": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_qLGwPG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8960-3-Photoroom_1_1.jpg",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_opacity": 0,
+            "overlay_color": "",
+            "show_overlay_text": false,
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_DFmCMA": {
+          "type": "text",
+          "settings": {
+            "subheading": "За нас",
+            "title": "Грижим се като теб",
+            "heading_font_size": "heading-large",
+            "text": "<p>Не продаваме просто продукти – предлагаме доверие и спокойствие. Вярваме, че истинската грижа започва с любов и отговорност. В SuperDogs намираш не само храна и козметика, а и партньор, който разбира колко важно е кучето ти за теб.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "Научи повече",
+            "button_url": "shopify://pages/за-нас",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        }
+      },
       "block_order": [
         "text_DFmCMA",
         "image_qLGwPG"
       ],
-      "blocks": {
-        "image_qLGwPG": {
-          "settings": {
-            "bg_color": "",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "button_type": "btn--primary",
-            "color": "",
-            "flex_align": "align--middle-center",
-            "heading_font_size": "heading-large",
-            "heading_tag": "automatic",
-            "image": "shopify://shop_images/IMG_8960-3-Photoroom_1_1.jpg",
-            "link": "",
-            "link_text": "",
-            "overlay_color": "",
-            "overlay_opacity": 0,
-            "show_arrow": false,
-            "show_overlay_text": false,
-            "show_text_background": false,
-            "text": "",
-            "text_font_size": "body-medium",
-            "title": ""
-          },
-          "type": "image"
-        },
-        "text_DFmCMA": {
-          "settings": {
-            "align_text": "text-left",
-            "bg_color": "",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "button_text": "Научи повече",
-            "button_type": "btn--primary",
-            "button_url": "shopify://pages/за-нас",
-            "color": "",
-            "heading_font_size": "heading-large",
-            "heading_tag": "automatic",
-            "show_arrow": false,
-            "show_social_links": false,
-            "subheading": "За нас",
-            "text": "<p>Не продаваме просто продукти – предлагаме доверие и спокойствие. Вярваме, че истинската грижа започва с любов и отговорност. В SuperDogs намираш не само храна и козметика, а и партньор, който разбира колко важно е кучето ти за теб.</p>",
-            "text_columns": 1,
-            "text_font_size": "body-medium",
-            "title": "Грижим се като теб"
-          },
-          "type": "text"
-        }
-      },
       "name": "Custom content",
       "settings": {
         "borders": false,
-        "color_scheme": "scheme-2",
         "gutters": false,
+        "width": "wrapper--full",
         "height": "screen-height-two-thirds",
         "mobile_height": "image-height--mobile",
-        "padding_bottom": 0,
-        "padding_top": 0,
         "reverse_blocks": false,
-        "width": "wrapper--full"
-      },
-      "type": "section-custom-content"
+        "color_scheme": "scheme-2",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     },
     "section_custom_content_MCQdJX": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_c3LHEE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/18045771344176667_1747144871_1.jpg",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_opacity": 0,
+            "overlay_color": "",
+            "show_overlay_text": false,
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_RKCRq9": {
+          "type": "text",
+          "settings": {
+            "subheading": "Здраве",
+            "title": "Храна с грижа и разбиране",
+            "heading_font_size": "heading-large",
+            "text": "<p>Предлагаме само храни с висококачествени съставки, без зърно и без глутен, за да бъде всяко хранене удоволствие и грижа.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "Разгледай храните",
+            "button_url": "shopify://collections/hrana-za-kucheta",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        }
+      },
       "block_order": [
         "image_c3LHEE",
         "text_RKCRq9"
       ],
-      "blocks": {
-        "image_c3LHEE": {
-          "settings": {
-            "bg_color": "",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "button_type": "btn--primary",
-            "color": "",
-            "flex_align": "align--middle-center",
-            "heading_font_size": "heading-large",
-            "heading_tag": "automatic",
-            "image": "shopify://shop_images/18045771344176667_1747144871_1.jpg",
-            "link": "",
-            "link_text": "",
-            "overlay_color": "",
-            "overlay_opacity": 0,
-            "show_arrow": false,
-            "show_overlay_text": false,
-            "show_text_background": false,
-            "text": "",
-            "text_font_size": "body-medium",
-            "title": ""
-          },
-          "type": "image"
-        },
-        "text_RKCRq9": {
-          "settings": {
-            "align_text": "text-left",
-            "bg_color": "",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "button_text": "Разгледай храните",
-            "button_type": "btn--primary",
-            "button_url": "shopify://collections/hrana-za-kucheta",
-            "color": "",
-            "heading_font_size": "heading-large",
-            "heading_tag": "automatic",
-            "show_arrow": false,
-            "show_social_links": false,
-            "subheading": "Здраве",
-            "text": "<p>Предлагаме само храни с висококачествени съставки, без зърно и без глутен, за да бъде всяко хранене удоволствие и грижа.</p>",
-            "text_columns": 1,
-            "text_font_size": "body-medium",
-            "title": "Храна с грижа и разбиране"
-          },
-          "type": "text"
-        }
-      },
       "name": "Custom content",
       "settings": {
         "borders": false,
-        "color_scheme": "scheme-2",
         "gutters": false,
+        "width": "wrapper--full",
         "height": "screen-height-two-thirds",
         "mobile_height": "screen-height-one-third--mobile",
-        "padding_bottom": 0,
-        "padding_top": 0,
         "reverse_blocks": true,
-        "width": "wrapper--full"
-      },
-      "type": "section-custom-content"
+        "color_scheme": "scheme-2",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     },
     "section_custom_content_VBQFRi": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_c3gwPU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Frame_12_90147f36-2154-46fe-9811-8016819fda1a_1.jpg",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_opacity": 0,
+            "overlay_color": "",
+            "show_overlay_text": false,
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_pxcXgF": {
+          "type": "text",
+          "settings": {
+            "subheading": "любов",
+            "title": "Кучетата на SuperDogs",
+            "heading_font_size": "heading-large",
+            "text": "<p>Запознай се с кучетата, които стоят зад SuperDogs. Всички те са повече от 10 години в служба на обществото и работят като терапевтични кучета. Те тестват, инспектират и понякога просто се наслаждават на живота – благодарение на продуктите, които подбираме с грижа.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "Виж кучетата на SuperDogs",
+            "button_url": "shopify://pages/за-нас",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        }
+      },
       "block_order": [
         "image_c3gwPU",
         "text_pxcXgF"
       ],
-      "blocks": {
-        "image_c3gwPU": {
-          "settings": {
-            "bg_color": "",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "button_type": "btn--primary",
-            "color": "",
-            "flex_align": "align--middle-center",
-            "heading_font_size": "heading-large",
-            "heading_tag": "automatic",
-            "image": "shopify://shop_images/Frame_12_90147f36-2154-46fe-9811-8016819fda1a_1.jpg",
-            "link": "",
-            "link_text": "",
-            "overlay_color": "",
-            "overlay_opacity": 0,
-            "show_arrow": false,
-            "show_overlay_text": false,
-            "show_text_background": false,
-            "text": "",
-            "text_font_size": "body-medium",
-            "title": ""
-          },
-          "type": "image"
-        },
-        "text_pxcXgF": {
-          "settings": {
-            "align_text": "text-left",
-            "bg_color": "",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "button_text": "Виж кучетата на SuperDogs",
-            "button_type": "btn--primary",
-            "button_url": "shopify://pages/за-нас",
-            "color": "",
-            "heading_font_size": "heading-large",
-            "heading_tag": "automatic",
-            "show_arrow": false,
-            "show_social_links": false,
-            "subheading": "любов",
-            "text": "<p>Запознай се с кучетата, които стоят зад SuperDogs. Всички те са повече от 10 години в служба на обществото и работят като терапевтични кучета. Те тестват, инспектират и понякога просто се наслаждават на живота – благодарение на продуктите, които подбираме с грижа.</p>",
-            "text_columns": 1,
-            "text_font_size": "body-medium",
-            "title": "Кучетата на SuperDogs"
-          },
-          "type": "text"
-        }
-      },
       "name": "Custom content",
       "settings": {
         "borders": false,
-        "color_scheme": "scheme-2",
         "gutters": false,
+        "width": "wrapper--full",
         "height": "screen-height-two-thirds",
         "mobile_height": "screen-height-one-third--mobile",
-        "padding_bottom": 0,
-        "padding_top": 0,
         "reverse_blocks": true,
-        "width": "wrapper--full"
-      },
-      "type": "section-custom-content"
+        "color_scheme": "scheme-2",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     },
     "section_custom_content_yBfXQJ": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_iLV7rd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_0983.jpg",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_opacity": 0,
+            "overlay_color": "",
+            "show_overlay_text": false,
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_ntNgzX": {
+          "type": "text",
+          "settings": {
+            "subheading": "Грижа",
+            "title": "Красота и грижа за всички",
+            "heading_font_size": "heading-large",
+            "text": "<p>Нашата козметична линия предлага продукти, които не само подхранват кожата и козината на кучето ти, но и се грижат за ръцете на грумъра. Всички продукти са разработени с внимание и отговорност към околната среда, защото вярваме, че добрата грижа започва от природата.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "Разгледай козметиката",
+            "button_url": "shopify://collections/kozmetika",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        }
+      },
       "block_order": [
         "text_ntNgzX",
         "image_iLV7rd"
       ],
-      "blocks": {
-        "image_iLV7rd": {
-          "settings": {
-            "bg_color": "",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "button_type": "btn--primary",
-            "color": "",
-            "flex_align": "align--middle-center",
-            "heading_font_size": "heading-large",
-            "heading_tag": "automatic",
-            "image": "shopify://shop_images/IMG_0983.jpg",
-            "link": "",
-            "link_text": "",
-            "overlay_color": "",
-            "overlay_opacity": 0,
-            "show_arrow": false,
-            "show_overlay_text": false,
-            "show_text_background": false,
-            "text": "",
-            "text_font_size": "body-medium",
-            "title": ""
-          },
-          "type": "image"
-        },
-        "text_ntNgzX": {
-          "settings": {
-            "align_text": "text-left",
-            "bg_color": "",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "button_text": "Разгледай козметиката",
-            "button_type": "btn--primary",
-            "button_url": "shopify://collections/kozmetika",
-            "color": "",
-            "heading_font_size": "heading-large",
-            "heading_tag": "automatic",
-            "show_arrow": false,
-            "show_social_links": false,
-            "subheading": "Грижа",
-            "text": "<p>Нашата козметична линия предлага продукти, които не само подхранват кожата и козината на кучето ти, но и се грижат за ръцете на грумъра. Всички продукти са разработени с внимание и отговорност към околната среда, защото вярваме, че добрата грижа започва от природата.</p>",
-            "text_columns": 1,
-            "text_font_size": "body-medium",
-            "title": "Красота и грижа за всички"
-          },
-          "type": "text"
-        }
-      },
       "name": "Custom content",
       "settings": {
         "borders": false,
-        "color_scheme": "scheme-2",
         "gutters": false,
+        "width": "wrapper--full",
         "height": "screen-height-two-thirds",
         "mobile_height": "screen-height-one-third--mobile",
-        "padding_bottom": 0,
-        "padding_top": 0,
         "reverse_blocks": false,
-        "width": "wrapper--full"
-      },
-      "type": "section-custom-content"
+        "color_scheme": "scheme-2",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     },
     "section_divider_QfEix9": {
+      "type": "section-divider",
       "disabled": true,
       "name": "Divider",
       "settings": {
-        "color_scheme": "scheme-2",
-        "padding_bottom": 6,
-        "padding_top": 6,
         "show_line": true,
-        "width": "wrapper--full-padded"
-      },
-      "type": "section-divider"
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-2",
+        "padding_top": 6,
+        "padding_bottom": 6
+      }
     },
     "section_newsletter_qBceVw": {
+      "type": "section-newsletter",
+      "blocks": {
+        "image_XXpd9q": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/17914183859885977_1724422335.jpg",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "#ffffff",
+            "color": "",
+            "overlay_opacity": 0,
+            "overlay_color": "#ffffff",
+            "show_overlay_text": false,
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--black",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "newsletter_8yekKN": {
+          "type": "newsletter",
+          "settings": {
+            "subheading": "Бюлетин",
+            "heading": "Абонирай се за полезни съвети, промоции и новости за твоето куче",
+            "heading_font_size": "heading-large",
+            "text": "<p>-10% от първа поръчка, ако се регистрираш за нашия бюлетин</p>",
+            "text_font_size": "body-medium",
+            "text_columns": 1,
+            "align_text": "text-left",
+            "show_name": true,
+            "button_text": "Присъедини се",
+            "show_arrow": true,
+            "terms": true,
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_social_links": false,
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        }
+      },
       "block_order": [
         "image_XXpd9q",
         "newsletter_8yekKN"
       ],
-      "blocks": {
-        "image_XXpd9q": {
-          "settings": {
-            "bg_color": "#ffffff",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "button_type": "btn--black",
-            "color": "",
-            "flex_align": "align--middle-center",
-            "heading_font_size": "heading-large",
-            "heading_tag": "automatic",
-            "image": "shopify://shop_images/17914183859885977_1724422335.jpg",
-            "link": "",
-            "link_text": "",
-            "overlay_color": "#ffffff",
-            "overlay_opacity": 0,
-            "show_arrow": false,
-            "show_overlay_text": false,
-            "show_text_background": false,
-            "text": "",
-            "text_font_size": "body-medium",
-            "title": ""
-          },
-          "type": "image"
-        },
-        "newsletter_8yekKN": {
-          "settings": {
-            "align_text": "text-left",
-            "bg_color": "",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "button_text": "Присъедини се",
-            "button_type": "btn--primary",
-            "color": "",
-            "heading": "Абонирай се за полезни съвети, промоции и новости за твоето куче",
-            "heading_font_size": "heading-large",
-            "heading_tag": "automatic",
-            "show_arrow": true,
-            "show_name": true,
-            "show_social_links": false,
-            "subheading": "Бюлетин",
-            "terms": true,
-            "text": "<p>-10% от първа поръчка, ако се регистрираш за нашия бюлетин</p>",
-            "text_columns": 1,
-            "text_font_size": "body-medium"
-          },
-          "type": "newsletter"
-        }
-      },
       "name": "Newsletter",
       "settings": {
-        "color_scheme": "scheme-1",
+        "width": "wrapper--full",
         "height": "screen-height-two-thirds",
         "mobile_height": "screen-height-one-third--mobile",
-        "padding_bottom": 0,
+        "color_scheme": "scheme-1",
         "padding_top": 0,
-        "width": "wrapper--full"
-      },
-      "type": "section-newsletter"
+        "padding_bottom": 0
+      }
     },
     "section_press_logos_6UcjWc": {
+      "type": "section-press-logos",
+      "blocks": {
+        "logo_item_header_7xReaB": {
+          "type": "logo-item-header",
+          "settings": {
+            "logo": "shopify://shop_images/186ed0e1-a59a-45e1-81e6-765dec79e8bd.jpg",
+            "logo_width": 160,
+            "link": "",
+            "text": "Горди сме да работим с най-добрите марки в света на домашните любимци",
+            "heading_font_size": "heading-medium"
+          }
+        },
+        "logo_item_header_JVew3D": {
+          "type": "logo-item-header",
+          "settings": {
+            "logo": "shopify://shop_images/logo.svg",
+            "logo_width": 180,
+            "link": "",
+            "text": "Горди сме да работим с най-добрите марки в света на домашните любимци",
+            "heading_font_size": "heading-medium"
+          }
+        },
+        "logo_item_header_LAdPat": {
+          "type": "logo-item-header",
+          "settings": {
+            "logo": "shopify://shop_images/utsumi_logo_4470ea49-b656-4f83-8190-03542e69af34.webp",
+            "logo_width": 140,
+            "link": "",
+            "text": "Горди сме да работим с най-добрите марки в света на домашните любимци",
+            "heading_font_size": "heading-medium"
+          }
+        },
+        "logo_item_header_RQbiEB": {
+          "type": "logo-item-header",
+          "settings": {
+            "logo": "shopify://shop_images/les_poochs_brushes_f320f523-8cea-45d0-a9f7-47aa67b1db3f.webp",
+            "logo_width": 120,
+            "link": "",
+            "text": "Горди сме да работим с най-добрите марки в света на домашните любимци",
+            "heading_font_size": "heading-medium"
+          }
+        },
+        "logo_item_header_yjeyWC": {
+          "type": "logo-item-header",
+          "settings": {
+            "logo": "shopify://shop_images/septona-logo-el.png",
+            "logo_width": 140,
+            "link": "",
+            "text": "Горди сме да работим с най-добрите марки в света на домашните любимци",
+            "heading_font_size": "heading-medium"
+          }
+        }
+      },
       "block_order": [
         "logo_item_header_JVew3D",
         "logo_item_header_7xReaB",
@@ -735,225 +788,256 @@
         "logo_item_header_RQbiEB",
         "logo_item_header_LAdPat"
       ],
-      "blocks": {
-        "logo_item_header_7xReaB": {
-          "settings": {
-            "heading_font_size": "heading-medium",
-            "link": "",
-            "logo": "shopify://shop_images/186ed0e1-a59a-45e1-81e6-765dec79e8bd.jpg",
-            "logo_width": 160,
-            "text": "Горди сме да работим с най-добрите марки в света на домашните любимци"
-          },
-          "type": "logo-item-header"
-        },
-        "logo_item_header_JVew3D": {
-          "settings": {
-            "heading_font_size": "heading-medium",
-            "link": "",
-            "logo": "shopify://shop_images/logo.svg",
-            "logo_width": 180,
-            "text": "Горди сме да работим с най-добрите марки в света на домашните любимци"
-          },
-          "type": "logo-item-header"
-        },
-        "logo_item_header_LAdPat": {
-          "settings": {
-            "heading_font_size": "heading-medium",
-            "link": "",
-            "logo": "shopify://shop_images/utsumi_logo_4470ea49-b656-4f83-8190-03542e69af34.webp",
-            "logo_width": 140,
-            "text": "Горди сме да работим с най-добрите марки в света на домашните любимци"
-          },
-          "type": "logo-item-header"
-        },
-        "logo_item_header_RQbiEB": {
-          "settings": {
-            "heading_font_size": "heading-medium",
-            "link": "",
-            "logo": "shopify://shop_images/les_poochs_brushes_f320f523-8cea-45d0-a9f7-47aa67b1db3f.webp",
-            "logo_width": 120,
-            "text": "Горди сме да работим с най-добрите марки в света на домашните любимци"
-          },
-          "type": "logo-item-header"
-        },
-        "logo_item_header_yjeyWC": {
-          "settings": {
-            "heading_font_size": "heading-medium",
-            "link": "",
-            "logo": "shopify://shop_images/septona-logo-el.png",
-            "logo_width": 140,
-            "text": "Горди сме да работим с най-добрите марки в света на домашните любимци"
-          },
-          "type": "logo-item-header"
-        }
-      },
       "name": "Press logos",
       "settings": {
-        "color_scheme": "scheme-6",
         "enable_heading_slider": true,
         "logo_opacity": 100,
-        "padding_bottom": 48,
+        "title": "доказани във времето",
+        "color_scheme": "scheme-6",
         "padding_top": 48,
-        "title": "доказани във времето"
-      },
-      "type": "section-press-logos"
+        "padding_bottom": 48
+      }
     },
     "section_products_image_ATGBPy": {
+      "type": "section-products-image",
+      "blocks": {
+        "image_KdmEHj": {
+          "type": "image",
+          "settings": {
+            "mobile_height": "screen-height-one-half--mobile",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "overlay_opacity": 0,
+            "overlay_color": "",
+            "show_overlay_text": false,
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        },
+        "products_R7tgqV": {
+          "type": "products",
+          "settings": {
+            "product_list": [],
+            "layout_mobile": "slider"
+          }
+        }
+      },
       "block_order": [
         "image_KdmEHj",
         "products_R7tgqV"
       ],
-      "blocks": {
-        "image_KdmEHj": {
-          "settings": {
-            "bg_color": "",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "button_type": "btn--primary",
-            "color": "",
-            "flex_align": "align--middle-center",
-            "heading_font_size": "heading-large",
-            "heading_tag": "automatic",
-            "link": "",
-            "link_text": "",
-            "mobile_height": "screen-height-one-half--mobile",
-            "overlay_color": "",
-            "overlay_opacity": 0,
-            "show_arrow": false,
-            "show_overlay_text": false,
-            "show_text_background": false,
-            "text": "",
-            "text_font_size": "body-medium",
-            "title": ""
-          },
-          "type": "image"
-        },
-        "products_R7tgqV": {
-          "settings": {
-            "layout_mobile": "slider",
-            "product_list": []
-          },
-          "type": "products"
-        }
-      },
       "disabled": true,
       "name": "Products with image",
       "settings": {
-        "color_scheme": "",
-        "padding_bottom": 50,
-        "padding_top": 50,
+        "width": "wrapper--full-padded",
         "reverse_blocks": false,
-        "width": "wrapper--full-padded"
-      },
-      "type": "section-products-image"
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
     },
     "section_products_image_cJDAmk": {
+      "type": "section-products-image",
+      "blocks": {
+        "image_kgNahm": {
+          "type": "image",
+          "settings": {
+            "mobile_height": "screen-height-one-half--mobile",
+            "title": "21321",
+            "heading_font_size": "heading-large",
+            "text": "<p>213123</p>",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "overlay_opacity": 0,
+            "overlay_color": "",
+            "show_overlay_text": false,
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        },
+        "products_Vcf3f9": {
+          "type": "products",
+          "settings": {
+            "product_list": [
+              "wildborn-soft-amber-70-1",
+              "wildborn-soft-amber-70-4"
+            ],
+            "layout_mobile": "slider"
+          }
+        }
+      },
       "block_order": [
         "image_kgNahm",
         "products_Vcf3f9"
       ],
-      "blocks": {
-        "image_kgNahm": {
-          "settings": {
-            "bg_color": "",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "button_type": "btn--primary",
-            "color": "",
-            "flex_align": "align--middle-center",
-            "heading_font_size": "heading-large",
-            "heading_tag": "automatic",
-            "link": "",
-            "link_text": "",
-            "mobile_height": "screen-height-one-half--mobile",
-            "overlay_color": "",
-            "overlay_opacity": 0,
-            "show_arrow": false,
-            "show_overlay_text": false,
-            "show_text_background": false,
-            "text": "<p>213123</p>",
-            "text_font_size": "body-medium",
-            "title": "21321"
-          },
-          "type": "image"
-        },
-        "products_Vcf3f9": {
-          "settings": {
-            "layout_mobile": "slider",
-            "product_list": [
-              "wildborn-soft-amber-70-1",
-              "wildborn-soft-amber-70-4"
-            ]
-          },
-          "type": "products"
-        }
-      },
       "disabled": true,
       "name": "Products with image",
       "settings": {
-        "color_scheme": "",
-        "padding_bottom": 50,
-        "padding_top": 50,
+        "width": "wrapper",
         "reverse_blocks": false,
-        "width": "wrapper"
-      },
-      "type": "section-products-image"
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
     },
     "section_products_image_nNREHw": {
-      "block_order": [
-        "image_B8ENEC",
-        "products_6gKtqN"
-      ],
+      "type": "section-products-image",
       "blocks": {
         "image_B8ENEC": {
+          "type": "image",
           "settings": {
-            "bg_color": "",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "button_type": "btn--primary",
-            "color": "",
-            "flex_align": "align--middle-center",
-            "heading_font_size": "heading-medium",
-            "heading_tag": "automatic",
             "image": "shopify://shop_images/17940724280748218_1720789861_1_e59d6964-ec53-4d42-a4bd-9bbae253f4ef.jpg",
-            "link": "",
-            "link_text": "",
             "mobile_height": "screen-height-one-third--mobile",
-            "overlay_color": "",
-            "overlay_opacity": 0,
-            "show_arrow": false,
-            "show_overlay_text": false,
-            "show_text_background": false,
+            "title": "",
+            "heading_font_size": "heading-medium",
             "text": "",
             "text_font_size": "body-medium",
-            "title": ""
-          },
-          "type": "image"
+            "flex_align": "align--middle-center",
+            "overlay_opacity": 0,
+            "overlay_color": "",
+            "show_overlay_text": false,
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
         },
         "products_6gKtqN": {
+          "type": "products",
           "settings": {
-            "layout_mobile": "2",
             "product_list": [
               "wildborn-premium-liver-sausage-1",
               "wildborn-premium-liver-sausage",
               "wildborn-natural-fish-bites",
               "wildborn-natural-iberico-bites"
-            ]
-          },
-          "type": "products"
+            ],
+            "layout_mobile": "2"
+          }
         }
       },
+      "block_order": [
+        "image_B8ENEC",
+        "products_6gKtqN"
+      ],
       "name": "Products with image",
       "settings": {
-        "color_scheme": "",
-        "padding_bottom": 48,
-        "padding_top": 48,
+        "width": "wrapper",
         "reverse_blocks": true,
-        "width": "wrapper"
-      },
-      "type": "section-products-image"
+        "color_scheme": "",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
     },
     "section_reviews_MTdrJX": {
+      "type": "section-reviews",
+      "blocks": {
+        "review_4PWmrt": {
+          "type": "review",
+          "settings": {
+            "title": "Красияна Михайлова",
+            "subheading": "",
+            "review_content": "<p>Най - високо качество храна и козметика. Изключително доволна съм и много бързо видях резултата. Моето куче харесва всеки от вкусовете на марката, а това е много показателно, предвид капризите й! Силно препоръчвам! Ще намерите професионалист , който да ви консултира според вашите нужди! ТОП!!!</p>",
+            "review_url": ""
+          }
+        },
+        "review_6eVjLG": {
+          "type": "review",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "review_content": "<p>Особено съм впечатлена от козметичната серия – шампоаните и балсамите ухаят приятно, не дразнят кожата и се отмиват лесно. След баня козината остава свежа и мирише чисто за дни!</p>",
+            "review_url": ""
+          }
+        },
+        "review_9gdJFW": {
+          "type": "review",
+          "settings": {
+            "title": "Емил Симеонов",
+            "subheading": "",
+            "review_content": "<p>•\tWILDBORN – неустоима храна, призната от 5 бобтейла на различна възраст и с индивидуални потребности.Невероятен вкус, качество и грижа за вътрешния баланс.<br/>•\tH-PROJECT LINE е перфектната козметична грижа за външния баланс и визия– козина, очи, уши.<br/>В лицето на SUPERDOGS.BG открих не просто доставчик, а перфектен консултант в сферата на кинологията. </p>",
+            "review_url": ""
+          }
+        },
+        "review_HctKTx": {
+          "type": "review",
+          "settings": {
+            "title": "Георги Въжаров",
+            "subheading": "",
+            "review_content": "<p>От лакомствата до гранулата, нашият космат любимец е фен на всичко, което е пробвал с марка Wildborn.</p>",
+            "review_url": ""
+          }
+        },
+        "review_fniyid": {
+          "type": "review",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "review_content": "<p>Определено личи, че продуктите са създадени с грижа и внимание към домашните любимци. Радвам се, че открихме марка, на която можем да се доверим напълно.<br/>Препоръчвам с две ръце на всички стопани, които търсят най-доброто за своя четириног приятел!</p>",
+            "review_url": ""
+          }
+        },
+        "review_haAhBA": {
+          "type": "review",
+          "settings": {
+            "title": "Нина Добрева",
+            "subheading": "",
+            "review_content": "<p>Много съм доволна!!!Продуктите са висококачествени и подбрани с грижа за здравето на любимците ни. Доставката е бърза и безпроблемна. Най-голямото впечатление обаче ми направи отношението – собственичката е изключително любезна, винаги отговаря на въпроси и дава ценни съвети. Личи си, че прави всичко с любов към животните и внимание към клиентите.<br/> Горещо препоръчвам!</p>",
+            "review_url": ""
+          }
+        },
+        "review_kzBiFh": {
+          "type": "review",
+          "settings": {
+            "title": "Десислава Петрова",
+            "subheading": "",
+            "review_content": "<p>От доста време използваме продуктите на Wild Born  и сме повече от доволни! Храната е с изключително качество – съставките са натурални, без излишни добавки, а козината на кучето ни стана по-лъскава и мека само след няколко седмици. Апетитът му също се подобри, а храносмилането му е перфектно.</p>",
+            "review_url": ""
+          }
+        },
+        "review_mVwx9N": {
+          "type": "review",
+          "settings": {
+            "title": "Ирена Иванова",
+            "subheading": "",
+            "review_content": "<p>Използването на качествена храна и козметика е ключово за поддържане на доброто здраве на моите кучета, а Superdogs.bg определено са се погрижили да предлагат точно това.</p>",
+            "review_url": ""
+          }
+        },
+        "review_rKpqJn": {
+          "type": "review",
+          "settings": {
+            "title": "Милена Кировска",
+            "subheading": "",
+            "review_content": "<p>Гранулираната храна на Wildborn се харесва много от пухкавия член на нашето семейство. Пробвали сме почти всички видове, които са подходящи за него,  хапва всички безотказно и без допълнителни бонуси в купичката.</p>",
+            "review_url": ""
+          }
+        }
+      },
       "block_order": [
         "review_haAhBA",
         "review_4PWmrt",
@@ -965,220 +1049,207 @@
         "review_6eVjLG",
         "review_fniyid"
       ],
-      "blocks": {
-        "review_4PWmrt": {
-          "settings": {
-            "review_content": "<p>Най - високо качество храна и козметика. Изключително доволна съм и много бързо видях резултата. Моето куче харесва всеки от вкусовете на марката, а това е много показателно, предвид капризите й! Силно препоръчвам! Ще намерите професионалист , който да ви консултира според вашите нужди! ТОП!!!</p>",
-            "review_url": "",
-            "subheading": "",
-            "title": "Красияна Михайлова"
-          },
-          "type": "review"
-        },
-        "review_6eVjLG": {
-          "settings": {
-            "review_content": "<p>Особено съм впечатлена от козметичната серия – шампоаните и балсамите ухаят приятно, не дразнят кожата и се отмиват лесно. След баня козината остава свежа и мирише чисто за дни!</p>",
-            "review_url": "",
-            "subheading": "",
-            "title": ""
-          },
-          "type": "review"
-        },
-        "review_9gdJFW": {
-          "settings": {
-            "review_content": "<p>•\tWILDBORN – неустоима храна, призната от 5 бобтейла на различна възраст и с индивидуални потребности.Невероятен вкус, качество и грижа за вътрешния баланс.<br/>•\tH-PROJECT LINE е перфектната козметична грижа за външния баланс и визия– козина, очи, уши.<br/>В лицето на SUPERDOGS.BG открих не просто доставчик, а перфектен консултант в сферата на кинологията. </p>",
-            "review_url": "",
-            "subheading": "",
-            "title": "Емил Симеонов"
-          },
-          "type": "review"
-        },
-        "review_HctKTx": {
-          "settings": {
-            "review_content": "<p>От лакомствата до гранулата, нашият космат любимец е фен на всичко, което е пробвал с марка Wildborn.</p>",
-            "review_url": "",
-            "subheading": "",
-            "title": "Георги Въжаров"
-          },
-          "type": "review"
-        },
-        "review_fniyid": {
-          "settings": {
-            "review_content": "<p>Определено личи, че продуктите са създадени с грижа и внимание към домашните любимци. Радвам се, че открихме марка, на която можем да се доверим напълно.<br/>Препоръчвам с две ръце на всички стопани, които търсят най-доброто за своя четириног приятел!</p>",
-            "review_url": "",
-            "subheading": "",
-            "title": ""
-          },
-          "type": "review"
-        },
-        "review_haAhBA": {
-          "settings": {
-            "review_content": "<p>Много съм доволна!!!Продуктите са висококачествени и подбрани с грижа за здравето на любимците ни. Доставката е бърза и безпроблемна. Най-голямото впечатление обаче ми направи отношението – собственичката е изключително любезна, винаги отговаря на въпроси и дава ценни съвети. Личи си, че прави всичко с любов към животните и внимание към клиентите.<br/> Горещо препоръчвам!</p>",
-            "review_url": "",
-            "subheading": "",
-            "title": "Нина Добрева"
-          },
-          "type": "review"
-        },
-        "review_kzBiFh": {
-          "settings": {
-            "review_content": "<p>От доста време използваме продуктите на Wild Born  и сме повече от доволни! Храната е с изключително качество – съставките са натурални, без излишни добавки, а козината на кучето ни стана по-лъскава и мека само след няколко седмици. Апетитът му също се подобри, а храносмилането му е перфектно.</p>",
-            "review_url": "",
-            "subheading": "",
-            "title": "Десислава Петрова"
-          },
-          "type": "review"
-        },
-        "review_mVwx9N": {
-          "settings": {
-            "review_content": "<p>Използването на качествена храна и козметика е ключово за поддържане на доброто здраве на моите кучета, а Superdogs.bg определено са се погрижили да предлагат точно това.</p>",
-            "review_url": "",
-            "subheading": "",
-            "title": "Ирена Иванова"
-          },
-          "type": "review"
-        },
-        "review_rKpqJn": {
-          "settings": {
-            "review_content": "<p>Гранулираната храна на Wildborn се харесва много от пухкавия член на нашето семейство. Пробвали сме почти всички видове, които са подходящи за него,  хапва всички безотказно и без допълнителни бонуси в купичката.</p>",
-            "review_url": "",
-            "subheading": "",
-            "title": "Милена Кировска"
-          },
-          "type": "review"
-        }
-      },
       "name": "Testimonials",
       "settings": {
-        "card_bg_color": "",
-        "color_scheme": "scheme-2",
-        "heading_font_size": "heading-small",
-        "image_aspect_ratio": 1,
-        "padding_bottom": 48,
-        "padding_top": 48,
         "show_featured_image": false,
+        "image_aspect_ratio": 1,
         "show_quotation_marks": true,
-        "text_align": "text-center"
-      },
-      "type": "section-reviews"
+        "heading_font_size": "heading-small",
+        "text_align": "text-center",
+        "color_scheme": "scheme-2",
+        "card_bg_color": "",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
     },
     "section_tab_collections_44zVwb": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection_DJJ6Mb": {
+          "type": "collection",
+          "settings": {
+            "title": "Препоръчана козметика",
+            "featured_collection": "kozmetika",
+            "show_image": true,
+            "align_with_product_images": false,
+            "image": "shopify://shop_images/IMG_E3125.heic",
+            "overlay_opacity": 15,
+            "overlay_color": "",
+            "description": "",
+            "color": "",
+            "link_text": "Виж всички",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        },
+        "collection_Pae89d": {
+          "type": "collection",
+          "settings": {
+            "title": "Препоръчани храни",
+            "featured_collection": "konservi-za-kucheta-wildborn",
+            "show_image": true,
+            "align_with_product_images": false,
+            "image": "shopify://shop_images/18072556463298928_1751365450_1_1.jpg",
+            "overlay_opacity": 20,
+            "overlay_color": "",
+            "description": "",
+            "color": "",
+            "link_text": "Виж всички",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        }
+      },
       "block_order": [
         "collection_Pae89d",
         "collection_DJJ6Mb"
       ],
-      "blocks": {
-        "collection_DJJ6Mb": {
-          "settings": {
-            "align_with_product_images": false,
-            "button_size": "",
-            "button_style": "btn--solid",
-            "button_type": "btn--white",
-            "color": "",
-            "description": "",
-            "featured_collection": "kozmetika",
-            "image": "shopify://shop_images/IMG_E3125.heic",
-            "link": "",
-            "link_text": "Виж всички",
-            "overlay_color": "",
-            "overlay_opacity": 15,
-            "show_arrow": true,
-            "show_image": true,
-            "title": "Препоръчана козметика"
-          },
-          "type": "collection"
-        },
-        "collection_Pae89d": {
-          "settings": {
-            "align_with_product_images": false,
-            "button_size": "",
-            "button_style": "btn--solid",
-            "button_type": "btn--white",
-            "color": "",
-            "description": "",
-            "featured_collection": "konservi-za-kucheta-wildborn",
-            "image": "shopify://shop_images/18072556463298928_1751365450_1_1.jpg",
-            "link": "",
-            "link_text": "Виж всички",
-            "overlay_color": "",
-            "overlay_opacity": 20,
-            "show_arrow": true,
-            "show_image": true,
-            "title": "Препоръчани храни"
-          },
-          "type": "collection"
-        }
-      },
       "name": "Tab collections",
       "settings": {
-        "color_scheme": "scheme-9",
-        "grid": 4,
+        "show_product_count": false,
+        "title": "Избрано за щастливи кучета",
         "heading_font_size": "heading-medium",
-        "heading_tag": "automatic",
+        "text": "",
+        "text_font_size": "body-medium",
         "layout": "inline",
         "layout_desktop": "grid",
         "layout_mobile": "slider",
-        "padding_bottom": 48,
-        "padding_top": 48,
         "product_limit": 4,
+        "grid": 4,
         "rows": 1,
-        "show_product_count": false,
-        "text": "",
-        "text_font_size": "body-medium",
-        "title": "Избрано за щастливи кучета"
-      },
-      "type": "section-tab-collections"
+        "color_scheme": "scheme-9",
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "heading_tag": "automatic"
+      }
     },
     "section_text_promo_JfYWUY": {
+      "type": "section-text-promo",
+      "blocks": {
+        "button_xkrPJc": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Shop now",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "heading_6iTenW": {
+          "type": "heading",
+          "settings": {
+            "title": "Щастливото куче прави света по-добър",
+            "heading_font_size": "heading-large",
+            "heading_tag": "automatic"
+          }
+        },
+        "text_JdMMeh": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Advertise a promotion or a sale</p>",
+            "text_font_size": "body-medium"
+          }
+        }
+      },
       "block_order": [
         "heading_6iTenW",
         "text_JdMMeh",
         "button_xkrPJc"
       ],
-      "blocks": {
-        "button_xkrPJc": {
-          "disabled": true,
-          "settings": {
-            "button_size": "",
-            "button_style": "btn--solid",
-            "button_text": "Shop now",
-            "button_type": "btn--primary",
-            "button_url": "",
-            "show_arrow": false
-          },
-          "type": "button"
-        },
-        "heading_6iTenW": {
-          "settings": {
-            "heading_font_size": "heading-large",
-            "heading_tag": "automatic",
-            "title": "Щастливото куче прави света по-добър"
-          },
-          "type": "heading"
-        },
-        "text_JdMMeh": {
-          "disabled": true,
-          "settings": {
-            "text": "<p>Advertise a promotion or a sale</p>",
-            "text_font_size": "body-medium"
-          },
-          "type": "text"
-        }
-      },
       "name": "Text promo",
       "settings": {
         "border": true,
+        "width": "wrapper--full",
         "color_scheme": "scheme-2",
-        "inner_padding": 50,
         "overlay_opacity": 0,
-        "padding_bottom": 50,
-        "padding_top": 50,
         "show_overlay_text": false,
-        "width": "wrapper--full"
-      },
-      "type": "section-text-promo"
+        "inner_padding": 50,
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
     },
     "section_text_with_products_4rqKzr": {
+      "type": "section-text-with-products",
+      "blocks": {
+        "collection_jNiHdx": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "image_position": 7,
+            "aspect_ratio": 1,
+            "width": 80,
+            "mobile_aspect_ratio": 1,
+            "mobile_width": 60
+          }
+        },
+        "image_Fe6M78": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pug-dog-isolated-white-background.png",
+            "image_position": 1,
+            "aspect_ratio": 1,
+            "width": 80,
+            "mobile_aspect_ratio": 1,
+            "mobile_width": 60
+          }
+        },
+        "image_f73dwN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/group-nine-dogs.png",
+            "image_position": 14,
+            "aspect_ratio": 0.5,
+            "width": 270,
+            "mobile_aspect_ratio": 1,
+            "mobile_width": 60
+          }
+        },
+        "image_gwbgyd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/view-adorable-pet-dog.png",
+            "image_position": 4,
+            "aspect_ratio": 1,
+            "width": 80,
+            "mobile_aspect_ratio": 1,
+            "mobile_width": 60
+          }
+        },
+        "image_rt9hTt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lovely-pet-portrait-isolated.png",
+            "image_position": 2,
+            "aspect_ratio": 1.2,
+            "width": 80,
+            "mobile_aspect_ratio": 1,
+            "mobile_width": 60
+          }
+        },
+        "product_zXkFYa": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "product": "",
+            "image_position": 1,
+            "aspect_ratio": 1,
+            "width": 80,
+            "mobile_aspect_ratio": 1,
+            "mobile_width": 60
+          }
+        }
+      },
       "block_order": [
         "product_zXkFYa",
         "image_Fe6M78",
@@ -1187,315 +1258,244 @@
         "image_f73dwN",
         "collection_jNiHdx"
       ],
-      "blocks": {
-        "collection_jNiHdx": {
-          "disabled": true,
-          "settings": {
-            "aspect_ratio": 1,
-            "collection": "",
-            "image_position": 7,
-            "mobile_aspect_ratio": 1,
-            "mobile_width": 60,
-            "width": 80
-          },
-          "type": "collection"
-        },
-        "image_Fe6M78": {
-          "settings": {
-            "aspect_ratio": 1,
-            "image": "shopify://shop_images/pug-dog-isolated-white-background.png",
-            "image_position": 1,
-            "mobile_aspect_ratio": 1,
-            "mobile_width": 60,
-            "width": 80
-          },
-          "type": "image"
-        },
-        "image_f73dwN": {
-          "settings": {
-            "aspect_ratio": 0.5,
-            "image": "shopify://shop_images/group-nine-dogs.png",
-            "image_position": 14,
-            "mobile_aspect_ratio": 1,
-            "mobile_width": 60,
-            "width": 270
-          },
-          "type": "image"
-        },
-        "image_gwbgyd": {
-          "settings": {
-            "aspect_ratio": 1,
-            "image": "shopify://shop_images/view-adorable-pet-dog.png",
-            "image_position": 4,
-            "mobile_aspect_ratio": 1,
-            "mobile_width": 60,
-            "width": 80
-          },
-          "type": "image"
-        },
-        "image_rt9hTt": {
-          "settings": {
-            "aspect_ratio": 1.2,
-            "image": "shopify://shop_images/lovely-pet-portrait-isolated.png",
-            "image_position": 2,
-            "mobile_aspect_ratio": 1,
-            "mobile_width": 60,
-            "width": 80
-          },
-          "type": "image"
-        },
-        "product_zXkFYa": {
-          "disabled": true,
-          "settings": {
-            "aspect_ratio": 1,
-            "image_position": 1,
-            "mobile_aspect_ratio": 1,
-            "mobile_width": 60,
-            "product": "",
-            "width": 80
-          },
-          "type": "product"
-        }
-      },
       "disabled": true,
       "name": "Text with products",
       "settings": {
-        "color_scheme": "scheme-6",
-        "heading": "Здраве, грижа и любов за нашите верни приятели",
-        "padding_bottom": 32,
-        "padding_top": 32,
         "subheading": "",
-        "text_align_desktop": "text-center",
-        "text_align_mobile": "text-left--mobile",
+        "heading": "Здраве, грижа и любов за нашите верни приятели",
+        "width": "wrapper--full-padded",
         "text_font_size_px_desktop": 40,
+        "text_align_desktop": "text-center",
         "text_font_size_px_mobile": 24,
-        "width": "wrapper--full-padded"
-      },
-      "type": "section-text-with-products"
+        "text_align_mobile": "text-left--mobile",
+        "color_scheme": "scheme-6",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
     },
     "section_video_XBiK9G": {
+      "type": "section-video",
       "custom_css": [
         "@media screen and (max-width: 480px) {.hero__title {font-size: 32px; }}"
       ],
       "name": "Video",
       "settings": {
-        "button_size": "",
-        "button_style": "btn--solid",
-        "button_type": "btn--primary",
-        "color": "",
-        "color_scheme": "scheme-11",
-        "desktop_height": "screen-height-full",
-        "flex_align": "align--middle-center",
-        "heading_font_size": "heading-x-large",
-        "heading_tag": "h1",
-        "link": "shopify://collections/all",
-        "link_text": "Виж всички продукти",
-        "mobile_height": "five-fifty-height-hero--mobile",
-        "overlay_opacity": 25,
-        "padding_bottom": 0,
-        "padding_top": 0,
-        "show_arrow": false,
-        "show_overlay_text": false,
-        "show_text_background": false,
+        "video": "shopify://files/videos/1696185410772217.mp4",
         "show_video_popup": false,
+        "video_popup_social": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "title": "Тук сме заради кучетата, не заради рекламата",
+        "heading_font_size": "heading-x-large",
         "text": "<p>SuperDogs е нещо повече от магазин – ние вярваме, че всяко куче заслужава най-добрата грижа. Нашата мисия е да осигуряваме качествени храни и козметика за стопани, които държат на здравето и щастието на своите любимци.</p>",
         "text_font_size": "body-medium",
-        "title": "Тук сме заради кучетата, не заради рекламата",
-        "video": "shopify://files/videos/1696185410772217.mp4",
-        "video_popup_social": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "width": "wrapper--full"
-      },
-      "type": "section-video"
+        "flex_align": "align--middle-center",
+        "link_text": "Виж всички продукти",
+        "link": "shopify://collections/all",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "desktop_height": "screen-height-full",
+        "mobile_height": "five-fifty-height-hero--mobile",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-11",
+        "show_text_background": false,
+        "color": "",
+        "overlay_opacity": 25,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "heading_tag": "h1"
+      }
     },
     "slideshow-nested": {
+      "type": "section-slideshow-nested",
+      "blocks": {
+        "slide_image_1": {
+          "type": "_slide-image",
+          "settings": {
+            "link": "",
+            "flex_align_desktop": "align--middle-center-desktop",
+            "flex_align_mobile": "align--middle-center-mobile",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_opacity": 0,
+            "overlay_color": "",
+            "show_overlay_text": false
+          },
+          "blocks": {
+            "button": {
+              "type": "button",
+              "settings": {
+                "text": "View products",
+                "link": "",
+                "type": "btn--primary",
+                "size": "",
+                "style": "btn--solid",
+                "show_arrow": false,
+                "full_width": false
+              },
+              "blocks": {}
+            },
+            "heading": {
+              "type": "heading",
+              "settings": {
+                "text": "Тук сме заради кучетата, не заради рекламата",
+                "heading_font_size": "heading-large",
+                "heading_tag": "automatic"
+              },
+              "blocks": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+                "text": "Tell your brand's story through images.",
+                "text_font_size": "body-large"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading",
+            "text",
+            "button"
+          ]
+        },
+        "slide_image_2": {
+          "type": "_slide-image",
+          "settings": {
+            "link": "",
+            "flex_align_desktop": "align--middle-center-desktop",
+            "flex_align_mobile": "align--middle-center-mobile",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_opacity": 0,
+            "overlay_color": "",
+            "show_overlay_text": false
+          },
+          "blocks": {
+            "button": {
+              "type": "button",
+              "settings": {
+                "text": "View products",
+                "link": "",
+                "type": "btn--primary",
+                "size": "",
+                "style": "btn--solid",
+                "show_arrow": false,
+                "full_width": false
+              },
+              "blocks": {}
+            },
+            "heading": {
+              "type": "heading",
+              "settings": {
+                "text": "Image slide",
+                "heading_font_size": "heading-x-large",
+                "heading_tag": "automatic"
+              },
+              "blocks": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+                "text": "Tell your brand's story through images.",
+                "text_font_size": "body-large"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading",
+            "text",
+            "button"
+          ]
+        }
+      },
       "block_order": [
         "slide_image_1",
         "slide_image_2"
       ],
-      "blocks": {
-        "slide_image_1": {
-          "block_order": [
-            "heading",
-            "text",
-            "button"
-          ],
-          "blocks": {
-            "button": {
-              "blocks": {},
-              "settings": {
-                "full_width": false,
-                "link": "",
-                "show_arrow": false,
-                "size": "",
-                "style": "btn--solid",
-                "text": "View products",
-                "type": "btn--primary"
-              },
-              "type": "button"
-            },
-            "heading": {
-              "blocks": {},
-              "settings": {
-                "heading_font_size": "heading-large",
-                "heading_tag": "automatic",
-                "text": "Тук сме заради кучетата, не заради рекламата"
-              },
-              "type": "heading"
-            },
-            "text": {
-              "blocks": {},
-              "settings": {
-                "text": "Tell your brand's story through images.",
-                "text_font_size": "body-large"
-              },
-              "type": "text"
-            }
-          },
-          "settings": {
-            "bg_color": "",
-            "color": "",
-            "flex_align_desktop": "align--middle-center-desktop",
-            "flex_align_mobile": "align--middle-center-mobile",
-            "link": "",
-            "overlay_color": "",
-            "overlay_opacity": 0,
-            "show_overlay_text": false,
-            "show_text_background": false
-          },
-          "type": "_slide-image"
-        },
-        "slide_image_2": {
-          "block_order": [
-            "heading",
-            "text",
-            "button"
-          ],
-          "blocks": {
-            "button": {
-              "blocks": {},
-              "settings": {
-                "full_width": false,
-                "link": "",
-                "show_arrow": false,
-                "size": "",
-                "style": "btn--solid",
-                "text": "View products",
-                "type": "btn--primary"
-              },
-              "type": "button"
-            },
-            "heading": {
-              "blocks": {},
-              "settings": {
-                "heading_font_size": "heading-x-large",
-                "heading_tag": "automatic",
-                "text": "Image slide"
-              },
-              "type": "heading"
-            },
-            "text": {
-              "blocks": {},
-              "settings": {
-                "text": "Tell your brand's story through images.",
-                "text_font_size": "body-large"
-              },
-              "type": "text"
-            }
-          },
-          "settings": {
-            "bg_color": "",
-            "color": "",
-            "flex_align_desktop": "align--middle-center-desktop",
-            "flex_align_mobile": "align--middle-center-mobile",
-            "link": "",
-            "overlay_color": "",
-            "overlay_opacity": 0,
-            "show_overlay_text": false,
-            "show_text_background": false
-          },
-          "type": "_slide-image"
-        }
-      },
       "disabled": true,
       "settings": {
+        "transition": "slide",
+        "show_arrows": true,
         "autoplay": false,
         "autoplay_speed": 8,
-        "color_scheme": "",
+        "width": "wrapper--full",
         "height": "screen-height-two-thirds",
         "mobile_height": "screen-height-three-quarters--mobile",
-        "padding_bottom": 0,
+        "color_scheme": "",
         "padding_top": 0,
-        "show_arrows": true,
-        "transition": "slide",
-        "width": "wrapper--full"
-      },
-      "type": "section-slideshow-nested"
+        "padding_bottom": 0
+      }
     },
     "text-row": {
+      "type": "section-text-row",
+      "blocks": {
+        "icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-flare",
+            "icon_size": 35,
+            "icon_color": "rgba(0,0,0,0)",
+            "title": "Title",
+            "heading_font_size": "heading-medium",
+            "text": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
+            "text_font_size": "body-small",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon-3": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_size": 35,
+            "icon_color": "rgba(0,0,0,0)",
+            "title": "Title",
+            "heading_font_size": "heading-medium",
+            "text": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
+            "text_font_size": "body-small",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_DFRmAC": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "Title",
+            "heading_font_size": "heading-small",
+            "text": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        }
+      },
       "block_order": [
         "icon_DFRmAC",
         "icon-1",
         "icon-3"
       ],
-      "blocks": {
-        "icon-1": {
-          "settings": {
-            "heading_font_size": "heading-medium",
-            "heading_tag": "automatic",
-            "icon_color": "rgba(0,0,0,0)",
-            "icon_name": "icon-flare",
-            "icon_size": 35,
-            "text": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
-            "text_font_size": "body-small",
-            "title": "Title"
-          },
-          "type": "icon"
-        },
-        "icon-3": {
-          "settings": {
-            "heading_font_size": "heading-medium",
-            "heading_tag": "automatic",
-            "icon_color": "rgba(0,0,0,0)",
-            "icon_name": "icon-chat",
-            "icon_size": 35,
-            "text": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
-            "text_font_size": "body-small",
-            "title": "Title"
-          },
-          "type": "icon"
-        },
-        "icon_DFRmAC": {
-          "settings": {
-            "heading_font_size": "heading-small",
-            "heading_tag": "automatic",
-            "icon_color": "",
-            "icon_name": "icon-award",
-            "icon_size": 20,
-            "text": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
-            "text_font_size": "body-medium",
-            "title": "Title"
-          },
-          "type": "icon"
-        }
-      },
       "disabled": true,
       "settings": {
-        "align_columns": "flex-align-center",
+        "title": "",
+        "heading_font_size": "heading-small",
         "align_heading": "text-center",
         "align_text": "text-center",
-        "color_scheme": "scheme-2",
-        "grid": 3,
-        "heading_font_size": "heading-small",
-        "heading_tag": "automatic",
         "icon_alignment": "icon--top",
+        "width": "wrapper",
+        "align_columns": "flex-align-center",
         "layout": "grid",
+        "grid": 3,
         "layout_mobile": "slider",
-        "padding_bottom": 24,
+        "color_scheme": "scheme-2",
         "padding_top": 48,
-        "title": "",
-        "width": "wrapper"
-      },
-      "type": "section-text-row"
+        "padding_bottom": 24,
+        "heading_tag": "automatic"
+      }
     }
   }
 }

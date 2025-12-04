@@ -16,16 +16,16 @@
       ],
       "name": "Video",
       "settings": {
-        "video": "shopify:\/\/files\/videos\/1696185410772217.mp4",
+        "video": "shopify://files/videos/1696185410772217.mp4",
         "show_video_popup": false,
-        "video_popup_social": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_popup_social": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "title": "Тук сме заради кучетата, не заради рекламата",
         "heading_font_size": "heading-x-large",
-        "text": "<p>SuperDogs е нещо повече от магазин – ние вярваме, че всяко куче заслужава най-добрата грижа. Нашата мисия е да осигуряваме качествени храни и козметика за стопани, които държат на здравето и щастието на своите любимци.<\/p>",
+        "text": "<p>SuperDogs е нещо повече от магазин – ние вярваме, че всяко куче заслужава най-добрата грижа. Нашата мисия е да осигуряваме качествени храни и козметика за стопани, които държат на здравето и щастието на своите любимци.</p>",
         "text_font_size": "body-medium",
         "flex_align": "align--middle-center",
         "link_text": "Виж всички продукти",
-        "link": "shopify:\/\/collections\/all",
+        "link": "shopify://collections/all",
         "button_type": "btn--primary",
         "button_size": "",
         "button_style": "btn--solid",
@@ -173,7 +173,7 @@
         "text_LpDzCQ": {
           "type": "text",
           "settings": {
-            "text": "<p>Винаги до теб със съвет и най-добрите продукти | <\/p>",
+            "text": "<p>Винаги до теб със съвет и най-добрите продукти | </p>",
             "text_font_size": "body-medium",
             "color": "",
             "target_device_enabled": false,
@@ -183,7 +183,7 @@
         "text_HXzhUC": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Безплатни индивидуални консултации – толкова, колкото ти трябват |<\/strong><\/p>",
+            "text": "<p><strong>Безплатни индивидуални консултации – толкова, колкото ти трябват |</strong></p>",
             "text_font_size": "body-medium",
             "color": "",
             "target_device_enabled": false,
@@ -205,7 +205,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p><strong>Create a scrolling marquee or a simple announcement<\/strong><\/p>",
+            "text": "<p><strong>Create a scrolling marquee or a simple announcement</strong></p>",
             "text_font_size": "body-small",
             "color": "",
             "target_device_enabled": false,
@@ -239,8 +239,8 @@
         "collection_J4yECR": {
           "type": "collection",
           "settings": {
-            "collection": "гребени",
-            "collection_image": "shopify:\/\/shop_images\/barsy-192.jpg",
+            "collection": "grebeni-utsumi",
+            "collection_image": "shopify://shop_images/barsy-192.jpg",
             "title": ""
           }
         },
@@ -255,7 +255,7 @@
           "type": "collection",
           "settings": {
             "collection": "scissors-utsumi",
-            "collection_image": "shopify:\/\/shop_images\/JYO-KING-0004_6a081fa6-445e-4083-8bab-2f11da8de869.png",
+            "collection_image": "shopify://shop_images/JYO-KING-0004_6a081fa6-445e-4083-8bab-2f11da8de869.png",
             "title": ""
           }
         }
@@ -273,7 +273,7 @@
         "description": "",
         "text_font_size": "body-medium",
         "button_text": "",
-        "button_url": "shopify:\/\/collections",
+        "button_url": "shopify://collections",
         "button_type": "btn--primary",
         "button_size": "",
         "button_style": "btn--solid",
@@ -299,7 +299,7 @@
             "featured_collection": "konservi-za-kucheta-wildborn",
             "show_image": true,
             "align_with_product_images": false,
-            "image": "shopify:\/\/shop_images\/18072556463298928_1751365450_1_1.jpg",
+            "image": "shopify://shop_images/18072556463298928_1751365450_1_1.jpg",
             "overlay_opacity": 20,
             "overlay_color": "",
             "description": "",
@@ -319,7 +319,7 @@
             "featured_collection": "kozmetika",
             "show_image": true,
             "align_with_product_images": false,
-            "image": "shopify:\/\/shop_images\/IMG_E3125.heic",
+            "image": "shopify://shop_images/IMG_E3125.heic",
             "overlay_opacity": 15,
             "overlay_color": "",
             "description": "",
@@ -362,12 +362,12 @@
         "image_jXQHVY": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/18059375410833795_1730804227_1_1.jpg",
+            "image": "shopify://shop_images/18059375410833795_1730804227_1_1.jpg",
             "image_width": 80,
             "image_shape": "blob-three",
             "title": "Премиум качество",
             "heading_font_size": "heading-small",
-            "text": "<p>внимателно подбрани производители на храна, козметика и аксесоари, само това, което бихме дали на нашите кучета<\/p>",
+            "text": "<p>внимателно подбрани производители на храна, козметика и аксесоари, само това, което бихме дали на нашите кучета</p>",
             "text_font_size": "body-medium",
             "button_text": "",
             "button_url": "",
@@ -383,12 +383,12 @@
         "image_bfxFAe": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_E3130_1fe3c27b-c0b2-4284-935f-62ceffcb3f56.heic",
+            "image": "shopify://shop_images/IMG_E3130_1fe3c27b-c0b2-4284-935f-62ceffcb3f56.heic",
             "image_width": 80,
             "image_shape": "blob-two",
             "title": "Произход, на който вярваш",
             "heading_font_size": "heading-small",
-            "text": "<p>прозрачен произход на продуктите<\/p>",
+            "text": "<p>прозрачен произход на продуктите</p>",
             "text_font_size": "body-medium",
             "button_text": "",
             "button_url": "",
@@ -404,12 +404,12 @@
         "image_3HmWb8": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/18008552054642542_1728916327_0601f497-e8d5-4c52-b375-0f477de2047c_1.jpg",
+            "image": "shopify://shop_images/18008552054642542_1728916327_0601f497-e8d5-4c52-b375-0f477de2047c_1.jpg",
             "image_width": 80,
             "image_shape": "blob-one",
             "title": "Доказан ефект",
             "heading_font_size": "heading-small",
-            "text": "<p>Резултати, които виждаш<\/p>",
+            "text": "<p>Резултати, които виждаш</p>",
             "text_font_size": "body-medium",
             "button_text": "",
             "button_url": "",
@@ -452,7 +452,7 @@
           "type": "collection",
           "settings": {
             "collection": "hrana-za-kucheta",
-            "image": "shopify:\/\/shop_images\/17965805534190193_1_1.jpg",
+            "image": "shopify://shop_images/17965805534190193_1_1.jpg",
             "title": "Храна"
           }
         },
@@ -460,7 +460,7 @@
           "type": "collection",
           "settings": {
             "collection": "produkti-za-grizha-i-higiena",
-            "image": "shopify:\/\/shop_images\/WhatsApp_2025-07-18_10.16.38_a33e7804_1.jpg",
+            "image": "shopify://shop_images/WhatsApp_2025-07-18_10.16.38_a33e7804_1.jpg",
             "title": "Грижа и аксесоари"
           }
         },
@@ -468,7 +468,7 @@
           "type": "collection",
           "settings": {
             "collection": "kozmetika",
-            "image": "shopify:\/\/shop_images\/IMG_E3122.heic",
+            "image": "shopify://shop_images/IMG_E3122.heic",
             "title": "Козметика"
           }
         }
@@ -496,7 +496,7 @@
         "image_c3LHEE": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/18045771344176667_1747144871_1.jpg",
+            "image": "shopify://shop_images/18045771344176667_1747144871_1.jpg",
             "title": "",
             "heading_font_size": "heading-large",
             "text": "",
@@ -523,10 +523,10 @@
             "subheading": "Здраве",
             "title": "Храна с грижа и разбиране",
             "heading_font_size": "heading-large",
-            "text": "<p>Предлагаме само храни с висококачествени съставки, без зърно и без глутен, за да бъде всяко хранене удоволствие и грижа.<\/p>",
+            "text": "<p>Предлагаме само храни с висококачествени съставки, без зърно и без глутен, за да бъде всяко хранене удоволствие и грижа.</p>",
             "text_font_size": "body-medium",
             "button_text": "Разгледай храните",
-            "button_url": "shopify:\/\/collections\/hrana-za-kucheta",
+            "button_url": "shopify://collections/hrana-za-kucheta",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
@@ -566,10 +566,10 @@
             "subheading": "Грижа",
             "title": "Красота и грижа за всички",
             "heading_font_size": "heading-large",
-            "text": "<p>Нашата козметична линия предлага продукти, които не само подхранват кожата и козината на кучето ти, но и се грижат за ръцете на грумъра. Всички продукти са разработени с внимание и отговорност към околната среда, защото вярваме, че добрата грижа започва от природата.<\/p>",
+            "text": "<p>Нашата козметична линия предлага продукти, които не само подхранват кожата и козината на кучето ти, но и се грижат за ръцете на грумъра. Всички продукти са разработени с внимание и отговорност към околната среда, защото вярваме, че добрата грижа започва от природата.</p>",
             "text_font_size": "body-medium",
             "button_text": "Разгледай козметиката",
-            "button_url": "shopify:\/\/collections\/kozmetika",
+            "button_url": "shopify://collections/kozmetika",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
@@ -585,7 +585,7 @@
         "image_iLV7rd": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_0983.jpg",
+            "image": "shopify://shop_images/IMG_0983.jpg",
             "title": "",
             "heading_font_size": "heading-large",
             "text": "",
@@ -635,7 +635,7 @@
         "text_font_size": "body-medium",
         "layout": "inline",
         "link_text": "Купи сега",
-        "link_url": "shopify:\/\/collections\/hrana-za-kucheta-suha-hrana-za-kucheta-wildborn-sensitive",
+        "link_url": "shopify://collections/hrana-za-kucheta-suha-hrana-za-kucheta-wildborn-sensitive",
         "button_type": "btn--primary",
         "button_size": "",
         "button_style": "btn--solid",
@@ -669,7 +669,7 @@
         "image_Fe6M78": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pug-dog-isolated-white-background.png",
+            "image": "shopify://shop_images/pug-dog-isolated-white-background.png",
             "image_position": 1,
             "aspect_ratio": 1,
             "width": 80,
@@ -680,7 +680,7 @@
         "image_rt9hTt": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/lovely-pet-portrait-isolated.png",
+            "image": "shopify://shop_images/lovely-pet-portrait-isolated.png",
             "image_position": 2,
             "aspect_ratio": 1.2,
             "width": 80,
@@ -691,7 +691,7 @@
         "image_gwbgyd": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/view-adorable-pet-dog.png",
+            "image": "shopify://shop_images/view-adorable-pet-dog.png",
             "image_position": 4,
             "aspect_ratio": 1,
             "width": 80,
@@ -702,7 +702,7 @@
         "image_f73dwN": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/group-nine-dogs.png",
+            "image": "shopify://shop_images/group-nine-dogs.png",
             "image_position": 14,
             "aspect_ratio": 0.5,
             "width": 270,
@@ -752,7 +752,7 @@
         "image_c3gwPU": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_12_90147f36-2154-46fe-9811-8016819fda1a_1.jpg",
+            "image": "shopify://shop_images/Frame_12_90147f36-2154-46fe-9811-8016819fda1a_1.jpg",
             "title": "",
             "heading_font_size": "heading-large",
             "text": "",
@@ -779,10 +779,10 @@
             "subheading": "любов",
             "title": "Кучетата на SuperDogs",
             "heading_font_size": "heading-large",
-            "text": "<p>Запознай се с кучетата, които стоят зад SuperDogs. Всички те са повече от 10 години в служба на обществото и работят като терапевтични кучета. Те тестват, инспектират и понякога просто се наслаждават на живота – благодарение на продуктите, които подбираме с грижа.<\/p>",
+            "text": "<p>Запознай се с кучетата, които стоят зад SuperDogs. Всички те са повече от 10 години в служба на обществото и работят като терапевтични кучета. Те тестват, инспектират и понякога просто се наслаждават на живота – благодарение на продуктите, които подбираме с грижа.</p>",
             "text_font_size": "body-medium",
             "button_text": "Виж кучетата на SuperDogs",
-            "button_url": "shopify:\/\/pages\/за-нас",
+            "button_url": "shopify://pages/за-нас",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
@@ -822,10 +822,10 @@
             "subheading": "За нас",
             "title": "Грижим се като теб",
             "heading_font_size": "heading-large",
-            "text": "<p>Не продаваме просто продукти – предлагаме доверие и спокойствие. Вярваме, че истинската грижа започва с любов и отговорност. В SuperDogs намираш не само храна и козметика, а и партньор, който разбира колко важно е кучето ти за теб.<\/p>",
+            "text": "<p>Не продаваме просто продукти – предлагаме доверие и спокойствие. Вярваме, че истинската грижа започва с любов и отговорност. В SuperDogs намираш не само храна и козметика, а и партньор, който разбира колко важно е кучето ти за теб.</p>",
             "text_font_size": "body-medium",
             "button_text": "Научи повече",
-            "button_url": "shopify:\/\/pages\/за-нас",
+            "button_url": "shopify://pages/за-нас",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
@@ -841,7 +841,7 @@
         "image_qLGwPG": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_8960-3-Photoroom_1_1.jpg",
+            "image": "shopify://shop_images/IMG_8960-3-Photoroom_1_1.jpg",
             "title": "",
             "heading_font_size": "heading-large",
             "text": "",
@@ -898,7 +898,7 @@
         "logo_item_header_JVew3D": {
           "type": "logo-item-header",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/logo.svg",
+            "logo": "shopify://shop_images/logo.svg",
             "logo_width": 180,
             "link": "",
             "text": "Горди сме да работим с най-добрите марки в света на домашните любимци",
@@ -908,7 +908,7 @@
         "logo_item_header_7xReaB": {
           "type": "logo-item-header",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/186ed0e1-a59a-45e1-81e6-765dec79e8bd.jpg",
+            "logo": "shopify://shop_images/186ed0e1-a59a-45e1-81e6-765dec79e8bd.jpg",
             "logo_width": 160,
             "link": "",
             "text": "Горди сме да работим с най-добрите марки в света на домашните любимци",
@@ -918,7 +918,7 @@
         "logo_item_header_yjeyWC": {
           "type": "logo-item-header",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/septona-logo-el.png",
+            "logo": "shopify://shop_images/septona-logo-el.png",
             "logo_width": 140,
             "link": "",
             "text": "Горди сме да работим с най-добрите марки в света на домашните любимци",
@@ -928,7 +928,7 @@
         "logo_item_header_RQbiEB": {
           "type": "logo-item-header",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/les_poochs_brushes_f320f523-8cea-45d0-a9f7-47aa67b1db3f.webp",
+            "logo": "shopify://shop_images/les_poochs_brushes_f320f523-8cea-45d0-a9f7-47aa67b1db3f.webp",
             "logo_width": 120,
             "link": "",
             "text": "Горди сме да работим с най-добрите марки в света на домашните любимци",
@@ -938,7 +938,7 @@
         "logo_item_header_LAdPat": {
           "type": "logo-item-header",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/utsumi_logo_4470ea49-b656-4f83-8190-03542e69af34.webp",
+            "logo": "shopify://shop_images/utsumi_logo_4470ea49-b656-4f83-8190-03542e69af34.webp",
             "logo_width": 140,
             "link": "",
             "text": "Горди сме да работим с най-добрите марки в света на домашните любимци",
@@ -969,7 +969,7 @@
         "image_B8ENEC": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/17940724280748218_1720789861_1_e59d6964-ec53-4d42-a4bd-9bbae253f4ef.jpg",
+            "image": "shopify://shop_images/17940724280748218_1720789861_1_e59d6964-ec53-4d42-a4bd-9bbae253f4ef.jpg",
             "mobile_height": "screen-height-one-third--mobile",
             "title": "",
             "heading_font_size": "heading-medium",
@@ -1074,7 +1074,7 @@
           "settings": {
             "title": "Нина Добрева",
             "subheading": "",
-            "review_content": "<p>Много съм доволна!!!Продуктите са висококачествени и подбрани с грижа за здравето на любимците ни. Доставката е бърза и безпроблемна. Най-голямото впечатление обаче ми направи отношението – собственичката е изключително любезна, винаги отговаря на въпроси и дава ценни съвети. Личи си, че прави всичко с любов към животните и внимание към клиентите.<br\/> Горещо препоръчвам!<\/p>",
+            "review_content": "<p>Много съм доволна!!!Продуктите са висококачествени и подбрани с грижа за здравето на любимците ни. Доставката е бърза и безпроблемна. Най-голямото впечатление обаче ми направи отношението – собственичката е изключително любезна, винаги отговаря на въпроси и дава ценни съвети. Личи си, че прави всичко с любов към животните и внимание към клиентите.<br/> Горещо препоръчвам!</p>",
             "review_url": ""
           }
         },
@@ -1083,7 +1083,7 @@
           "settings": {
             "title": "Красияна Михайлова",
             "subheading": "",
-            "review_content": "<p>Най - високо качество храна и козметика. Изключително доволна съм и много бързо видях резултата. Моето куче харесва всеки от вкусовете на марката, а това е много показателно, предвид капризите й! Силно препоръчвам! Ще намерите професионалист , който да ви консултира според вашите нужди! ТОП!!!<\/p>",
+            "review_content": "<p>Най - високо качество храна и козметика. Изключително доволна съм и много бързо видях резултата. Моето куче харесва всеки от вкусовете на марката, а това е много показателно, предвид капризите й! Силно препоръчвам! Ще намерите професионалист , който да ви консултира според вашите нужди! ТОП!!!</p>",
             "review_url": ""
           }
         },
@@ -1092,7 +1092,7 @@
           "settings": {
             "title": "Милена Кировска",
             "subheading": "",
-            "review_content": "<p>Гранулираната храна на Wildborn се харесва много от пухкавия член на нашето семейство. Пробвали сме почти всички видове, които са подходящи за него,  хапва всички безотказно и без допълнителни бонуси в купичката.<\/p>",
+            "review_content": "<p>Гранулираната храна на Wildborn се харесва много от пухкавия член на нашето семейство. Пробвали сме почти всички видове, които са подходящи за него,  хапва всички безотказно и без допълнителни бонуси в купичката.</p>",
             "review_url": ""
           }
         },
@@ -1101,7 +1101,7 @@
           "settings": {
             "title": "Емил Симеонов",
             "subheading": "",
-            "review_content": "<p>•\tWILDBORN – неустоима храна, призната от 5 бобтейла на различна възраст и с индивидуални потребности.Невероятен вкус, качество и грижа за вътрешния баланс.<br\/>•\tH-PROJECT LINE е перфектната козметична грижа за външния баланс и визия– козина, очи, уши.<br\/>В лицето на SUPERDOGS.BG открих не просто доставчик, а перфектен консултант в сферата на кинологията. <\/p>",
+            "review_content": "<p>•\tWILDBORN – неустоима храна, призната от 5 бобтейла на различна възраст и с индивидуални потребности.Невероятен вкус, качество и грижа за вътрешния баланс.<br/>•\tH-PROJECT LINE е перфектната козметична грижа за външния баланс и визия– козина, очи, уши.<br/>В лицето на SUPERDOGS.BG открих не просто доставчик, а перфектен консултант в сферата на кинологията. </p>",
             "review_url": ""
           }
         },
@@ -1110,7 +1110,7 @@
           "settings": {
             "title": "Ирена Иванова",
             "subheading": "",
-            "review_content": "<p>Използването на качествена храна и козметика е ключово за поддържане на доброто здраве на моите кучета, а Superdogs.bg определено са се погрижили да предлагат точно това.<\/p>",
+            "review_content": "<p>Използването на качествена храна и козметика е ключово за поддържане на доброто здраве на моите кучета, а Superdogs.bg определено са се погрижили да предлагат точно това.</p>",
             "review_url": ""
           }
         },
@@ -1119,7 +1119,7 @@
           "settings": {
             "title": "Георги Въжаров",
             "subheading": "",
-            "review_content": "<p>От лакомствата до гранулата, нашият космат любимец е фен на всичко, което е пробвал с марка Wildborn.<\/p>",
+            "review_content": "<p>От лакомствата до гранулата, нашият космат любимец е фен на всичко, което е пробвал с марка Wildborn.</p>",
             "review_url": ""
           }
         },
@@ -1128,7 +1128,7 @@
           "settings": {
             "title": "Десислава Петрова",
             "subheading": "",
-            "review_content": "<p>От доста време използваме продуктите на Wild Born  и сме повече от доволни! Храната е с изключително качество – съставките са натурални, без излишни добавки, а козината на кучето ни стана по-лъскава и мека само след няколко седмици. Апетитът му също се подобри, а храносмилането му е перфектно.<\/p>",
+            "review_content": "<p>От доста време използваме продуктите на Wild Born  и сме повече от доволни! Храната е с изключително качество – съставките са натурални, без излишни добавки, а козината на кучето ни стана по-лъскава и мека само след няколко седмици. Апетитът му също се подобри, а храносмилането му е перфектно.</p>",
             "review_url": ""
           }
         },
@@ -1137,7 +1137,7 @@
           "settings": {
             "title": "",
             "subheading": "",
-            "review_content": "<p>Особено съм впечатлена от козметичната серия – шампоаните и балсамите ухаят приятно, не дразнят кожата и се отмиват лесно. След баня козината остава свежа и мирише чисто за дни!<\/p>",
+            "review_content": "<p>Особено съм впечатлена от козметичната серия – шампоаните и балсамите ухаят приятно, не дразнят кожата и се отмиват лесно. След баня козината остава свежа и мирише чисто за дни!</p>",
             "review_url": ""
           }
         },
@@ -1146,7 +1146,7 @@
           "settings": {
             "title": "",
             "subheading": "",
-            "review_content": "<p>Определено личи, че продуктите са създадени с грижа и внимание към домашните любимци. Радвам се, че открихме марка, на която можем да се доверим напълно.<br\/>Препоръчвам с две ръце на всички стопани, които търсят най-доброто за своя четириног приятел!<\/p>",
+            "review_content": "<p>Определено личи, че продуктите са създадени с грижа и внимание към домашните любимци. Радвам се, че открихме марка, на която можем да се доверим напълно.<br/>Препоръчвам с две ръце на всички стопани, които търсят най-доброто за своя четириног приятел!</p>",
             "review_url": ""
           }
         }
@@ -1217,7 +1217,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Advertise a promotion or a sale<\/p>",
+            "text": "<p>Advertise a promotion or a sale</p>",
             "text_font_size": "body-medium"
           }
         },
@@ -1281,7 +1281,7 @@
         "image_XXpd9q": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/17914183859885977_1724422335.jpg",
+            "image": "shopify://shop_images/17914183859885977_1724422335.jpg",
             "title": "",
             "heading_font_size": "heading-large",
             "text": "",
@@ -1308,7 +1308,7 @@
             "subheading": "Бюлетин",
             "heading": "Абонирай се за полезни съвети, промоции и новости за твоето куче",
             "heading_font_size": "heading-large",
-            "text": "<p>-10% от първа поръчка, ако се регистрираш за нашия бюлетин<\/p>",
+            "text": "<p>-10% от първа поръчка, ако се регистрираш за нашия бюлетин</p>",
             "text_font_size": "body-medium",
             "text_columns": 1,
             "align_text": "text-left",
@@ -1351,7 +1351,7 @@
             "icon_color": "",
             "title": "Title",
             "heading_font_size": "heading-small",
-            "text": "<p>Share details about your shipping policies, item returns, or customer service.<\/p>",
+            "text": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
             "text_font_size": "body-medium",
             "heading_tag": "automatic"
           }
@@ -1364,7 +1364,7 @@
             "icon_color": "rgba(0,0,0,0)",
             "title": "Title",
             "heading_font_size": "heading-medium",
-            "text": "<p>Share details about your shipping policies, item returns, or customer service.<\/p>",
+            "text": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
             "text_font_size": "body-small",
             "heading_tag": "automatic"
           }
@@ -1377,7 +1377,7 @@
             "icon_color": "rgba(0,0,0,0)",
             "title": "Title",
             "heading_font_size": "heading-medium",
-            "text": "<p>Share details about your shipping policies, item returns, or customer service.<\/p>",
+            "text": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
             "text_font_size": "body-small",
             "heading_tag": "automatic"
           }
@@ -1415,7 +1415,7 @@
             "mobile_height": "screen-height-one-half--mobile",
             "title": "21321",
             "heading_font_size": "heading-large",
-            "text": "<p>213123<\/p>",
+            "text": "<p>213123</p>",
             "text_font_size": "body-medium",
             "flex_align": "align--middle-center",
             "overlay_opacity": 0,
