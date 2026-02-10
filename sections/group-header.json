@@ -21,7 +21,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Безплатна доставка при покупка над 100 лв.</p>",
+            "text": "<p>Безплатна доставка при покупка над 50 евро.</p>",
             "target_url_enabled": false,
             "target_url": "",
             "target_referrer_enabled": false,
