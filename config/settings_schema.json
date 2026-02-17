@@ -890,6 +890,13 @@
         "info": "Add tag '_preorder' or '_badge_with_custom_text' to a product in order to show the badge"
       },
       {
+        "type": "text",
+        "id": "request_badge_text",
+        "label": "Out of stock request badge text",
+        "default": "Заявка",
+        "info": "Shown when inventory is 0 and \"Continue selling when out of stock\" is enabled. Leave blank to disable."
+      },
+      {
         "type": "color",
         "id": "badge_bg_color",
         "label": "Background",

@@ -54,6 +54,7 @@
     "sale_tags_enable": false,
     "sale_bg_color": "#e9d2c2",
     "sale_text_color": "#212121",
+    "request_badge_text": "ПО ПОРЪЧКА",
     "badge_bg_color": "#ffffff",
     "badge_text_color": "#212121",
     "show_sold_out_badge": true,

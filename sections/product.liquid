@@ -107,6 +107,15 @@
     assign badge = badge[1] | split: ',' | first | replace: '_', ' '
   endif
 
+  assign badge_request = ''
+  if settings.request_badge_text != blank and current_variant
+    assign variant_inventory_qty = current_variant.inventory_quantity | default: 0 | plus: 0
+
+    if current_variant.inventory_management == 'shopify' and current_variant.inventory_policy == 'continue' and variant_inventory_qty <= 0
+      assign badge_request = settings.request_badge_text
+    endif
+  endif
+
   assign color_scheme = 'color-' | append: section.settings.color_scheme
 -%}
 
@@ -155,6 +164,12 @@
             data-fader-mobile
           {% endif %}
         >
+          {%- if badge_request != '' -%}
+            <span class="badge-box {{ settings.badge_alignment }}" data-product-request-badge>
+              {{- badge_request -}}
+            </span>
+          {%- endif -%}
+
           {%- if product.media.size > 0 -%}
             {%- capture product_slides_attributes -%}
               class="product__slides product-single__photos"

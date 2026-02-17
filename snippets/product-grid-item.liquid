@@ -348,6 +348,7 @@
     assign badge = ''
     assign badge_new = ''
     assign badge_soldout = ''
+    assign badge_request = ''
     assign badge_alignment = settings.badge_alignment
 
     if product.metafields.theme.badge != blank and product.metafields.theme.badge.type == 'single_line_text_field'
@@ -389,9 +390,17 @@
     if settings.show_sold_out_badge and sold_out
       assign badge_soldout = 'products.product.sold_out' | t
     endif
+
+    if settings.request_badge_text != blank and current_variant
+      assign variant_inventory_qty = current_variant.inventory_quantity | default: 0 | plus: 0
+
+      if current_variant.inventory_management == 'shopify' and current_variant.inventory_policy == 'continue' and variant_inventory_qty <= 0
+        assign badge_request = settings.request_badge_text
+      endif
+    endif
   -%}
 
-  {%- if badge != '' or badge_new != '' or badge_soldout != '' -%}
+  {%- if badge != '' or badge_new != '' or badge_soldout != '' or badge_request != '' -%}
     <span class="badge-box {{ badge_alignment }}"
       data-aos="fade"
       data-aos-delay="{{ aos_delay }}"
@@ -399,6 +408,8 @@
       data-aos-anchor="{{ aos_anchor }}">
       {%- if badge_soldout != '' -%}
         {{ badge_soldout }}
+      {%- elsif badge_request != '' -%}
+        {{ badge_request }}
       {%- elsif badge_new != '' -%}
         {{ badge_new }}
       {%- else -%}

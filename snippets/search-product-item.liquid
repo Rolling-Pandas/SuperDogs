@@ -36,6 +36,15 @@
     assign show_second_image = false
   endif
 
+  assign badge_request = ''
+  if settings.request_badge_text != blank and current_variant
+    assign variant_inventory_qty = current_variant.inventory_quantity | default: 0 | plus: 0
+
+    if current_variant.inventory_management == 'shopify' and current_variant.inventory_policy == 'continue' and variant_inventory_qty <= 0
+      assign badge_request = settings.request_badge_text
+    endif
+  endif
+
   assign sizes = '(min-width: 1400px) calc((80vw - 100px) * 0.75 / 4), (min-width: 750px) calc(1100px * 0.75 / 3), 50px'
 -%}
 
@@ -49,6 +58,12 @@
     data-aos-anchor="{{ animation_anchor }}">
     <a href="{{ product.url }}" class="product-link" aria-label="{{ product.title | strip_html | escape }}"{% unless focusable %} tabindex="-1"{% endunless %} data-product-link>
       <div class="product-item__image{{ product_double_class }}{% unless featured_image %} image--empty{% endunless %}">
+        {%- if badge_request != '' -%}
+          <span class="badge-box {{ settings.badge_alignment }}">
+            {{- badge_request -}}
+          </span>
+        {%- endif -%}
+
         {%- if featured_image -%}
           {%- liquid
             assign hover_limit = settings.image_hover_limit | minus: 1

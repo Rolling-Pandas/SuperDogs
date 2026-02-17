@@ -2561,7 +2561,7 @@ button {
  * Helpers
  */
 .clearfix {
-  *zoom: 1;
+  zoom: 1;
 }
 .clearfix::after {
   content: "";
@@ -13138,6 +13138,51 @@ product-sticky {
 .product__images {
   --gap: 15px;
   display: block;
+  position: relative;
+}
+
+.product__images .sale-box,
+.product__images .preorder-box,
+.product__images .badge-box {
+  position: absolute;
+  left: var(--left-spacing);
+  top: 5px;
+  z-index: 3;
+}
+
+.product__images .sale-box.align--bottom-left,
+.product__images .sale-box.align--bottom-center,
+.product__images .sale-box.align--bottom-right,
+.product__images .preorder-box.align--bottom-left,
+.product__images .preorder-box.align--bottom-center,
+.product__images .preorder-box.align--bottom-right,
+.product__images .badge-box.align--bottom-left,
+.product__images .badge-box.align--bottom-center,
+.product__images .badge-box.align--bottom-right {
+  top: auto;
+  bottom: 5px;
+}
+
+.product__images .sale-box.align--top-right,
+.product__images .sale-box.align--bottom-right,
+.product__images .preorder-box.align--top-right,
+.product__images .preorder-box.align--bottom-right,
+.product__images .badge-box.align--top-right,
+.product__images .badge-box.align--bottom-right {
+  left: auto;
+  right: var(--left-spacing);
+}
+
+.product__images .sale-box.align--top-center,
+.product__images .sale-box.align--bottom-center,
+.product__images .preorder-box.align--top-center,
+.product__images .preorder-box.align--bottom-center,
+.product__images .badge-box.align--top-center,
+.product__images .badge-box.align--bottom-center {
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+  width: fit-content;
 }
 
 @media only screen and (min-width: 750px) {
