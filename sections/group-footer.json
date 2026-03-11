@@ -128,7 +128,7 @@
             "image_width": 150,
             "title": "Свържи се с нас",
             "heading_font_size": "heading-medium",
-            "text": "<p> гр. Пловдив, ул. Лъджене 21</p><p><a href=\"tel:+359889444457\" target=\"_blank\" title=\"tel:+359889444457\">+359889444457</a></p><p><a href=\"mailto:info@superdogs.bg\" title=\"mailto:info@superdogs.bg\">info@superdogs.bg</a></p>",
+            "text": "<p>SuperDogs</p><p>гр. Пловдив, ПК 4000</p><p>ул. Лъджене 21</p><p><a href=\"tel:+359889444457\" target=\"_blank\" title=\"tel:+359889444457\">+359889444457</a></p><p><a href=\"mailto:info@superdogs.bg\" title=\"mailto:info@superdogs.bg\">info@superdogs.bg</a></p>",
             "column_width": 25,
             "enable_accordion": false
           }
