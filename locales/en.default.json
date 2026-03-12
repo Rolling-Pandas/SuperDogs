@@ -556,5 +556,13 @@
     "shop_policies": {
       "privacy_policy": "Политика за поверителност"
     }
+  },
+  "gempages": {
+    "Newsletter": {
+      "err_msg_default": "Can't send email. Please try again later."
+    },
+    "StockCounter": {
+      "let_buy_now": "<mark>HURRY!</mark> LET'S BUY NOW"
+    }
   }
 }
