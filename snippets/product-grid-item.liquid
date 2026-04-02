@@ -396,7 +396,7 @@ endunless
     if settings.request_badge_text != blank and current_variant
       assign variant_inventory_qty = current_variant.inventory_quantity | default: 0 | plus: 0
 
-      if current_variant.inventory_management == 'shopify' and current_variant.inventory_policy == 'continue' and variant_inventory_qty <= 0
+      if current_variant.inventory_policy == 'continue' and variant_inventory_qty <= 0
         assign badge_request = settings.request_badge_text
       endif
     endif
