@@ -373,8 +373,10 @@
     endif
 
     unless product.available
-      assign sold_out = true
-    endunless
+  unless product.type == 'Ножици'
+    assign sold_out = true
+  endunless
+endunless
 
     if settings.show_automatic_new_badge
       assign product_created_timestamp = product.created_at | date: '%s' | plus: 0
