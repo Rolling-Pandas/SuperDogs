@@ -39,8 +39,12 @@
   endif
 
   unless current_variant.available
+  if product.type == 'Ножици'
+    assign button_text = 'products.product.pre_order' | t
+  else
     assign button_text = 'products.product.sold_out' | t
-  endunless
+  endif
+endunless
 
   if block.settings.show_gift_card_recipient and product.gift_card? and is_quickview != true
     assign gift_card_recipient_feature_active = true
