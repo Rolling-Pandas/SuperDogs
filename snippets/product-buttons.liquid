@@ -174,9 +174,11 @@ endunless
               id="AddToCart--{{ section.id }}"
               class="btn {{ button_size }} {{ button_style }} {{ button_type }}"
               data-add-to-cart
-              {% unless current_variant.available %}
-                disabled="disabled"
-              {% endunless %}
+             {% unless current_variant.available %}
+  {% if product.type != 'Ножици' %}
+    disabled="disabled"
+  {% endif %}
+{% endunless %}
             >
               <span class="btn__text" data-add-to-cart-text>
                 {{- button_text -}}
