@@ -24717,6 +24717,6 @@ body.has-header-sticky .timeline {
 }
 
 /*! ============ Add any custom styles below this line ================== */
-.template-product .shopify-section + .shopify-section {
-  margin-top: 0 !important;
+.template-product .accordion-section.section-padding {
+  padding-top: 6px !important;
 }
