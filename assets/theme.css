@@ -24717,9 +24717,6 @@ body.has-header-sticky .timeline {
 }
 
 /*! ============ Add any custom styles below this line ================== */
-.template-product .faq-list__item-content h3 {
-  margin-block-start: 0 !important;
-  margin-block-end: 0 !important;
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
+.template-product .faq-list__item-content p:empty {
+  display: none;
 }
