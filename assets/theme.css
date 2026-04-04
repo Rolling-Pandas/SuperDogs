@@ -24729,3 +24729,6 @@ body.has-header-sticky .timeline {
 .template-product .faq-list__item-content {
   padding-top: 0 !important;
 }
+.template-product .faq-list__item-description > *:first-child {
+  margin-top: 0 !important;
+}
