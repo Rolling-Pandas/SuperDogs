@@ -216,6 +216,9 @@
       "block_order": [
         "text_HzKKFY"
       ],
+      "custom_css": [
+        ".text-column > *:first-child {margin-top: 0 !important;}"
+      ],
       "name": "Accordion",
       "settings": {
         "default_open": false,
