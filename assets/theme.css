@@ -24717,13 +24717,13 @@ body.has-header-sticky .timeline {
 }
 
 /*! ============ Add any custom styles below this line ================== */
-.template-product details.accordion > summary.accordion__title.heading-small.font-heading {
+details.accordion[open] > summary.accordion__title.heading-small.font-heading {
   padding-top: 4px !important;
   padding-bottom: 4px !important;
   min-height: auto !important;
 }
 
-.template-product details.accordion > .accordion__body.rte {
+details.accordion[open] > .accordion__body.rte {
   padding-top: 0 !important;
   margin-top: 0 !important;
 }
