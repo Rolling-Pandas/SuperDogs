@@ -24717,3 +24717,10 @@ body.has-header-sticky .timeline {
 }
 
 /*! ============ Add any custom styles below this line ================== */
+.template-product .product__description {
+  margin-top: 0 !important;
+}
+
+.template-product .accordion__body > *:first-child {
+  margin-top: 0 !important;
+}
