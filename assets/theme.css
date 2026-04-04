@@ -24725,3 +24725,10 @@ body.has-header-sticky .timeline {
 .product__block--text p {
   margin-top: 0;
 }
+h2, h3 {
+  margin-bottom: 6px;
+}
+
+p {
+  margin-top: 0;
+}
