@@ -24717,18 +24717,17 @@ body.has-header-sticky .timeline {
 }
 
 /*! ============ Add any custom styles below this line ================== */
-.template-product .faq-list__item-description h3 {
+.template-product .faq-list__item-description {
   margin-top: 0 !important;
   padding-top: 0 !important;
 }
 
-.template-product .faq-list__item-description {
-  padding-top: 0 !important;
+.template-product .faq-list__item-description h3 {
+  margin-top: 0 !important;
+  line-height: 1.1 !important;
 }
 
 .template-product .faq-list__item-content {
-  padding-top: 0 !important;
-}
-.template-product .faq-list__item-description > *:first-child {
   margin-top: 0 !important;
+  padding-top: 0 !important;
 }
