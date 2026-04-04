@@ -24729,3 +24729,13 @@ body.has-header-sticky .timeline {
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;
 }
+[data-product-description] {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.product-description,
+.product-single__description {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
