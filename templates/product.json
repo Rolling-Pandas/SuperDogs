@@ -217,7 +217,7 @@
         "text_HzKKFY"
       ],
       "custom_css": [
-        ".accordion__content h1:first-child,.accordion__content h2:first-child,.accordion__content h3:first-child {margin-top: 0 !important;}"
+        ".faq-list__item-content > *:first-child {margin-top: 0 !important;}"
       ],
       "name": "Accordion",
       "settings": {
