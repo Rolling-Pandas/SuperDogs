@@ -24717,6 +24717,12 @@ body.has-header-sticky .timeline {
 }
 
 /*! ============ Add any custom styles below this line ================== */
-.template-product .accordion-section.section-padding {
-  padding-top: 6px !important;
+.template-product .accordion__body.rte {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.template-product .accordion__body.rte > *:first-child {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
 }
