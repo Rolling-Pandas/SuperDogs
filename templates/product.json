@@ -217,7 +217,8 @@
         "text_HzKKFY"
       ],
       "custom_css": [
-        ".text-column {padding-top: 0 !important;}"
+        ".text-column {padding-top: 0 !important;}",
+        ".text-column > div:first-child {padding-top: 0 !important; margin-top: 0 !important;}"
       ],
       "name": "Accordion",
       "settings": {
