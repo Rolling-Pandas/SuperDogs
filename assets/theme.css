@@ -24731,3 +24731,6 @@ body.has-header-sticky .timeline {
   margin-top: 0 !important;
   padding-top: 0 !important;
 }
+.template-product .faq-list__item-description > h3:first-child {
+  margin-block-start: 0 !important;
+}
