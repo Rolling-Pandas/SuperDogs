@@ -24717,14 +24717,15 @@ body.has-header-sticky .timeline {
 }
 
 /*! ============ Add any custom styles below this line ================== */
-.template-product .accordion {
+.template-product .faq-list__item-description h3 {
   margin-top: 0 !important;
-}
-
-.template-product .accordion__content {
   padding-top: 0 !important;
 }
-.template-product [data-collapsible] {
-  margin-top: 0 !important;
+
+.template-product .faq-list__item-description {
+  padding-top: 0 !important;
+}
+
+.template-product .faq-list__item-content {
   padding-top: 0 !important;
 }
