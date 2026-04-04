@@ -24724,3 +24724,7 @@ body.has-header-sticky .timeline {
 .template-product .accordion__content {
   padding-top: 0 !important;
 }
+.template-product [data-collapsible] {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
