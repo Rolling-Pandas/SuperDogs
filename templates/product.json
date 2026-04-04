@@ -208,7 +208,7 @@
           "type": "text",
           "settings": {
             "title": "",
-            "heading_font_size": "heading-small",
+            "heading_font_size": "heading-mini",
             "text": "<p></p>{{ product.description }}"
           }
         }
