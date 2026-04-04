@@ -24717,19 +24717,10 @@ body.has-header-sticky .timeline {
 }
 
 /*! ============ Add any custom styles below this line ================== */
-.faq-list__item-description h3 {
-  margin-top: 0 !important;
-  margin-bottom: 10px !important;
-}
-
-.faq-list__item-description h4,
-.faq-list__item-description p:first-of-type {
+.template-product .accordion {
   margin-top: 0 !important;
 }
 
-.faq-list__item-content {
+.template-product .accordion__content {
   padding-top: 0 !important;
-}
-.faq-list__item {
-  margin-bottom: 0 !important;
 }
