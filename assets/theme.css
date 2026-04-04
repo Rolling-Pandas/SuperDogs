@@ -24718,8 +24718,7 @@ body.has-header-sticky .timeline {
 
 /*! ============ Add any custom styles below this line ================== */
 .template-product summary.accordion__title {
-  padding-top: 8px !important;
-  padding-bottom: 8px !important;
+  padding: 6px 30px 6px 0 !important;
 }
 
 .template-product .accordion__body {
