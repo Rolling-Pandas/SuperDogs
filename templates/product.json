@@ -208,7 +208,7 @@
           "type": "text",
           "settings": {
             "title": "",
-            "heading_font_size": "heading-mini",
+            "heading_font_size": "heading-small",
             "text": "<p></p>{{ product.description }}"
           }
         }
@@ -216,7 +216,9 @@
       "block_order": [
         "text_HzKKFY"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".text-column {padding-top: 0 !important;}"
+      ],
       "name": "Accordion",
       "settings": {
         "default_open": false,
