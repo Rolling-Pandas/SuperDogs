@@ -24730,3 +24730,6 @@ body.has-header-sticky .timeline {
 .faq-list__item-content {
   padding-top: 0 !important;
 }
+.faq-list__item {
+  margin-bottom: 0 !important;
+}
