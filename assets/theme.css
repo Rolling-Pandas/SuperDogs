@@ -24717,8 +24717,3 @@ body.has-header-sticky .timeline {
 }
 
 /*! ============ Add any custom styles below this line ================== */
-.template-product collapsible-elements,
-.template-product .accordion,
-.template-product .accordion__content {
-  gap: 0 !important;
-}
