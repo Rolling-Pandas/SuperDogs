@@ -217,7 +217,8 @@
         "text_HzKKFY"
       ],
       "custom_css": [
-        ".faq-list__item-content > *:first-child {margin-top: 0 !important;}"
+        ".faq-list__item:first-child {padding-top: 0 !important;}",
+        ".faq-list__item-description {margin-top: 0 !important;}"
       ],
       "name": "Accordion",
       "settings": {
