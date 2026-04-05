@@ -24929,3 +24929,56 @@ button,
 .rte h4 strong {
   font-size: inherit !important;
 }
+/* === ЧЕТКИ И FAQ СТРУКТУРА === */
+.faq-list__item-content h1,
+.faq-list__item-content h2,
+.faq-list__item-content h3,
+.faq-list__item-content h4 {
+  text-align: left !important;
+}
+
+.faq-list__item-content h1,
+.faq-list__item-content h1 strong {
+  font-size: 25px !important;
+  font-weight: 700 !important;
+}
+
+.faq-list__item-content h2,
+.faq-list__item-content h2 strong {
+  font-size: 23px !important;
+  font-weight: 700 !important;
+}
+
+.faq-list__item-content h3,
+.faq-list__item-content h3 strong {
+  font-size: 21px !important;
+  font-weight: 600 !important;
+}
+
+.faq-list__item-content h4,
+.faq-list__item-content h4 strong {
+  font-size: 19px !important;
+  font-weight: 600 !important;
+}
+
+@media (max-width: 749px) {
+  .faq-list__item-content h1,
+  .faq-list__item-content h1 strong {
+    font-size: 28px !important;
+  }
+
+  .faq-list__item-content h2,
+  .faq-list__item-content h2 strong {
+    font-size: 26px !important;
+  }
+
+  .faq-list__item-content h3,
+  .faq-list__item-content h3 strong {
+    font-size: 24px !important;
+  }
+
+  .faq-list__item-content h4,
+  .faq-list__item-content h4 strong {
+    font-size: 22px !important;
+  }
+}
