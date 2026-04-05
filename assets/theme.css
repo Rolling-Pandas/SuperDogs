@@ -24765,3 +24765,26 @@ body.has-header-sticky .timeline {
   }
 }
 /* === END SUPERDOGS === */
+/* FIX само за първия елемент (gap проблема) */
+.faq-list__item-content > *:first-child {
+  margin-top: 0 !important;
+}
+
+/* Текст */
+.faq-list__item-content p,
+.faq-list__item-content li {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Заглавия */
+.faq-list__item-content h4 {
+  font-size: 18px;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+/* Разстояние между параграфи */
+.faq-list__item-content p {
+  margin-bottom: 10px;
+}
