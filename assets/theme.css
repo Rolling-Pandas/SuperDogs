@@ -24982,3 +24982,12 @@ button,
     font-size: 22px !important;
   }
 }
+/* === ЧЕТКИ - ПРИНУДИТЕЛНО === */
+.faq-list__item-content h2,
+.faq-list__item-content .notranslate h2,
+.faq-list__item-content div h2,
+.faq-list .faq-list__item-content h2 {
+  font-size: 23px !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+}
