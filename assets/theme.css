@@ -24797,6 +24797,19 @@ body.has-header-sticky .timeline {
   text-align: justify !important;
 }
 
+/* === ИЗКЛЮЧЕНИЯ - бутони и upsell === */
+.product-upsell__link,
+.product-upsell__link p,
+.product-upsell__link span,
+.btn,
+button,
+.product__btn,
+.add-to-cart,
+.wishlist-btn,
+.swym-button {
+  text-align: center !important;
+}
+
 @media (max-width: 749px) {
   .faq-list__item-content,
   .faq-list__item-content p,
