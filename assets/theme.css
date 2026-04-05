@@ -24787,6 +24787,15 @@ body.has-header-sticky .timeline {
   text-align: left !important;
 }
 
+/* === КРАТКО ОПИСАНИЕ И ДОСТАВКА === */
+.product__subheading.body-medium,
+.product__subheading p,
+.product__info-container .body-medium {
+  font-size: 16px !important;
+  line-height: 1.6 !important;
+  text-align: justify !important;
+}
+
 @media (max-width: 749px) {
   .faq-list__item-content,
   .faq-list__item-content p,
@@ -24802,5 +24811,12 @@ body.has-header-sticky .timeline {
   .faq-list__item-content h4 {
     font-size: 21px !important;
     font-weight: 700 !important;
+  }
+
+  .product__subheading.body-medium,
+  .product__subheading p,
+  .product__info-container .body-medium {
+    font-size: 19px !important;
+    line-height: 1.7 !important;
   }
 }
