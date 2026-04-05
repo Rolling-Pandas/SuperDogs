@@ -24765,25 +24765,47 @@ body.has-header-sticky .timeline {
   }
 }
 /* === END SUPERDOGS === */
-/* === ACCORDION ТЕКСТ === */
+/* === ACCORDION ТЕКСТ (всички типове) === */
 .faq-list__item-content,
 .faq-list__item-content p,
 .faq-list__item-content li,
 .faq-list__item-content h5,
 .faq-list__item-content h6,
 .faq-list__item-content strong,
-.faq-list__item-content span {
+.faq-list__item-content span,
+.accordion__body p,
+.accordion__body li,
+.accordion__body span,
+.accordion__content p,
+.accordion__content li,
+.accordion__content span,
+.rte p,
+.rte li,
+.rte span {
   font-size: 16px !important;
   line-height: 1.6 !important;
   text-align: justify !important;
 }
 
-.faq-list__item-content h4 {
+/* Подзаглавия (H4, bold параграфи) */
+.faq-list__item-content h4,
+.accordion__body h4,
+.accordion__content h4,
+.rte h4,
+.accordion__body p strong:only-child,
+.accordion__content p strong:only-child {
   font-size: 18px !important;
   font-weight: 600 !important;
   line-height: 1.4 !important;
   margin-top: 12px !important;
   margin-bottom: 4px !important;
+  text-align: left !important;
+}
+
+/* Главно заглавие (H3) - непипнато, само подравняване */
+.accordion__body h3,
+.accordion__content h3,
+.rte h3 {
   text-align: left !important;
 }
 
@@ -24817,12 +24839,26 @@ button,
   .faq-list__item-content h5,
   .faq-list__item-content h6,
   .faq-list__item-content strong,
-  .faq-list__item-content span {
+  .faq-list__item-content span,
+  .accordion__body p,
+  .accordion__body li,
+  .accordion__body span,
+  .accordion__content p,
+  .accordion__content li,
+  .accordion__content span,
+  .rte p,
+  .rte li,
+  .rte span {
     font-size: 19px !important;
     line-height: 1.7 !important;
   }
 
-  .faq-list__item-content h4 {
+  .faq-list__item-content h4,
+  .accordion__body h4,
+  .accordion__content h4,
+  .rte h4,
+  .accordion__body p strong:only-child,
+  .accordion__content p strong:only-child {
     font-size: 21px !important;
     font-weight: 700 !important;
   }
