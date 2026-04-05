@@ -24731,3 +24731,37 @@ body.has-header-sticky .timeline {
     line-height: 1.7 !important;
   }
 }
+/* === SUPERDOGS CUSTOM === */
+.faq-list__item:first-child {
+  padding-top: 0 !important;
+}
+.faq-list__item-description {
+  margin-top: 0 !important;
+}
+.accordion__content p,
+.accordion__content li,
+.faq-list__item-description p,
+.faq-list__item-description li,
+.faq-list__item-content p,
+.faq-list__item-content li,
+.product__subheading.body-medium,
+.product__subheading p,
+.product__info-container .body-medium {
+  font-size: 16px !important;
+  line-height: 1.6 !important;
+}
+@media (max-width: 749px) {
+  .accordion__content p,
+  .accordion__content li,
+  .faq-list__item-description p,
+  .faq-list__item-description li,
+  .faq-list__item-content p,
+  .faq-list__item-content li,
+  .product__subheading.body-medium,
+  .product__subheading p,
+  .product__info-container .body-medium {
+    font-size: 17px !important;
+    line-height: 1.7 !important;
+  }
+}
+/* === END SUPERDOGS === */
