@@ -24765,26 +24765,39 @@ body.has-header-sticky .timeline {
   }
 }
 /* === END SUPERDOGS === */
-/* FIX само за първия елемент (gap проблема) */
-.faq-list__item-content > *:first-child {
-  margin-top: 0 !important;
-}
-
-/* Текст */
+/* === ACCORDION ТЕКСТ === */
+.faq-list__item-content,
 .faq-list__item-content p,
-.faq-list__item-content li {
-  font-size: 16px;
-  line-height: 1.6;
+.faq-list__item-content li,
+.faq-list__item-content h5,
+.faq-list__item-content h6,
+.faq-list__item-content strong,
+.faq-list__item-content span {
+  font-size: 16px !important;
+  line-height: 1.6 !important;
 }
 
-/* Заглавия */
 .faq-list__item-content h4 {
-  font-size: 18px;
-  margin-top: 16px;
-  margin-bottom: 8px;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  line-height: 1.4 !important;
+  margin-top: 12px !important;
+  margin-bottom: 4px !important;
 }
 
-/* Разстояние между параграфи */
-.faq-list__item-content p {
-  margin-bottom: 10px;
+@media (max-width: 749px) {
+  .faq-list__item-content,
+  .faq-list__item-content p,
+  .faq-list__item-content li,
+  .faq-list__item-content h5,
+  .faq-list__item-content h6,
+  .faq-list__item-content strong,
+  .faq-list__item-content span {
+    font-size: 17px !important;
+    line-height: 1.7 !important;
+  }
+
+  .faq-list__item-content h4 {
+    font-size: 19px !important;
+  }
 }
