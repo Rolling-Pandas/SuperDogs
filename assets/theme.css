@@ -24918,3 +24918,14 @@ button,
     line-height: 1.7 !important;
   }
 }
+/* STRONG вътре в заглавия - наследява размера */
+.accordion__content h1 strong,
+.accordion__content h2 strong,
+.accordion__content h3 strong,
+.accordion__content h4 strong,
+.rte h1 strong,
+.rte h2 strong,
+.rte h3 strong,
+.rte h4 strong {
+  font-size: inherit !important;
+}
