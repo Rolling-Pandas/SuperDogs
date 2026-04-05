@@ -219,8 +219,8 @@
       "custom_css": [
         ".faq-list__item:first-child {padding-top: 0 !important;}",
         ".faq-list__item-description {margin-top: 0 !important;}",
-        "/* Параграфи в accordion */.accordion__content p,.accordion__content li,.faq-list__item-description p,.faq-list__item-description li {font-size: 16px !important; line-height: 1.6 !important;}",
-        "/* Мобилен - малко по-голям за четимост */@media (max-width: 749px) {.accordion__content p, .accordion__content li, .faq-list__item-description p, .faq-list__item-description li {font-size: 17px !important; line-height: 1.7 !important; }}"
+        " /* Параграфи в accordion */.accordion__content p,.accordion__content li,.faq-list__item-description p,.faq-list__item-description li {font-size: 16px !important; line-height: 1.6 !important;}",
+        " /* Мобилен - малко по-голям за четимост */@media (max-width: 749px) {.accordion__content p, .accordion__content li, .faq-list__item-description p, .faq-list__item-description li {font-size: 17px !important; line-height: 1.7 !important; }}"
       ],
       "name": "Accordion",
       "settings": {
