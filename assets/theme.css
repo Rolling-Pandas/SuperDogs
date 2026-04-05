@@ -24793,11 +24793,11 @@ body.has-header-sticky .timeline {
   .faq-list__item-content h6,
   .faq-list__item-content strong,
   .faq-list__item-content span {
-    font-size: 17px !important;
+    font-size: 19px !important;
     line-height: 1.7 !important;
   }
 
   .faq-list__item-content h4 {
-    font-size: 19px !important;
+    font-size: 20px !important;
   }
 }
