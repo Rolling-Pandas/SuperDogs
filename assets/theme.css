@@ -24765,3 +24765,14 @@ body.has-header-sticky .timeline {
   }
 }
 /* === END SUPERDOGS === */
+.faq-list__item-content * {
+  font-size: 16px !important;
+  line-height: 1.6 !important;
+}
+
+@media (max-width: 749px) {
+  .faq-list__item-content * {
+    font-size: 17px !important;
+    line-height: 1.7 !important;
+  }
+}
