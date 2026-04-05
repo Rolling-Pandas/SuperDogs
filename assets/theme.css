@@ -24765,37 +24765,3 @@ body.has-header-sticky .timeline {
   }
 }
 /* === END SUPERDOGS === */
-/* === FIX GAP В ACCORDION === */
-.faq-list__item-content > h3:first-child {
-  margin-top: 0 !important;
-}
-
-/* === ACCORDION ТЕКСТ === */
-.faq-list__item-content p,
-.faq-list__item-content li {
-  font-size: 16px !important;
-  line-height: 1.6 !important;
-}
-
-.faq-list__item-content h4,
-.faq-list__item-content h5,
-.faq-list__item-content h6 {
-  font-size: 18px !important;
-  line-height: 1.4 !important;
-  margin-bottom: 6px !important;
-}
-
-/* Mobile */
-@media (max-width: 749px) {
-  .faq-list__item-content p,
-  .faq-list__item-content li {
-    font-size: 17px !important;
-    line-height: 1.7 !important;
-  }
-
-  .faq-list__item-content h4,
-  .faq-list__item-content h5,
-  .faq-list__item-content h6 {
-    font-size: 19px !important;
-  }
-}
