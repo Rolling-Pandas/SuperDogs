@@ -24790,7 +24790,8 @@ body.has-header-sticky .timeline {
 /* === КРАТКО ОПИСАНИЕ И ДОСТАВКА === */
 .product__subheading.body-medium,
 .product__subheading p,
-.product__info-container .body-medium {
+.block__icon__text .body-medium,
+.block__icon__text .body-medium p {
   font-size: 16px !important;
   line-height: 1.6 !important;
   text-align: justify !important;
@@ -24815,7 +24816,8 @@ body.has-header-sticky .timeline {
 
   .product__subheading.body-medium,
   .product__subheading p,
-  .product__info-container .body-medium {
+  .block__icon__text .body-medium,
+  .block__icon__text .body-medium p {
     font-size: 19px !important;
     line-height: 1.7 !important;
   }
