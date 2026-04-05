@@ -24717,3 +24717,17 @@ body.has-header-sticky .timeline {
 }
 
 /*! ============ Add any custom styles below this line ================== */
+/* Кратко описание */
+.product__subheading.body-medium,
+.product__subheading p {
+  font-size: 16px !important;
+  line-height: 1.6 !important;
+}
+
+@media (max-width: 749px) {
+  .product__subheading.body-medium,
+  .product__subheading p {
+    font-size: 17px !important;
+    line-height: 1.7 !important;
+  }
+}
