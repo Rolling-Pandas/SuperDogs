@@ -1734,11 +1734,10 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "/* БАНЕР - фиксирана височина, без padding трикове */.template-article [style*=\"padding-bottom\"] {padding-bottom: 0 !important; height: 400px !important; overflow: hidden !important;}",
-      "/* ВСИЧКИ ПРАЗНИНИ В СТАТИЯТА */.template-article .article__header {margin: 0 !important; padding: 10px 0 !important;}",
+      "/* БАНЕР - фиксирай контейнера за ВСИЧКИ статии */.template-article .image__hero__scale {padding-bottom: 30% !important;}",
       "/* ТЕКСТ ДЕСКТОП */.template-article p,.template-article p span,.template-article .rte p,.template-article .rte span {font-size: 18px !important; line-height: 1.75 !important; font-family: inherit !important;}",
       ".template-article h1,.template-article h2,.template-article h1 span,.template-article h2 span {font-family: inherit !important;}",
-      "/* МОБИЛЕН */@media screen and (max-width: 768px) {.template-article [style*=\"padding-bottom\"] {height: 220px !important; } .template-article p, .template-article p span, .template-article .rte p, .template-article .rte span {font-size: 20px !important; line-height: 1.8 !important; } .template-article h1, .template-article h1 span {font-size: 26px !important; } .template-article h2, .template-article h2 span {font-size: 22px !important; }}"
+      "/* МОБИЛЕН */@media screen and (max-width: 768px) {.template-article .image__hero__scale {padding-bottom: 40% !important; } .template-article p, .template-article p span, .template-article .rte p, .template-article .rte span {font-size: 20px !important; line-height: 1.8 !important; } .template-article h1, .template-article h1 span {font-size: 26px !important; } .template-article h2, .template-article h2 span {font-size: 22px !important; }}"
     ]
   }
 }
