@@ -1731,5 +1731,15 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "/* Банер на блог статия - по-тесен */.article__image,.article__header-image,.article-image {max-height: 400px; overflow: hidden; object-fit: cover;}",
+      ".article__image img,.article__header-image img,.article-image img {max-height: 400px; width: 100%; object-fit: cover;}",
+      "/* Текст на блог статия - по-едър десктоп */.article__content p,.article__body p,.rte p {font-size: 18px !important; line-height: 1.7 !important;}",
+      ".article__content h1,.article__body h1,.rte h1 {font-size: 32px !important;}",
+      ".article__content h2,.article__body h2,.rte h2 {font-size: 26px !important;}",
+      "/* Мобилен - още по-едър текст */@media screen and (max-width: 768px) {.article__image, .article__header-image, .article-image {max-height: 250px; } .article__image img, .article__header-image img, .article-image img {max-height: 250px; } .article__content p, .article__body p, .rte p {font-size: 20px !important; line-height: 1.8 !important; } .article__content h1, .article__body h1, .rte h1 {font-size: 28px !important; } .article__content h2, .article__body h2, .rte h2 {font-size: 23px !important; }}"
+    ]
   }
 }
