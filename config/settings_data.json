@@ -1733,12 +1733,6 @@
     }
   },
   "platform_customizations": {
-    "custom_css": [
-      "/* СНИМКА */.template-article img:first-of-type {max-height: 350px !important; object-fit: cover !important; object-position: 50% 25% !important; width: 100% !important; display: block !important;}",
-      "/* УБИЙ ВСИЧКИ ПРАЗНИНИ */.template-article .article__image,.template-article .article__header,.template-article .article__header-image,.template-article .article__image-wrapper,.template-article .article__featured-image-wrapper,.template-article .main-content > *:first-child,.template-article #MainContent > *:first-child,.template-article #MainContent section:first-child {margin: 0 !important; padding: 0 !important; max-height: 350px !important; overflow: hidden !important;}",
-      ".template-article .article__content,.template-article .article__body,.template-article .rte {margin-top: 30px !important; padding-top: 0 !important;}",
-      "/* ТЕКСТ ДЕСКТОП */.template-article p,.template-article p span,.template-article .rte p,.template-article .rte span {font-size: 18px !important; line-height: 1.75 !important; font-family: inherit !important;}",
-      "/* МОБИЛЕН */@media screen and (max-width: 768px) {.template-article img:first-of-type, .template-article .article__image, .template-article .article__header, .template-article #MainContent section:first-child {max-height: 220px !important; } .template-article p, .template-article p span, .template-article .rte p, .template-article .rte span {font-size: 20px !important; line-height: 1.8 !important; }}"
-    ]
+    "custom_css": []
   }
 }
