@@ -1733,6 +1733,11 @@
     }
   },
   "platform_customizations": {
-    "custom_css": []
+    "custom_css": [
+      "/* КОНТЕЙНЕР НА БАНЕР СНИМКА */.template-article .image__hero__scale.image__fill {padding-bottom: 25% !important; height: auto !important;}",
+      "/* ТЕКСТ ДЕСКТОП */.template-article p,.template-article p span,.template-article .rte p,.template-article .rte span {font-size: 18px !important; line-height: 1.75 !important; font-family: inherit !important;}",
+      ".template-article h1,.template-article h2,.template-article h1 span,.template-article h2 span {font-family: inherit !important;}",
+      "/* МОБИЛЕН */@media screen and (max-width: 768px) {.template-article .image__hero__scale.image__fill {padding-bottom: 35% !important; } .template-article p, .template-article p span, .template-article .rte p, .template-article .rte span {font-size: 20px !important; line-height: 1.8 !important; } .template-article h1, .template-article h1 span {font-size: 26px !important; } .template-article h2, .template-article h2 span {font-size: 22px !important; }}"
+    ]
   }
 }
