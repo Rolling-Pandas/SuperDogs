@@ -169,7 +169,7 @@
         "settings": {
           "button_color": "#fff9e2",
           "secondary_color": "#00352f",
-          "ternary_color": "#00352f",
+          "ternary_color": "#ab8c52",
           "button_icon": "chat_bubble",
           "button_text": "no_text",
           "button_horizontal_position": "bottom_right",
